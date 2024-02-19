@@ -1,0 +1,84 @@
+@media (max-width: 1199px) { 
+    #home-aboutus .image-section .overlay-card {
+        width: 60%;
+        /* position: absolute; */
+        bottom: 110px;
+        right: -6px;
+        /* background: linear-gradient(to left, #3763eb 0%, #6f58e8 50.39%, #3763eb 100%);
+        color: #fff; */
+    
+        /* padding: 1rem; */
+        /* border: 5px solid #fff;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px; */
+    }
+ }
+ @media (max-width: 992px) { 
+    #home-aboutus .image-section .overlay-card {
+        width: 100%;
+           bottom: -90px;
+      
+    }
+    #home-aboutus .rightSection {
+        padding-top: 7rem;
+    }
+    #home-aboutus .nav-tabs .nav-link {
+        padding:8px 16px;
+        
+    }
+    #team .image-card-horizontal {
+    flex-direction: column;
+    }
+  }
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    #home-contactform header{
+        margin-bottom: 32px;
+    }
+ }
+ @media (max-width: 499px) { 
+    #home-aboutus .nav-tabs .nav-link {
+        padding:5px;
+        margin-left: 3px;
+        
+    }
+    #home-services .icon-card-vertical {
+       
+        flex-basis: 48%;
+       
+    }
+    #team .card-group-horizontal {
+        flex-direction: column;
+        }
+ }
+ @media (max-width: 367px) { 
+    #home-aboutus .nav-tabs .nav-link {
+        padding:2px;
+        margin-left: 2px;
+        
+    }
+   
+
+ }
+ @media (max-width: 351px) { 
+    /* #home-aboutus .nav-tabs .nav-link {
+        padding:2px;
+        margin-left: 2px;
+        
+    } */
+    #home-services .icon-card-vertical {
+       
+        flex-basis: 98%;
+       
+    }
+    header #navHeader .navbar #logo #icon {
+        /* border: 1px solid red; */
+        height: 70px;
+        width: 75px;
+    }
+
+ }
+
