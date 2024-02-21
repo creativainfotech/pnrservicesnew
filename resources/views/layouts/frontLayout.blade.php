@@ -15,13 +15,20 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="{{ asset('css/commonFront.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/commonFront.css') }}"> --}}
+    <link rel="stylesheet" href="{{ asset('css/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home-carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/square-moving-background.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/rotating-circle.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     {{-- <link rel="stylesheet" href="{{ asset('css/megamenu.css') }}"> --}}
-    <link rel="stylesheet" href="{{ asset('css/mediaquery.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/mediaquery.css') }}"> --}}
     @yield('styles')
 </head>
 
-<body>
+<body onresize="move_circle()">
     {{-- <div class="preloader">
         <img
           src={{ asset('img/logo.png') }}
@@ -75,138 +82,262 @@
                      
 </div> --}}
         <div id="navHeader">
-            <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
 
                 <div class="container-fluid navbar-container">
-                   
-                        <div id="logo">
 
-                            <a  class="d-flex" href="#">
-                                <img src="{{ asset('images/logo/base/icon/base_icon_transparent_background.png') }}"
-                                    alt="" id="icon">
-                                <img src="{{ asset('images/logo/base/text/base_textlogo_transparent_background.png') }}"
-                                    alt="" id="logotext">
-                            </a>
-                        </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-                            <ul class="navbar-nav mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
-                                </li>
-    
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Services
-                                    </a>
-                                    <div class="dropdown-menu "id="mega-dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <div class="container-md container-fluid">
-                                            <div class="row ">
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank" class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/turbogenerators.jpg') }}"
+                    <div id="logo">
+
+                        <a class="d-flex" href="#">
+                            <img src="{{ asset('images/logo/base/icon/base_icon_transparent_background.png') }}"
+                                alt="" id="icon">
+                            <img src="{{ asset('images/logo/base/text/base_textlogo_transparent_background.png') }}"
+                                alt="" id="logotext">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu mega-dropdown-menu"id="services-mega-dropdown-menu"
+                                    aria-labelledby="navbarDropdown">
+                                    <div class="container-md container-fluid">
+                                        <div class="row ">
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/turbogenerators.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
-                                                            <figcaption>Turbogenerator</figcaption></figure>
-                                                    </a></div>
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/compressor.jpg') }}"
-                                                                alt="" srcset="" class="img-thumbnail">
-                                                            <figcaption>compressor</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt=""
-                                                                srcset="" class="img-thumbnail">
-                                                            <figcaption>Gearbox</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/valve1.jpg') }}" alt=""
-                                                                srcset="" class="img-thumbnail">
-                                                            <figcaption>Valve</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-    
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/pumps.jpg') }}" alt=""
-                                                                srcset="" class="img-thumbnail">
-                                                            <figcaption>Pumps</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/blowers.jpg') }}" alt=""
-                                                                srcset="" class="img-thumbnail">
-                                                            <figcaption>Blowers</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/heat-exchanger.jpg') }}"
-                                                                alt="" srcset="" class="img-thumbnail">
-                                                            <figcaption>Heat Exchanger</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <div class="col-6 col-sm-3 mega-menu-item-container "> 
-                                                    <a href="http://" target="_blank"
-                                                        class="dropdown-item">
-                                                        <figure>
-                                                            <img src="{{ asset('img/services/alignment.jpg') }}" alt=""
-                                                                srcset="" class="img-thumbnail">
-                                                            <figcaption>Alignment</figcaption>
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                
+                                                        </div>
+                                                        <figcaption>Turbogenerator</figcaption>
+                                                    </figure>
+                                                </a>
                                             </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Turbine</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div> <img src="{{ asset('img/services/compressor.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail ">
+                                                        </div>
+                                                        <figcaption>Compressor</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/gearbox.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Gearbox</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/valve1.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Valve</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/pumps.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Pump</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/blowers.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Blower</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/heat-exchanger.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Heat Exchanger</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Alignment</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Retrofit</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Design</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-2 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Training</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+
                                         </div>
                                     </div>
-    
-                                </li>
-                                <li class="nav-item">
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Supplies
+                                </a>
+                                <div class="dropdown-menu mega-dropdown-menu"id="" aria-labelledby="navbarDropdown">
+                                    <div class="container-md container-fluid">
+                                        <div class="row ">
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img
+                                                                src="{{ asset('img/services/turbogenerators.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Parts</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Tools & Equipments</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Relay & Control Panels</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/gearbox.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Switchgears</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/valve1.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>PMS</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                            <div class="col-6 col-sm-4 mega-menu-item-container ">
+                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                    <figure>
+                                                        <div><img src="{{ asset('img/services/pumps.jpg') }}"
+                                                                alt="" srcset="" class="img-thumbnail">
+                                                        </div>
+                                                        <figcaption>Power Transformers</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            {{-- <li class="nav-item">
                                     <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Our Team</a>
-                                </li>
-    
-                                <li class="nav-item ms-md-5">
-                                    <a class="btn buttonStyleSecondary ms-md-3" aria-current="page"
-                                        href="{{ route('contact') }}">Get A Quote</a>
-                                </li>
-                            </ul>
-    
-                        </div>
-                  
+                                </li> --}}
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Team</a>
+                            </li>
+
+                            <li class="nav-item ms-md-5">
+                                <a class="btn buttonStyleSecondary ms-md-3" aria-current="page"
+                                    href="{{ route('contact') }}">Get A Quote</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
                 </div>
             </nav>
             {{-- <nav class="navbar navbar-expand-md navbar-dark sticky-top">
@@ -245,7 +376,7 @@
                                                     <figure>
                                                         <img src="{{ asset('img/services/turbogenerators.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
-                                                        <figcaption>Turbogenerator</figcaption>
+                                                        </div><figcaption>Turbogenerator</figcaption>
                                                 </a></div>
                                             <div class="col col-sm-6 col-md-3"> 
                                                 <a href="http://" target="_blank"
@@ -347,8 +478,8 @@
         </div>
     </header>
     @yield('mainSection')
-    <footer class="mainSection overlaySection">
-        {{-- <section id="progress" class="mainSection overlaySection"> --}}
+    {{-- <footer class="mainSection overlaySection">
+       
 
         <div class="container">
             <div class="row">
@@ -360,40 +491,40 @@
                             <p class="contentBold text-white text-white">Happy Clients</p>
                         </div>
                     </div> --}}
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    {{-- <div class="icon-card-vertical">
+    {{-- </div>
+                <div class="col-lg-3 col-md-6 col-12"> --}}
+    {{-- <div class="icon-card-vertical">
                         <div class="icon"><i class="bi bi-bar-chart-line"></i></div>
                         <div class="card-content center-align">
                             <div class="contentTitleBold text-white">2050+</div>
                             <p class="contentBold text-white">Happy Clients</p>
                         </div>
                     </div> --}}
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    {{-- <div class="icon-card-vertical">
+    {{-- </div>
+                <div class="col-lg-3 col-md-6 col-12"> --}}
+    {{-- <div class="icon-card-vertical">
                         <div class="icon"><i class="bi bi-bar-chart-line"></i></div>
                         <div class="card-content center-align">
                             <div class="contentTitleBold text-white">2050+</div>
                             <p class="contentBold text-white">Happy Clients</p>
                         </div>
                     </div> --}}
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    {{-- <div class="icon-card-vertical">
+    {{-- </div>
+                <div class="col-lg-3 col-md-6 col-12"> --}}
+    {{-- <div class="icon-card-vertical">
                         <div class="icon"><i class="bi bi-bar-chart-line"></i></div>
                         <div class="card-content center-align">
                             <div class="contentTitleBold text-white">2050+</div>
                             <p class="contentBold text-white">Happy Clients</p>
                         </div>
-                    </div> --}}
-                </div>
+                    {{-- </div> --}}
+    {{-- </div>
             </div>
 
-        </div>
-        {{-- </section> --}}
-    </footer>
-    <footer class="no-footer-cta">
+        </div>  --}}
+    {{-- </section> --}}
+    {{-- </footer>  --}}
+    {{-- <footer class="no-footer-cta">
         <div id="footer-3" class="footer-area">
 
             <div class="footer-top-area has-footer-img"
@@ -563,7 +694,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> --}}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
@@ -576,33 +707,32 @@
 
     <script>
         $(document).ready(function() {
-            $("#testimonial .owl-carousel").owlCarousel(
+            $("#oem.owl-carousel").owlCarousel(
 
                 {
-                    // items:2,
+                    // ite/ms:10,
+
                     loop: true,
-                    margin: 10,
+                    margin: 8,
+                    nav: true,
                     autoplay: true,
                     autoplayTimeout: 3000,
                     autoplayHoverPause: true,
-                    // center:true,
-                    // nav:true,
-                    responsiveClass: true,
+                    nav:false,
                     responsive: {
                         0: {
-                            items: 1,
-                            nav: false
+                            items: 1
                         },
                         600: {
-                            items: 2,
-                            nav: false
+                            items: 3
                         },
                         1000: {
-                            items: 2,
-                            nav: false,
-                            // loop:false
+                            items: 5
                         }
                     }
+                    // // items:2,
+                   
+                   
                 }
             );
         });

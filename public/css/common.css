@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    /* color */
+    --color-primary: #306770;
+    --color-secondary: #cfb234;
+    --color-title: #333333;
+    --color-text1: #444;
+    --color-text:#332f2f;
+    --font-family-roboto: "Roboto", sans-serif;
+    --font-family-poppins: "poppins", sans-serif;
+    --font-family-sourcesans: "Source Sans Pro", sans-serif;
+    --carousel-height:65vh;
+    --color-background-yellowish:rgb(238, 232, 170);
+    --color-background-grey:#F5F5F5;
+    --color-lightgray:lightgray;
+    --header-top-padding:60px;
+
+    /* --bs-dropdown-link-hover-color:yellow!important; */
+    
+}
+/* ****************Color Clases******************** */
+
+.bg-grey{   
+    background-color: var(--color-background-grey);
+}
+
+/* ****************End Color Clases******************** */
+.section-col-top-padding{
+    padding-top: var(--header-top-padding);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+body {
+    /* font-family: var(--font-family-poppins); */
+    color: #000;
+
+    font-weight: 400;
+
+    font-family: var(--font-family-roboto);
+
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    /* height: 100%;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    background-color: #fff; */
+}
+
+
+/* **********************Button Style**************************** */
+
+.buttonStyleSecondary {
+    padding: 8px 10px;
+    background-color: var(--color-secondary);
+    color: #fff;
+    border: 2px solid var(--color-secondary);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    /* background: -webkit-linear-gradient(#7a6b24, #cfb234);
+     -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+        /* box-shadow: -1px 1px 5px 0px #000; */
+}
+.buttonStyleSecondary:hover {
+    background-color: #fff;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
+.buttonStylePrimary {
+    padding: 10px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.buttonStylePrimary:hover {
+    background-color: #fff;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+/* **********************End Button Style**************************** */
+/* ********************Line*************** */
+.line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-primary);
+    margin-bottom: 15px;
+   }
+/* ********************End Line*************** */
+.mainSection {
+    /* margin: 0px 0px 30px 0px; */
+    /* border:1px solid red; */
+    padding-bottom:60px ;
+}
+/* **************Section Header ********************** */
+
+.mainSection header{
+    padding-top: var(--header-top-padding);
+    padding-bottom: 5px;
+}
+header .subtitle {
+    border: 2px solid var(--color-secondary);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+/* Section Heading */
+
+header .sectionTitle {
+    
+    line-height: 40px;
+    font-weight: 700;
+    color: var(--color-title);
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+/* Text */
+
+header .content {
+    /* // 400 14 24  paragraph,subtitle */
+       text-align: justify;
+    padding-top: 20px;
+}
+/* **************End Section Header ********************** */
+
+/* **********************List Box********************* */
+.listbox{
+    font-weight: 500;
+    margin-top: 5px; 
+    margin-bottom: 20px;  
+    color: #000;
+    padding-left: 0.3rem 
+   
+}
+.listbox .list-item{
+    /* line-height: 22px; */
+    /* margin-top: 8px; 
+    line-height: 22px; */
+    padding-left: 1rem;
+}
+.listbox .list-item:before{
+    content: "\f14a"; /* FontAwesome Unicode */
+    font-family: FontAwesome;      
+    margin-right: 1.1rem;
+    color: var(--color-secondary);
+    font-size: 1.1rem;   
+}
+/* **********************End List Box********************* */
+
+/* ************************Section Image ***************** */
+.mainSection .image-box {
+/* border:2px solid blue; */
+width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.mainSection .image-box img {
+    width: 100%;
+    /* height: 100%; */
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* ************************End Section Image ***************** */

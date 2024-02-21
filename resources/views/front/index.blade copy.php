@@ -17,8 +17,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             turbogenerators</h1>
-                        <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">Some
-                            representative placeholder content for the first slide.</p>
+                        <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>
                         <a href="" class="carousel-btn btn animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
                     </div>
@@ -30,8 +29,7 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbines &
-                            engines
+                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbines & engines
                         </h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
@@ -46,8 +44,7 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            compressors
+                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">compressors
                         </h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
@@ -77,8 +74,7 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves
-                        </h1>
+                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves</h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
@@ -122,8 +118,7 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat
-                            exchangers</h1>
+                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat exchangers</h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
@@ -168,7 +163,7 @@
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            design & system studies</h1>
+                           design & system studies</h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
@@ -183,7 +178,7 @@
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            trainings</h1>
+                           trainings</h1>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
@@ -196,420 +191,37 @@
     </div>
 
     <!-- ********************End Bootstrap Carousel************ -->
-    <div id="oem" class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="{{asset("img/oems/abb.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/alstom.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/andritz.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/atlas-copco.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail img-fluid " src="{{asset("img/oems/avr.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/baker.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/brush.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/dresser-rand.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/elliott.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/emerson.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/flender.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/flowserve.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ge-oil.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ge.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/imi.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ingersoll-rand.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/kaeser.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/kitz.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ksb.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/lt-valves.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/man.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/mitsubishi.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/noname.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/nord.jpeg")}}" alt="" srcset="">
-        </div>
-       
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/renk.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/renold-gears.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/santasalo.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/sew-eurodrive.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/siemens.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/sumitomo.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/woodward.jpeg")}}" alt="" srcset="">
-        </div>
-        
-    </div>
-    {{-- <style>
-    .oem-list{
-width: 100vw;
-display: flex;
-
-border:
-1px solid red;
-overflow: hidden;
-    }
-    .oem-item{
-        flex-basis: 100%;
-        min-width: 200px;
-        border:
-1px solid yellow;
-       
-    }
-    .oem-item img{
-        width: 100%;
-    }
-</style> --}}
-
-    {{-- ****************************OEM************************* --}}
-    {{-- <div class="container-fluid ">
-    <div class="oem-list" >
-        <div class="oem-item" ><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-    </div>
-</div> --}}
-
-
-
-    {{-- ****************************End OEM************************* --}}
-
-
-    <section id="home-aboutus" class="mainSection">
-
-        <div class="container-fluid container-lg z-3 position-relative">
-            <div class="row">
-                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                    <div class="iq-features">
-                        <div class="holderCircle">
-                            <div class="round"></div>
-                            <div class="dotCircle">
-                                <span class="itemDot active itemDot1 overflow-hidden " data-tab="1">
-                                    {{-- <img src="{{asset("img/services/alignment.jpg")}}" alt="" srcset="" class="img-thumbnail  w-100 h-100"> --}}
-                                    <i class="fa fa-clock-o"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                                <span class="itemDot itemDot2" data-tab="2">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                                <span class="itemDot itemDot3" data-tab="3">
-                                    <i class="fa fa-user"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                                <span class="itemDot itemDot4" data-tab="4">
-                                    <i class="fa fa-tags"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                                <span class="itemDot itemDot5" data-tab="5">
-                                    <i class="fa fa-upload"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                                <span class="itemDot itemDot6" data-tab="6">
-                                    <i class="fa fa-briefcase"></i>
-                                    <span class="forActive"></span>
-                                </span>
-                            </div>
-                            <div class="contentCircle">
-                                <div class="CirItem title-box active CirItem1">
-                                    <h2 class="title"><span>Automate</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-clock-o"></i>
-                                </div>
-                                <div class="CirItem title-box CirItem2">
-                                    <h2 class="title"><span>Chat </span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-comments"></i>
-                                </div>
-                                <div class="CirItem title-box CirItem3">
-                                    <h2 class="title"><span>Responses</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-user"></i>
-                                </div>
-                                <div class="CirItem title-box CirItem4">
-                                    <h2 class="title"><span>Tags</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-tags"></i>
-                                </div>
-                                <div class="CirItem title-box CirItem5">
-                                    <h2 class="title"><span>Sharing</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-upload"></i>
-                                </div>
-                                <div class="CirItem title-box CirItem6">
-                                    <h2 class="title"><span>Support</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
-                                    <i class="fa fa-briefcase"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                {{-- Right section --}}
-                <div class="col-12 col-lg-7 ">
-                    <header>
-                        <div class="subtitle">Welcome To pNR Services</div>
-                        <div class="sectionTitle">We offers OEM experienced technical specialists to power generation
-                            companies, oil & gas, fertilizers, cement industries.
-                        </div>
-                        <div class="line mx-0"></div>
-                    </header>
-
-                    <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
-                        specialists to <b>power generation companies, oil & gas, fertilizers, cement industries. </b>.We
-                        understand the customer requirements and provide them with
-                        the <strong> latest technologies </strong>to overcome their challenges quickly and economically.
-                        We
-                        supply our clients multi-disciplined expertise with field engineers of <b>electrical,
-                            mechanical,
-                            elctromechanical and instrumentation </b>disciplines.
-                    </p>
-                    <div class="d-flex">
-                        <ul class="listbox">
-                            <li class="list-item"> Major & Minor Inspections </li>
-                            <li class="list-item">Installation & Commissioning Services</li>
-                            <li class="list-item">Alignments </li>
-
-
-                        </ul>
-                        <ul class="listbox">
-
-                            <li class="list-item">Retrofit & Assets Upgrades</li>
-                            <li class="list-item"> Lifecycle Management</li>
-                            <li class="list-item"> Trainings</li>
-
-                        </ul>
-                    </div>
-
-
-
-
-                    <p>Our clients also enjoy customized training solutions on asset
-                        maintenance , commissioning and troubleshooting. These customized trainings are built by
-                        engineers who have extensive experience and are among the very best in the world.</p>
-
-                    {{-- <div class="pt-3 text-center"> --}}
-                    <div class="">
-                        <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
-                            More >></a>
-                        {{-- <a class="btn buttonStyleSecondary ms-3" aria-current="page" href="{{ route('contact') }}">Read
-                                More >></a> --}}
-                    </div>
-
-
-                </div>
-
-
-
-
-            </div>
-        </div>
-
-        {{-- <footer class="pb-5">
-
-        </footer> --}}
-
-
-    </section>
     {{-- ***********************Home About Us******************************* --}}
-
-    {{-- <section id="home-aboutus" class="mainSection">
-
-        <div class="container-fluid container-lg z-3 position-relative">
+    <section id="home-aboutus" class="mainSection position-relative">
+        {{-- <div class="container-fluid container-lg ">
             <div class="row">
-                <div class="col-12 col-lg-5 section-col-top-padding">
-                    <div class="row g-2">
-                        <div class="col-12 col-sm-6">
-                            <div class="image-box">
-                                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset=""
-                                    class="">
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="image-box">
-                                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset=""
-                                    class="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-12">
-                            <div class="image-box">
-                                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset=""
-                                    class="">
-                            </div>
-                        </div>
-                    </div>
+                <div class="section-column sectioninfo col-12 ">
 
-
-                </div>
-
-             
-                <div class="col-12 col-lg-7 ">
-                    <header>
-                        <div class="subtitle">Welcome To pNR Services</div>
-                        <div class="sectionTitle">We offers OEM experienced technical specialists to power generation
-                            companies, oil & gas, fertilizers, cement industries.
+                    <header class="text-center ">
+                        <div class="subtitle ">About Us</div>
+                        <div class="sectionTitle">PNR works to develop long-term working relationships with suppliers.
                         </div>
                         <div class="line mx-0"></div>
+                        <div class="line" style="margin: 35px auto"></div>
                     </header>
-
-                    <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
-                        specialists to <b>power generation companies, oil & gas, fertilizers, cement industries. </b>.We
-                        understand the customer requirements and provide them with
-                        the <strong> latest technologies </strong>to overcome their challenges quickly and economically.
-                        We
-                        supply our clients multi-disciplined expertise with field engineers of <b>electrical,
-                            mechanical,
-                            elctromechanical and instrumentation </b>disciplines.
-                    </p>
-                    <div class="d-flex">
-                        <ul class="listbox">
-                            <li class="list-item"> Major & Minor Inspections </li>
-                            <li class="list-item">Installation & Commissioning Services</li>
-                            <li class="list-item">Alignments </li>
-
-
-                        </ul>
-                        <ul class="listbox">
-
-                            <li class="list-item">Retrofit & Assets Upgrades</li>
-                            <li class="list-item"> Lifecycle Management</li>
-                            <li class="list-item"> Trainings</li>
-
-                        </ul>
-                    </div>
-
-
-
-
-                    <p>Our clients also enjoy customized training solutions on asset
-                        maintenance , commissioning and troubleshooting. These customized trainings are built by
-                        engineers who have extensive experience and are among the very best in the world.</p>
-
-                     <div class="">
-                        <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
-                            More >></a>
-                        
-                    </div>
-
-
                 </div>
-
-
-
+                
+                
 
             </div>
-        </div>
-
-      
-
-    </section> --}}
-    {{-- <section id="home-aboutus" class="mainSection">
+        </div> --}}
         <div class="container-fluid container-lg ">
             <div class="row">
                 <div class="col-12">
                     <header>
-                       
+                        {{-- <h2 class="text-center">Welcome To</h2> --}}
                         <h1 class="text-center pt-3"
                             style="color:#cfb234;background: -webkit-linear-gradient(#7a6b24, #cfb234);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;">
                             ABOUT US</h1>
                         <div class="line" style="margin: 35px auto"></div>
-                       
+                        {{-- <hr class="blueline" style="margin: 0px auto 35px;"> --}}
                         <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
                             specialists to <b>power generation companies, oil & gas, fertilizers, cement industries. </b>.We
                             understand the customer requirements and provide them with
@@ -619,411 +231,80 @@ overflow: hidden;
                                 mechanical,
                                 elctromechanical and instrumentation </b>disciplines.
                         </p>
-                       
+                        {{-- <a href="#" class="btn waves-effect waves-light"><i class="fa fa-send"></i>Know More
+                        &gt;&gt;</a> --}}
                     </header>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-12 col-lg-5">
-                    <div class="image-box">
+            <div class="row mt-xxl-4">
+                <div class="section-column image-section col-12 col-lg-5">
+                    <div class="image">
                         <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
                     </div>
-
+                    {{-- <div class="overlay-card center-align">
+                        <p class="contentTitle text-white text-center">5 Year Of Working Experience</p>
+                        <p class="content text-white">We Crafted an aweso design library that is robust and intuitive to
+                            use.</p>
+                    </div> --}}
                 </div>
-                 <div class="col-12 col-lg-7">
+                <div class="section-column rightSection col-12 col-lg-7 ps-4">
 
-                    <ul class="listbox">
-                        <li class="list-item"> Major & Minor Inspections </li>
-                        <li class="list-item">Installation & Commissioning Services</li>
-                        <li class="list-item">Alignments </li>
-                        <li class="list-item">Retrofit & Assets Upgrades</li>
-                        <li class="list-item"> Lifecycle Management</li>
-                        <li class="list-item"> Trainings</li>
-                    </ul>
-                    <p>Our clients also enjoy customized training solutions on asset
+                    <div class="listbox container-fluid pt-xl-4">
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <div class="list">
+                                    <ul>
+                                        <li> Major & Minor Inspections </li>
+                                        <li>Installation & Commissioning Services</li>
+                                        <li>Alignments </li>
+                                        <li>Retrofit & Assets Upgrades</li>
+                                        <li> Lifecycle Management</li>
+                                        <li> Trainings</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="content text-justify">Our clients also enjoy customized training solutions on asset
                         maintenance , commissioning and troubleshooting. These customized trainings are built by
                         engineers who have extensive experience and are among the very best in the world.</p>
-                   
-                    <div class="">
-                        <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
+
+                    <div class="pt-3 text-center">
+
+                        <a class="btn buttonStyleSecondary ms-3" aria-current="page" href="{{ route('contact') }}">Read
                             More >></a>
-                       
                     </div>
 
                 </div>
             </div>
         </div>
-
-     --}}
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="2" d="M0,64L60,58.7C120,53,240,43,360,48C480,53,600,75,720,101.3C840,128,960,160,1080,165.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> --}}
+    </section>
 
     {{-- ***********************End Home About Us******************************* --}}
 
     {{-- *********************Highlighted Box Section******************* --}}
 
     <div class="highlighted-box align-items-lg-center ">
-
-        <h5 class="content">
-            Customer satisfaction is our main
-        </h5>
-        <h5 class="focused-content animate__animated animate__zoomIn animate__infinite"
-            style="animation-delay: 1s ;--animate-duration: 3s;">FOCUS
-        </h5>
+        
+        <h2 class="content">
+            Customer satisfaction is our main 
+        </h2>
+        <h2 class="focused-content animate__animated animate__zoomIn animate__infinite" style="animation-delay: 1s ;--animate-duration: 3s;">FOCUS
+        </h2>
         {{-- <a href="#" class="btn waves-effect waves-light"><i class="fa fa-send"></i>GET A FREE QUOTE</a> --}}
 
 
     </div>
 
-    {{-- *********************End Highlighted Box Section******************* --}}
-    {{-- *********************Home Service Section******************* --}}
-
-    <section id="home_service" class="mainSection">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-12 col-sm-6 ">
-                    <header>
-                        <div class="subtitle">We Do It</div>
-                        <div class="sectionTitle">What Services we Provide for Our Customers
-                        </div>
-                        <div class="line mx-0"></div>
-                    </header>
-                </div>
-                <div class="col-12 col-sm-6 " style="padding-top: 126px; padding-bottom: 30px;">
-                    <p style="font-size: 1.2rem;font-weight:400px;}">
-                        One window Electromechanical
-                        solutions for Power Systems
-                    </p>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Turbogenerator</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Turbines</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Compressors </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Gearbox </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/valve1.jpg') }}" alt="" srcset=""class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Valve </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/pumps.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Pumps </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/blowers.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Blowers </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/heat-exchanger.jpg') }}" alt=""
-                                srcset=""class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Heat Exchanger </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/alignment.jpg') }}" alt="" srcset=""class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">
-                               
-                            </div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Alignment </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Retrofit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
-                                class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Design</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="service-card">
-                        <div class="image-box">
-                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
-                        </div>
-                        <div class="service-content-box">
-                            {{-- <div class="icon-box">icon</div> --}}
-                            <div class="content">
-                                <a href="http://" target="_blank" class="">Training</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        {{-- <footer class="pb-5">
-
-        </footer> --}}
-    </section>
-
-    {{-- *********************End Home Service Section******************* --}}
-    {{-- *********************Home Supplies Section******************* --}}
-
-    <section id="home_supplies" class="mainSection">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-12 col-sm-5 section-column">
-                    <header>
-                        <div class="subtitle">We Do It</div>
-                        <div class="sectionTitle">What We Supply to Our Customers
-                        </div>
-                        <div class="line mx-0"></div>
-                    </header>
-                    <p class="content">One window Electromechanical solutions for Power Systems</p>
-                </div>
-                <div class="col-12 col-sm-7 ">
-                    <div class="row" id="supply-card-container">
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">Parts</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">Tools & Equipments</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">Relay & Control Panels</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">Switchgears</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">PMS</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="supply-card">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                <div class="supply-content-box">
-                                    {{-- <div class="icon-box">icon</div> --}}
-                                    <div class="content">
-                                        <a href="http://" target="_blank" class="">Power Transformers</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        {{-- <footer class="pb-5">
-
-        </footer> --}}
-    </section>
-
-    {{-- *********************End Home Supplies Section******************* --}}
- {{-- *********************Home Call To Action Section******************* --}}
-
- <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff; ">
-    <div class="container">
-        <div class="row ">
-            <div class="col-12 col-sm-7 section-column">
-                <header>
-                    <div class="subtitle">We Do It</div>
-                    <div class="sectionTitle text-white">What We Supply to Our Customers
-                    </div>
-                    <div class="line mx-0"></div>
-                </header>
-                <p class="content">One window Electromechanical solutions for Power Systems</p>
-            </div>
-            <div class="col-12 col-sm-5 ">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
-                        More >></a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    {{-- <footer class="pb-5">
-
-</footer> --}}
-</section>
-
-{{-- *********************End Home Call To Action Section******************* --}}
+     {{-- *********************End Highlighted Box Section******************* --}}
     {{-- ***********************Home Why Choose Us******************************* --}}
 
-    <section id="home-whychooseus" class="mainSection position-relative bg-grey">
+    <section id="home-whychooseus" class="mainSection ">
         <div class="position-absolute  start-0 w-100 h-100 z-0 ">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#e1dede" fill-opacity="0.5"
@@ -1032,11 +313,9 @@ overflow: hidden;
             </svg>
 
         </div>
-        {{-- <div class="container-fluid container-lg z-3 position-relative "> --}}
-        <div class="container-fluid container-lg z-3 position-relative">
+        <div class="container-fluid container-lg z-3 position-relative ">
             <div class="row">
-                <div class="col-12 col-lg-7 ">
-                    {{-- <div class="section-column sectioninfo col-12 col-lg-7 "> --}}
+                <div class="section-column sectioninfo col-12 col-lg-7 ">
 
                     <header>
                         <div class="subtitle">Why Choose Us</div>
@@ -1045,25 +324,25 @@ overflow: hidden;
                         <div class="line mx-0"></div>
                     </header>
                 </div>
-                <div class="col-12 col-lg-7  order-3 order-lg-2">
-                    {{-- <div class="section-column sectioninfo col-12 col-lg-7 pe-5 order-3 order-lg-2"> --}}
-                    <p>We pride ourselves on our ability to provide flexibility
-                        while
-                        working closely with customers to fulfil their changing requirements. PNR also works to develop
-                        long-term working relationships with parts and equipment suppliers to ensure cost efficiency and
-                        lesser lead times. Our goal is to complete all assigned works within estimated timeframe not
-                        compromising on highest standards of quality.</p>
+                <div class="section-column sectioninfo col-12 col-lg-7 pe-5 order-3 order-lg-2">
+
+
+                    <p class="content"></p>We pride ourselves on our ability to provide flexibility
+                    while
+                    working closely with customers to fulfil their changing requirements. PNR also works to develop
+                    long-term working relationships with parts and equipment suppliers to ensure cost efficiency and
+                    lesser lead times. Our goal is to complete all assigned works within estimated timeframe not
+                    compromising on highest standards of quality.</p>
                     <div class="listbox container-fluid">
                         <div class="row">
                             <div class="col-12 col-sm-12">
                                 <div class="list">
-                                    <ul class="listbox">
-                                        <li class="list-item">Provide flexibility to fulfil customers' changing
-                                            requirements</li>
-                                        <li class="list-item">Ensure cost efficiency</li>
-                                        <li class="list-item">Lesser lead times</li>
-                                        <li class="list-item">Complete all assigned works within estimated timeframe </li>
-                                        <li class="list-item">No compromise on highest standards of quality.</li>
+                                    <ul>
+                                        <li>Provide flexibility to fulfil customers' changing requirements</li>
+                                        <li>Ensure cost efficiency</li>
+                                        <li>Lesser lead times</li>
+                                        <li>Complete all assigned works within estimated timeframe </li>
+                                        <li>No compromise on highest standards of quality.</li>
 
 
                                     </ul>
@@ -1077,9 +356,8 @@ overflow: hidden;
 
 
                 </div>
-                {{-- <div class="section-column image-section col-12 col-lg-5 order-2 order-lg-3"> --}}
-                <div class="col-12 col-lg-5 order-2 order-lg-3">
-                    <div class="image-box">
+                <div class="section-column image-section col-12 col-lg-5 order-2 order-lg-3">
+                    <div class="image">
                         <img src="{{ url('/img/aboutus/4.jpg') }}" alt="" srcset="" class="">
                     </div>
 
@@ -1090,7 +368,7 @@ overflow: hidden;
         <div class="container pt-5 z-3 position-relative">
             <div class="row">
                 <div class="section-column image-section col-12 col-lg-3">
-                    <div class=" image-box">
+                    <div class="side-image">
                         <img src="{{ url('/img/aboutus/2.jpg') }}" alt="" srcset=""
                             class="img-thumbnail ">
                     </div>
@@ -1116,22 +394,426 @@ overflow: hidden;
             </div>
 
         </div>
-        {{-- <footer class="pb-5">
+        <footer class="pb-5">
 
-        </footer> --}}
-        <div class="position-absolute  start-0  w-100 z-0" style="bottom:0;">
-
+        </footer>
+        <div class="svg-bottom position-absolute  start-0  w-100 h-100 z-0" style="bottom:-67%;">
+            {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.5" d="M0,0L60,21.3C120,43,240,85,360,90.7C480,96,600,64,720,96C840,128,960,224,1080,250.7C1200,277,1320,235,1380,213.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> --}}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#e1dede" fill-opacity="1"
                     d="M0,224L30,218.7C60,213,120,203,180,202.7C240,203,300,213,360,218.7C420,224,480,224,540,240C600,256,660,288,720,288C780,288,840,256,900,245.3C960,235,1020,245,1080,256C1140,267,1200,277,1260,256C1320,235,1380,181,1410,154.7L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
                 </path>
             </svg>
         </div>
-
+        {{-- <div class="custom-shape-divider-top-1708163496"> --}}
+        {{-- <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="2" d="M0,64L60,58.7C120,53,240,43,360,48C480,53,600,75,720,101.3C840,128,960,160,1080,165.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> --}}
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.5" d="M0,224L60,213.3C120,203,240,181,360,160C480,139,600,117,720,138.7C840,160,960,224,1080,218.7C1200,213,1320,139,1380,101.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        </div> --}}
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.5" d="M0,0L60,10.7C120,21,240,43,360,58.7C480,75,600,85,720,90.7C840,96,960,96,1080,133.3C1200,171,1320,245,1380,282.7L1440,320L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> --}}
     </section>
     {{-- ***********************End Home Why Choose Us******************************* --}}
+    {{-- *********************Home Service Section******************* --}}
+
+    <section id="home_service">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-12 col-sm-6 section-column">
+                    <header>
+                        <div class="subtitle">We Do It</div>
+                        <div class="sectionTitle">What Services we Provide for Our Customers
+                        </div>
+                        <div class="line mx-0"></div>
+                    </header>
+                </div>
+                <div class="col-12 col-sm-6 section-column">
+                    <p class="content">One window Electromechanical solutions for Power Systems</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Turbogenerator</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Turbines & Compressors</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                    <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                    </svg>
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Gearbox</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/valve1.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Valve</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/pumps.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Pumps</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/blowers.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Blowers</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                    <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                    </svg>
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/heat-exchanger.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Heat Exchanger</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/alignment.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" xml:space="preserve">
+                                    <path fill="#7D7B79" d="M232 163.932v16c0 5.52-4.48 10-10 10H34c-5.52 0-10-4.48-10-10v-16c0 5.52 4.48 10 10 10h188c5.52 0 10-4.48 10-10z"/>
+                                    <path fill="#71C3E9" d="M232 79.932v84c0 5.52-4.48 10-10 10H34c-5.52 0-10-4.48-10-10v-84c0-5.52 4.48-10 10-10h188c5.52 0 10 4.48 10 10z"/>
+                                    <path fill="#F0C020" d="M166.412 37.144c-3.501-1.157-7.117-2.168-9.147-10.913-1.87 8.055-4.865 9.498-9.147 10.913 6.984 2.308 8.037 6.129 9.147 10.913 1.913-8.248 5.079-9.569 9.147-10.913zM60.789 48.054c-3.501-1.157-7.117-2.168-9.147-10.913-1.87 8.055-4.865 9.498-9.147 10.913 6.984 2.308 8.037 6.129 9.147 10.913 1.914-8.248 5.079-9.569 9.147-10.913zM197.147 46.859c-3.501-1.157-7.117-2.168-9.147-10.913-1.87 8.055-4.865 9.498-9.147 10.913 6.984 2.308 8.037 6.129 9.147 10.913 1.913-8.248 5.079-9.569 9.147-10.913z"/>
+                                    <path fill="#C5E5FE" d="M222 167.432H49.571a2.5 2.5 0 1 1 0-5H220.5v-82.5a2.5 2.5 0 1 1 5 0v84c0 1.93-1.57 3.5-3.5 3.5zm-182.429 0H34a2.5 2.5 0 1 1 0-5h5.571a2.5 2.5 0 1 1 0 5z"/>
+                                    <circle fill="#EFEFEF" cx="206" cy="133.932" r="8"/>
+                                    <circle fill="#EFEFEF" cx="180" cy="133.932" r="8"/>
+                                    <circle fill="#EFEFEF" cx="154" cy="133.932" r="8"/>
+                                    <path fill="#F0C020" d="M123 133.932H45a5 5 0 0 1-5-5v-38a5 5 0 0 1 5-5h78a5 5 0 0 1 5 5v38a5 5 0 0 1-5 5z"/>
+                                    <path fill="#71C3E9" d="M227 229.932H29a5 5 0 0 1-5-5v-14a5 5 0 0 1 5-5h198a5 5 0 0 1 5 5v14a5 5 0 0 1-5 5z"/>
+                                    <path fill="#C5E5FE" d="M223 223.432H47a2.5 2.5 0 1 1 0-5h173.5v-3.5a2.5 2.5 0 1 1 5 0v6a2.5 2.5 0 0 1-2.5 2.5zm-186 0h-4a2.5 2.5 0 1 1 0-5h4a2.5 2.5 0 1 1 0 5z"/>
+                                    <path fill="#7D7B79" d="M238 141.932h-6v-32h6c5.523 0 10 4.477 10 10v12c0 5.523-4.477 10-10 10zM18 141.932h6v-32h-6c-5.523 0-10 4.477-10 10v12c0 5.523 4.477 10 10 10z"/>
+                                    <circle fill="#FC5D3D" cx="204" cy="97.932" r="12"/>
+                                    <path d="M147.333 39.517c5.831 1.927 6.493 4.782 7.496 9.104.599 2.578 4.272 2.578 4.871 0 1.665-7.178 3.985-7.944 7.496-9.104 2.279-.753 2.284-3.994 0-4.748-3.283-1.076-5.799-1.795-7.497-9.104-.597-2.573-4.275-2.566-4.87 0-1.667 7.179-3.986 7.945-7.496 9.104-2.278.753-2.283 3.993 0 4.748zm9.94-6.112c.992 1.721 2.105 2.902 3.256 3.759-1.195.872-2.275 2.018-3.221 3.627-.799-1.289-1.882-2.51-3.413-3.593 1.259-.897 2.393-2.089 3.378-3.793zM41.711 50.427c5.831 1.927 6.493 4.782 7.496 9.104.599 2.578 4.272 2.578 4.871 0 1.665-7.178 3.985-7.944 7.496-9.104 2.279-.753 2.284-3.994 0-4.748-3.283-1.076-5.799-1.795-7.497-9.104-.597-2.573-4.275-2.566-4.87 0-1.667 7.179-3.986 7.945-7.496 9.104-2.279.754-2.284 3.994 0 4.748zm9.94-6.112c.992 1.721 2.105 2.902 3.256 3.759-1.195.872-2.275 2.018-3.221 3.627-.799-1.289-1.882-2.51-3.413-3.593 1.259-.897 2.393-2.088 3.378-3.793zM178.069 49.232c5.831 1.927 6.493 4.782 7.496 9.104.599 2.578 4.272 2.578 4.871 0 1.665-7.178 3.985-7.944 7.496-9.104 2.279-.753 2.284-3.994 0-4.748-3.283-1.076-5.799-1.795-7.497-9.104-.597-2.573-4.275-2.566-4.87 0-1.667 7.179-3.986 7.945-7.496 9.104-2.279.754-2.284 3.994 0 4.748zm9.94-6.112c.992 1.721 2.105 2.902 3.256 3.759-1.195.872-2.275 2.018-3.221 3.627-.799-1.289-1.882-2.51-3.413-3.593 1.258-.897 2.392-2.088 3.378-3.793zM206 123.432c-5.79 0-10.5 4.71-10.5 10.5s4.71 10.5 10.5 10.5 10.5-4.71 10.5-10.5-4.71-10.5-10.5-10.5zm0 16c-3.032 0-5.5-2.467-5.5-5.5s2.468-5.5 5.5-5.5 5.5 2.467 5.5 5.5-2.468 5.5-5.5 5.5zM180 144.432c5.79 0 10.5-4.71 10.5-10.5s-4.71-10.5-10.5-10.5-10.5 4.71-10.5 10.5 4.71 10.5 10.5 10.5zm0-16c3.032 0 5.5 2.467 5.5 5.5s-2.468 5.5-5.5 5.5-5.5-2.467-5.5-5.5 2.468-5.5 5.5-5.5zM40 143.432a2.5 2.5 0 1 0 0 5h8a2.5 2.5 0 1 0 0-5h-8zM66.667 143.432a2.5 2.5 0 1 0 0 5h8a2.5 2.5 0 1 0 0-5h-8zM93.333 143.432a2.5 2.5 0 1 0 0 5h8a2.5 2.5 0 1 0 0-5h-8zM120 143.432a2.5 2.5 0 1 0 0 5h8a2.5 2.5 0 1 0 0-5h-8zM130.5 90.932c0-4.136-3.364-7.5-7.5-7.5H45c-4.136 0-7.5 3.364-7.5 7.5v38c0 4.136 3.364 7.5 7.5 7.5h78c4.136 0 7.5-3.364 7.5-7.5v-38zm-5 38c0 1.378-1.121 2.5-2.5 2.5H45a2.503 2.503 0 0 1-2.5-2.5v-16.5H56a2.5 2.5 0 0 0 2.236-1.382l4.978-9.956 6.36 25.444a2.498 2.498 0 0 0 2.153 1.878 2.49 2.49 0 0 0 2.509-1.367l7.309-14.618H88a2.5 2.5 0 0 0 2.236-1.382l4.978-9.956 6.36 25.444a2.498 2.498 0 0 0 4.661.511l7.309-14.618H125.5v16.502zm0-21.5H112a2.5 2.5 0 0 0-2.236 1.382l-4.978 9.956-6.36-25.444c-.561-2.243-3.625-2.585-4.662-.512l-7.309 14.618H80a2.5 2.5 0 0 0-2.236 1.382l-4.978 9.956-6.36-25.444c-.56-2.239-3.622-2.588-4.662-.512l-7.309 14.618H42.5v-16.5c0-1.378 1.121-2.5 2.5-2.5h78c1.379 0 2.5 1.122 2.5 2.5v16.5zM144 155.432h72a2.5 2.5 0 1 0 0-5h-72a2.5 2.5 0 1 0 0 5z"/>
+                                    <path d="M238 107.432h-3.5V79.935c0-6.89-5.61-12.5-12.5-12.5H90.859a2.5 2.5 0 0 0 0 5H222c4.13.01 7.49 3.37 7.5 7.5v83.998c0 .02-.003.039-.003.058-.041 4.169-3.478 7.442-7.497 7.442H34c-4.023 0-7.457-3.276-7.497-7.442-.005-.729-.003-82.629-.003-84.056.01-4.13 3.37-7.49 7.5-7.5h36.859a2.5 2.5 0 0 0 0-5H34c-6.891 0-12.5 5.61-12.5 12.5v27.498H18c-6.893 0-12.5 5.607-12.5 12.5v88c0 6.893 5.607 12.5 12.5 12.5h3.5v4.502c0 4.13 3.359 7.5 7.5 7.5h198c4.13 0 7.5-3.37 7.5-7.5v-4.502h3.5c6.893 0 12.5-5.607 12.5-12.5v-88c0-6.893-5.607-12.501-12.5-12.501zM26.5 173.926a12.614 12.614 0 0 0 7.5 2.508h188a12.649 12.649 0 0 0 7.5-2.508v6.006c0 4.136-3.364 7.5-7.5 7.5H34c-4.136 0-7.5-3.364-7.5-7.5v-6.006zm-16-53.994c0-4.136 3.364-7.5 7.5-7.5h3.5v27H18c-4.136 0-7.5-3.364-7.5-7.5v-12zm235 88c0 4.136-3.364 7.5-7.5 7.5h-3.5v-4.498c0-4.14-3.37-7.5-7.5-7.5H91.28c-1.37 0-2.49 1.12-2.49 2.5s1.12 2.5 2.49 2.5H227a2.5 2.5 0 0 1 2.5 2.5v14c0 1.37-1.12 2.5-2.5 2.5H29c-1.38 0-2.5-1.13-2.5-2.5v-14a2.5 2.5 0 0 1 2.5-2.5h42.28a2.51 2.51 0 0 0 2.51-2.5c0-1.38-1.13-2.5-2.51-2.5H29c-4.141 0-7.5 3.36-7.5 7.5v4.498H18c-4.136 0-7.5-3.364-7.5-7.5v-66.024a12.417 12.417 0 0 0 7.5 2.524h3.5v35.5c0 6.893 5.607 12.5 12.5 12.5h188c6.893 0 12.5-5.607 12.5-12.5v-35.5h3.5c2.816 0 5.408-.947 7.5-2.524v66.024zm0-76c0 4.136-3.364 7.5-7.5 7.5h-3.5v-27h3.5c4.136 0 7.5 3.364 7.5 7.5v12z"/><path d="M81.29 203.435a2.51 2.51 0 0 0-2.51 2.5c0 1.38 1.13 2.5 2.51 2.5 1.37 0 2.49-1.12 2.49-2.5s-1.12-2.5-2.49-2.5z"/><circle cx="80.859" cy="69.935" r="2.5"/><path d="M144 87.932h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM159 87.932h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM174 87.932h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM144 100.182h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM159 100.182h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM174 100.182h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM144 112.432h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM159 112.432h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM174 112.432h4a2.5 2.5 0 1 0 0-5h-4a2.5 2.5 0 1 0 0 5zM204 83.432c-7.995 0-14.5 6.505-14.5 14.5s6.505 14.5 14.5 14.5 14.5-6.505 14.5-14.5-6.505-14.5-14.5-14.5zm0 24c-5.238 0-9.5-4.262-9.5-9.5 0-4.372 2.973-8.054 7-9.155v5.155a2.5 2.5 0 1 0 5 0v-5.155c4.027 1.101 7 4.783 7 9.155 0 5.238-4.262 9.5-9.5 9.5zM143.5 133.932c0 5.79 4.71 10.5 10.5 10.5s10.5-4.71 10.5-10.5-4.71-10.5-10.5-10.5-10.5 4.711-10.5 10.5zm16 0c0 3.033-2.468 5.5-5.5 5.5s-5.5-2.467-5.5-5.5 2.468-5.5 5.5-5.5 5.5 2.467 5.5 5.5z"/>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <h3>Alignment</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Turbogenerator</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset="" class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Turbines & Compressors</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                    <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                    </svg>
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Gearbox</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="service-container">
+                        <div class="service-image-box">
+                            <img src="{{ asset('img/services/valve1.jpg') }}" alt="" srcset=""class=" ">
+                        </div>
+                        <div class="service-content-box">
+                            <div class="icon-box">icon</div>
+                            <div class="content">
+                                <h3>Valve</h3>
+                                <a href="http://" target="_blank" class="">Read More <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>    
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pb-5">
+
+        </footer>
+    </section>
+
+    {{-- *********************End Home Service Section******************* --}}
+    {{-- *********************Home Supplies Section******************* --}}
+
+    <section id="home_service" class="mainSection " style="background-color: #f5f5f5;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-5 section-column">
+                    <header>
+                        <div class="subtitle">We Do It</div>
+                        <div class="sectionTitle">What Services we Provide for Our Customers
+                        </div>
+                        <div class="line mx-0"></div>
+                    </header>
+                    <p class="content">One window Electromechanical solutions for Power Systems</p>
+                </div>
+                <div class="col-12 col-sm-7">
+                   <div class="row g-5">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset="" class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Turbogenerator</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                            <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                            </svg>    
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset="" class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Turbines & Compressors</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Gearbox</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                            <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                            </svg>    
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/valve1.jpg') }}" alt="" srcset=""class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Valve</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                            <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                            </svg>    
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/pumps.jpg') }}" alt="" srcset="" class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Pumps</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                            <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                            </svg>    
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-container">
+                            <div class="service-image-box">
+                                <img src="{{ asset('img/services/blowers.jpg') }}" alt="" srcset="" class=" ">
+                            </div>
+                            <div class="service-content-box">
+                                <div class="icon-box">icon</div>
+                                <div class="content">
+                                    <h3>Blowers</h3>
+                                    <a href="http://" target="_blank" class="">Read More <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path  d="M11.998 23.997c-6.617 0-11.999-5.383-11.999-11.999 0-6.616 5.382-11.999 11.999-11.999 6.616 0 11.999 5.383 11.999 11.999 0 6.616-5.383 11.999-11.999 11.999Zm0-21.816c-5.414 0-9.818 4.404-9.818 9.817 0 5.414 4.404 9.817 9.818 9.817 5.413 0 9.817-4.403 9.817-9.817 0-5.413-4.404-9.817-9.817-9.817Zm5.37 10.234a1.11 1.11 0 0 1-.237.355l-4.362 4.362c-.213.214-.492.32-.771.32a1.09 1.09 0 0 1-.772-1.862l2.502-2.501H7.634a1.092 1.092 0 0 1 0-2.182h6.094l-2.502-2.501a1.091 1.091 0 0 1 1.543-1.543l4.362 4.363a1.095 1.095 0 0 1 .237 1.189Z"></path>
+                                        </svg>
+                                    </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+           
+        </div>
+        <footer class="pb-5">
+
+        </footer>
+    </section>
+
+    {{-- *********************End Home Supplies Section******************* --}}
     
-   
+
     {{-- ***********************Home Team Member Section******************************* --}}
     <section id="home-team" class="mainSection position-relative">
 
@@ -1154,13 +836,11 @@ overflow: hidden;
         </ul>
         <div class="container-fluid container-lg team-list">
             <div class="row">
-                <div class="col-12 ">
+                <div class="section-column sectioninfo col-12 ">
 
                     <header class="text-center ">
                         <div class="subtitle ">Our Team Members</div>
-                        <p class="text-white pt-2">We have Energetic & Skillfull Team of Electrical, Mechanical &
-                            Instrumentation Engineers who have proven hands-on experience of Installation, Erection, Testing
-                            & Commissioning of Electromechanical Assets.
+                        <p class="text-white pt-2">We have Energetic & Skillfull Team of Electrical, Mechanical & Instrumentation Engineers who have proven hands-on experience of Installation, Erection, Testing & Commissioning of Electromechanical Assets.
                         </p>
 
                         <div class="line bg-warning" style="margin: 20px auto 40px;"></div>
@@ -1572,7 +1252,7 @@ overflow: hidden;
                                 <div class="col-12">
                                     <div class="form-group">
                                         {{-- {!! Form::label('title', 'Blog Title') !!} --}}
-    {{-- {!! Form::text('name', null, [
+                                        {{-- {!! Form::text('name', null, [
                                             'class' => 'form-control',
                                             'placeholder' => 'Name',
                                         ]) !!}
@@ -1586,7 +1266,7 @@ overflow: hidden;
                                 <div class="col-12">
                                     <div class="form-group">
                                         {{-- {!! Form::label('title', 'Blog Title') !!} --}}
-    {{-- {!! Form::text('organization', null, [
+                                        {{-- {!! Form::text('organization', null, [
                                             'class' => 'form-control',
                                             'placeholder' => 'Organization',
                                         ]) !!}
@@ -2419,82 +2099,6 @@ overflow: hidden;
             e.preventDefault()
             $(this).tab('show')
         })
-    </script>
-    <script>
-        let i = 2;
-
-        $(document).ready(function() {
-            move_circle();
-
-            setInterval(function() {
-                var dataTab = $(".itemDot.active").data("tab");
-                if (dataTab > 6 || i > 6) {
-                    dataTab = 1;
-                    i = 1;
-                }
-                $(".itemDot").removeClass("active");
-                $('[data-tab="' + i + '"]').addClass("active");
-                $(".CirItem").removeClass("active");
-                $(".CirItem" + i).addClass("active");
-                i++;
-
-                $(".dotCircle").css({
-                    transform: "rotate(" + (360 - (i - 2) * 36) + "deg)",
-                    transition: "2s",
-                });
-                $(".itemDot").css({
-                    transform: "rotate(" + (i - 2) * 36 + "deg)",
-                    transition: "1s",
-                });
-            }, 3000);
-        });
-
-
-        function move_circle() {
-            var radius = 200;
-            var fields = $(".itemDot");
-            var container = $(".round");
-            var width = container.width();
-            radius = width / 2;
-
-            var height = container.height();
-            var angle = 0,
-                step = (2 * Math.PI) / fields.length;
-
-            fields.each(function() {
-                var x = Math.round(
-                    width / 2 + radius * Math.cos(angle));
-                var y = Math.round(
-                    height / 2 + radius * Math.sin(angle));
-                if (window.console) {
-                    console.log($(this).text(), x, y);
-                }
-
-                $(this).css({
-                    left: x + "px",
-                    top: y + "px",
-                });
-                angle += step;
-            });
-
-            $(".itemDot").click(function() {
-                var dataTab = $(this).data("tab");
-                $(".itemDot").removeClass("active");
-                $(this).addClass("active");
-                $(".CirItem").removeClass("active");
-                $(".CirItem" + dataTab).addClass("active");
-                i = dataTab;
-
-                $(".dotCircle").css({
-                    transform: "rotate(" + (360 - (i - 1) * 36) + "deg)",
-                    transition: "2s",
-                });
-                $(".itemDot").css({
-                    transform: "rotate(" + (i - 1) * 36 + "deg)",
-                    transition: "1s",
-                });
-            });
-        }
     </script>
 @endsection
 @endsection
