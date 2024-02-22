@@ -281,87 +281,12 @@ background-color: var(--color-secondary);
     /* margin-bottom: 0; */
 
 }
-.single-service .rightsidebar .sidebar-underline .line {
-    background-color: #fa360a;
-    border: 1px solid #fa360a;
-    height: 4px;
-    border-radius: 10px;
-    margin-right: 5px;
-    border: none;
-    display: inline-block;
-}
 
 /* //////////////End Right Side Bar- Title Header////////////////////// */
 
 /* //////////////Right Side Bar- Service List////////////////////// */
-.single-service .rightsidebar .serviceListBox .serviceList, .single-service .rightsidebar .brochureListBox .brochureList {
-    position: relative;
-    padding: 0px;
-}
-.single-service .rightsidebar .serviceListBox .serviceList li,.single-service .rightsidebar .brochureListBox .brochureList li {
-    border: 1px solid grey;
-    border-left: 1px solid var(--color-primary);
-    /* padding:8px; */
-    margin-bottom: 5px;
-    border-radius: 5px;
-    position: relative;
-    z-index: 100;
-}
 
-.single-service .rightsidebar .serviceListBox .serviceList li a:after {
-    content: "\f105"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
-    /* display: inline-block; */
-    /* margin-left: calc(var(--icon-space) * -1); */
-    /* width: var(--icon-space);
-    color: var(--maincolor); */
-    /* margin-right: 1.5rem; */
-    color: var(--color-secondary);
-    font-size: 1.1rem;
-    position: absolute;
-    right: 10px;
-    z-index: 200;
-}
-.single-service .rightsidebar .serviceListBox .serviceList li a,.single-service .rightsidebar .brochureListBox .brochureList li a {
-    display: block;
-    /* border:1px solid black; */
-    padding: 8px 12px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #000;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    z-index: 200;
-}
-.single-service .rightsidebar .serviceListBox .serviceList li a:hover,.single-service .rightsidebar .brochureListBox .brochureList li a:hover {
-    color: #fff;
-    /* background-color: var(--color-secondary); */
-}
-.single-service .rightsidebar .serviceListBox .serviceList li a:hover:after,.single-service .rightsidebar .brochureListBox .brochureList li a:hover:after {
-    color: #fff;
-    /* background-color: var(--color-secondary); */
-}
 
-.single-service .rightsidebar .serviceListBox .serviceList li:before,.single-service .rightsidebar .brochureListBox .brochureList li:before {
-    content: "";
-    background-color: var(--color-primary);
-    width: 0%;
-    height: calc(100% + 2px);
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    bottom: -1px;
-    border: 1px solid var(--color-primary);
-    border-left: 3px solid var(--color-primary);
-    border-radius: 5px;
-    transition: all 0.5s ease-in-out;
-    z-index: 2;
-}
-.single-service .rightsidebar .serviceListBox .serviceList li:hover:before,.single-service .rightsidebar .brochureListBox .brochureList li:hover:before {
-    content: "";
-    background-color: var(--color-primary);
-    width: 102%;
-}
 /* //////////////End Right Side Bar- Service List////////////////////// */
 
 /* //////////////Right Side Bar- Contact List////////////////////// */
@@ -373,29 +298,15 @@ background-color: var(--color-secondary);
     border: 1px solid red; */
     /* margin-bottom: 35px!important; */
     }
-    .single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-icon{
-      vertical-align: top;
-      text-align: center;
-      padding-right: 20px;
-    }
-    .single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-text{
-      
-      /* color: #6c757d; */
-      padding-bottom: 15px!important;
-      font-size: 17px;
-    color: #444!important;
-    font-weight: 500!important;
-    text-align: justify;
-    line-height: 24px;
-    }
+   
    
     .single-service .rightsidebar .contactListBox .call-us-container{
         
        margin-top: 20px;
         background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/callusbg.jpg');
         background-position: contain;
-        position: relative;
-        width:100%;
+         position: relative;
+       /* background-size:100% 100%; */
     }
     .single-service .rightsidebar .contactListBox .call-us-container .content{
         padding:15px 10px;

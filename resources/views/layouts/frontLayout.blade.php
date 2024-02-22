@@ -18,10 +18,8 @@
     {{-- <link rel="stylesheet" href="{{ asset('css/commonFront.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     <link rel="stylesheet" href="{{ asset('css/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/home-carousel.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/square-moving-background.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/rotating-circle.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+   
+    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
 
     {{-- <link rel="stylesheet" href="{{ asset('css/megamenu.css') }}"> --}}
     {{-- <link rel="stylesheet" href="{{ asset('css/mediaquery.css') }}"> --}}
@@ -169,7 +167,7 @@
                                             </div>
 
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('pumps') }}" target="_blank" class="dropdown-item">
                                                     <figure>
                                                         <div><img src="{{ asset('img/services/pumps.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
@@ -215,7 +213,7 @@
                                                         <div><img src="{{ asset('img/services/alignment.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
-                                                        <figcaption>Retrofit</figcaption>
+                                                        <figcaption>Retrofit & Upgrade</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>
@@ -225,7 +223,7 @@
                                                         <div><img src="{{ asset('img/services/alignment.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
-                                                        <figcaption>Design</figcaption>
+                                                        <figcaption>Design & System Studies</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>
@@ -306,12 +304,12 @@
                                             </div>
 
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="http://" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('pumps') }}" target="_blank" class="dropdown-item">
                                                     <figure>
                                                         <div><img src="{{ asset('img/services/pumps.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
-                                                        <figcaption>Power Transformers</figcaption>
+                                                        <figcaption>MV Motors</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>
@@ -710,26 +708,31 @@
             $("#oem.owl-carousel").owlCarousel(
 
                 {
-                    // ite/ms:10,
+                   
 
                     loop: true,
-                    margin: 8,
-                    nav: true,
+                    margin:10,
+                  
                     autoplay: true,
                     autoplayTimeout: 3000,
                     autoplayHoverPause: true,
                     nav:false,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 3
-                        },
-                        1000: {
-                            items: 5
-                        }
-                    }
+                    dots:false,
+                    // autoheight:true,
+                    // center:true,
+                    // autoWidth:true,
+    items:6,
+                    // responsive: {
+                    //     0: {
+                    //         items: 1
+                    //     },
+                    //     600: {
+                    //         items: 3
+                    //     },
+                    //     1000: {
+                    //         items: 5
+                    //     }
+                    // }
                     // // items:2,
                    
                    

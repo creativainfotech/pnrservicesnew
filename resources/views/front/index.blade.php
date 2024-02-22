@@ -2,6 +2,12 @@
 @section('title')
     Home-PNR Services
 @endsection
+@section('styles')
+<link rel="stylesheet" href="{{ asset('css/home-carousel.css') }}">
+<link rel="stylesheet" href="{{ asset('css/square-moving-background.css') }}">
+<link rel="stylesheet" href="{{ asset('css/rotating-circle.css') }}">
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+@endsection
 
 @section('mainSection')
 
@@ -196,147 +202,113 @@
     </div>
 
     <!-- ********************End Bootstrap Carousel************ -->
-    <div id="oem" class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="{{asset("img/oems/abb.jpeg")}}" alt="" srcset="">
+    <section class="mainSection">
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="oem" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/abb.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/alstom.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/andritz.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/atlas-copco.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=" img-fluid " src="{{asset("img/oems/avr.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/baker.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/brush.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/dresser-rand.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/elliott.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/emerson.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/flender.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/flowserve.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ge-oil.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ge.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/imi.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ingersoll-rand.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/kaeser.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/kitz.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ksb.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/lt-valves.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/man.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/mitsubishi.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/noname.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/nord.jpeg")}}" alt="" srcset="">
+                    </div>
+                   
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/renk.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/renold-gears.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/santasalo.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/sew-eurodrive.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/siemens.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/sumitomo.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/woodward.jpeg")}}" alt="" srcset="">
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/alstom.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/andritz.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/atlas-copco.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail img-fluid " src="{{asset("img/oems/avr.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/baker.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/brush.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/dresser-rand.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/elliott.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/emerson.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/flender.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/flowserve.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ge-oil.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ge.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/imi.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ingersoll-rand.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/kaeser.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/kitz.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/ksb.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/lt-valves.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/man.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/mitsubishi.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/noname.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/nord.jpeg")}}" alt="" srcset="">
-        </div>
-       
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/renk.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/renold-gears.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/santasalo.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/sew-eurodrive.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/siemens.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/sumitomo.jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="img-thumbnail" src="{{asset("img/oems/woodward.jpeg")}}" alt="" srcset="">
-        </div>
-        
-    </div>
-    {{-- <style>
-    .oem-list{
-width: 100vw;
-display: flex;
-
-border:
-1px solid red;
-overflow: hidden;
-    }
-    .oem-item{
-        flex-basis: 100%;
-        min-width: 200px;
-        border:
-1px solid yellow;
-       
-    }
-    .oem-item img{
-        width: 100%;
-    }
-</style> --}}
-
-    {{-- ****************************OEM************************* --}}
-    {{-- <div class="container-fluid ">
-    <div class="oem-list" >
-        <div class="oem-item" ><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-        <div class="oem-item"><img src="{{asset("img/logo/dark-yellow-text.png")}}" alt="" srcset=""></div>
-    </div>
-</div> --}}
-
-
-
+       </div>
+    </section>
+   
+   
     {{-- ****************************End OEM************************* --}}
 
 
