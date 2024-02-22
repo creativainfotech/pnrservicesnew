@@ -17,13 +17,22 @@
     Pumps
 @endsection
 {{-- ************************End Service Name********************** --}}
+
+  {{-- ************************Top Header Image********************** --}}
+  {{-- @section('articleImage')
+  <div class="top-header" style="background-image: url({{ asset('img/services/pumps.jpg') }});">
+  </div>
+@endsection --}}
+{{-- ************************End Top Header Image********************** --}}
+
+@section('service-id')
+services-pumps
+@endsection
+
+
 @section('mainContent')
 
-
-    <section id="services-pumps" class="mainSection">
-
-        <div class="container-fluid container-lg ">
-            <div class="row">
+            <article class="row">
                 <div class="col-12 col-lg-5 section-col-top-padding">
                     <div class="row g-2">
                         <div class="col-12 col-sm-6">
@@ -50,42 +59,29 @@
                 <div class="col-12 col-lg-7 ">
                     <header>
                         <div class="subtitle">CENTRIFUGAL PUMPS</div>
-
-                    </header>
-                  
-
+                   </header>
                     <p style="text-align: justify;">Major overhauling of <strong>Centrifugal Pumps.</strong> Centrifugal,
                         Vertical Mixed Flow, Vacuum pumps, Chemical Feeds, etc.
                         Cryogenic Duty vertical centrifugal multistage pumps. Mechanical Seals (Single, Double and Tandem)
                         Disassembly/assembly, workshop checks, refurbishment , testing and installation.
                     </p>
-
                     <ul class="listbox">
                         <li class="list-item">Boiler Feed Water Pumps (Multistage centrifugal pumps)</li>
                         <li class="list-item">Ammine Circulation Pumps for Co2 Removal</li>
                         <li class="list-item">Cooling Tower Centrifugal Pumps</li>
                     </ul>
-                   
                 </div>
-            </div>
-            <div class="row bg-light">
-               
+            </article>
+            <article class="row bg-light">
                 <div class="col-12 col-lg-7 ">
                     <header>
                         <div class="subtitle"> RECIPROCATING PUMPS</div>
-
-                    </header>
-                  
-
+                   </header>
                     <p style="text-align: justify;">Major overhaul of Reciprocating, Horizontal duplex, triplex, quintuplex
                         and septuplex reciprocating power pumps, designed according to API 674 standards double-acting
                         pumps.
 
                     </p>
-
-
-
-
                 </div>
                 <div class="col-12 col-lg-5 section-col-top-padding">
                     <div class="row g-2">
@@ -112,16 +108,8 @@
                 </div>
 
 
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
+            </article>
+     
 @endsection
 
 @section('service-list')

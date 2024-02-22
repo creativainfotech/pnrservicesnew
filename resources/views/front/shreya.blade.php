@@ -2,6 +2,12 @@
 @section('title')
     Home-PNR Services
 @endsection
+@section('styles')
+<link rel="stylesheet" href="{{ asset('css/home-carousel.css') }}">
+<link rel="stylesheet" href="{{ asset('css/square-moving-background.css') }}">
+<link rel="stylesheet" href="{{ asset('css/rotating-circle.css') }}">
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+@endsection
 
 @section('mainSection')
 
@@ -196,47 +202,114 @@
     </div>
 
     <!-- ********************End Bootstrap Carousel************ -->
-    <div id="oem" class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="{{asset("img/oems/WhatsApp Image 2024-02-19 at 20.21.44 (1).jpeg")}}" alt="" srcset="">
-        </div>
-        <div class="item">
-            <h4>2</h4>
-        </div>
-        <div class="item">
-            <h4>3</h4>
-        </div>
-        <div class="item">
-            <h4>4</h4>
-        </div>
-        <div class="item">
-            <h4>5</h4>
-        </div>
-        <div class="item">
-            <h4>6</h4>
-        </div>
-        <div class="item">
-            <h4>7</h4>
-        </div>
-        <div class="item">
-            <h4>8</h4>
-        </div>
-        <div class="item">
-            <h4>9</h4>
-        </div>
-        <div class="item">
-            <h4>10</h4>
-        </div>
-        <div class="item">
-            <h4>11</h4>
-        </div>
-        <div class="item">
-            <h4>12</h4>
-        </div>
-    </div>
-   
 
-    {{-- ****************************End OEM************************* --}}
+     {{-- ****************************OEM************************* --}}
+    <section class="mainSection">
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="oem" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/abb.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/alstom.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/andritz.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/atlas-copco.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=" img-fluid " src="{{asset("img/oems/avr.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/baker.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/brush.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/dresser-rand.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/elliott.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/emerson.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/flender.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/flowserve.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ge-oil.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ge.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/imi.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ingersoll-rand.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/kaeser.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/kitz.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/ksb.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/lt-valves.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/man.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/mitsubishi.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/noname.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/nord.jpeg")}}" alt="" srcset="">
+                    </div>
+                   
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/renk.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/renold-gears.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/santasalo.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/sew-eurodrive.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/siemens.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/sumitomo.jpeg")}}" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="" src="{{asset("img/oems/woodward.jpeg")}}" alt="" srcset="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+     {{-- ****************************End OEM************************* --}}
 
 
     <section id="home-aboutus" class="mainSection">
@@ -892,7 +965,7 @@
     {{-- *********************End Home Supplies Section******************* --}}
  {{-- *********************Home Call To Action Section******************* --}}
 
- <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff">
+ <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff; ">
     <div class="container">
         <div class="row ">
             <div class="col-12 col-sm-7 section-column">
@@ -2345,7 +2418,7 @@
                     transform: "rotate(" + (i - 2) * 36 + "deg)",
                     transition: "1s",
                 });
-            }, 5000);
+            }, 3000);
         });
 
 

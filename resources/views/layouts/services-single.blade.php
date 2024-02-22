@@ -8,24 +8,166 @@
 @endsection
 {{-- ************inherit from frontLayout****************** --}}
 
-@section('mainSection')  
+@section('mainSection')
     @yield('topHeader')
-    <div class="container-fluid single-service  servicePage">
+    <div class="container-fluid single-service">
 
-        <div class="row">    
+        <div class="row">
             <div class="col-12 col-sm-9 ">
-                 {{-- *********************Display Name of Service********************* --}}
-                <header class="">                        
+                {{-- *********************Display Name of Service********************* --}}
+                <header class="">
                     <div class="sectionTitle ">@yield('serviceName')
                     </div>
                     <div class="double-line">
                         <div class="line mx-0 d-inline-block"style="width: 15px"></div>
                         <div class="line mx-0 d-inline-block"style="width: 50px"></div>
-                    </div>  
+                    </div>
                 </header>
                 {{-- *********************End Display Name of Service********************* --}}
-                <div class="container-fluid container-lg z-3 position-relative">
-                @yield('mainContent')
+                <section id="@yield('service-id')" class="mainSection">
+                    <div class="container-fluid container-lg">
+                        @yield('mainContent')
+                    </div>
+                </section>
+                {{-- ****************************OEM************************* --}}
+                <section class="mainSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="oem" class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/abb.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/alstom.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/andritz.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/atlas-copco.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class=" img-fluid " src="{{ asset('img/oems/avr.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/baker.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/brush.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/dresser-rand.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/elliott.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/emerson.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/flender.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/flowserve.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/ge-oil.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/ge.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/imi.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/ingersoll-rand.jpeg') }}"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/kaeser.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/kitz.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/ksb.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/lt-valves.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/man.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/mitsubishi.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/noname.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/nord.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/renk.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/renold-gears.jpeg') }}"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/santasalo.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/sew-eurodrive.jpeg') }}"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/siemens.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/sumitomo.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="item">
+                                        <img class="" src="{{ asset('img/oems/woodward.jpeg') }}" alt=""
+                                            srcset="">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {{-- ****************************End OEM************************* --}}
+
             </div>
             <div class="col-12 col-sm-3 rightsidebar">
                 <div class="container">
@@ -173,8 +315,6 @@
             </div>
         </div>
     </div>
-
-
-@section('scripts')
 @endsection
+@section('scripts')
 @endsection

@@ -202,7 +202,9 @@
     </div>
 
     <!-- ********************End Bootstrap Carousel************ -->
-    <section class="mainSection">
+
+     {{-- ****************************OEM************************* --}}
+    {{-- <section class="mainSection">
        <div class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -306,10 +308,8 @@
             </div>
         </div>
        </div>
-    </section>
-   
-   
-    {{-- ****************************End OEM************************* --}}
+    </section> --}}
+     {{-- ****************************End OEM************************* --}}
 
 
     <section id="home-aboutus" class="mainSection">
@@ -688,7 +688,7 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/Turbine-engines-1.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
@@ -805,7 +805,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Retrofit</a>
+                                <a href="http://" target="_blank" class="">Retrofit & Upgrade</a>
                             </div>
                         </div>
                     </div>
@@ -819,7 +819,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Design</a>
+                                <a href="http://" target="_blank" class="">Design & System Studies</a>
                             </div>
                         </div>
                     </div>
@@ -827,7 +827,7 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/Trainings-1.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
@@ -865,7 +865,7 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/services/parts1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
@@ -880,7 +880,7 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/services/tools-equipments-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
@@ -895,7 +895,7 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/services/Relay-control-panels-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
@@ -910,7 +910,7 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/services/Switchgear-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
@@ -940,7 +940,7 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/services/Power -Transformer-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">

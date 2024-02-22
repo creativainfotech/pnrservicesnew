@@ -50,7 +50,8 @@
 
 #home_service .service-card .image-box img {
     height: 100%;
-
+object-fit: cover;
+opacity:0.8;
     transition: all 1s ease-in-out;
 }
 #home_service .service-card:hover .image-box img {
@@ -65,7 +66,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(48,103,112, 0.7);
 
     display: flex;
     justify-content: center;
@@ -111,7 +112,7 @@ background-size: cover; */
     /* padding: 0px 30px; */
     border-radius: 10px;
     &:hover .supply-image-box {
-        animation: rotate-box 2s ease-in-out infinite;
+        animation: rotate-box 3200ms ease-in-out infinite;
         /* background-color: var(--color-primary); */
     }
 
@@ -138,7 +139,7 @@ background-size: cover; */
         transform: rotate(0deg);
     }
     50% {
-        transform: rotate(30deg);
+        transform: rotate(20deg);
     }
     100% {
         transform: rotate(0deg);
@@ -168,10 +169,13 @@ background-size: cover; */
     height: 100%;
     width: 100%;
     object-fit: cover;
+    /* opacity: 0.9; */
 }
 #home_supplies .supply-card .supply-content-box {
-    background-color: rgb(48, 103, 112, 0.9);
+    background-color: rgb(154 171 174 / 90%);
+    /* rgb(48, 103, 112, 0.9); */
     /* opacity: 0.5; */
+   
     position: absolute;
     left: 0;
     bottom: 0px;
@@ -193,7 +197,9 @@ background-size: cover; */
 }
 
 #home_supplies .supply-card .supply-content-box .content a {
-    color:white;
+    /* color:white;
+     */
+     color: var(--color-text1);
     text-transform: uppercase;
     font-size: 0.9rem;
     /* letter-spacing: 0.04rem; */
@@ -330,27 +336,4 @@ background-size: cover; */
 
 /* *********************Endhome_call_to_action***************** */
 
-/* ********************OEMS********************* */
-#oem{
-    padding: 20px 0;
-}
-
-.owl-carousel .item{
-    height:100px;
-    
-    padding: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width:150px; */
-    border-radius: 0.375rem;
-    border: 1px solid #dee2e6;
-}
-.owl-carousel .item img{
-    max-height: 100%;
-    /* width:150px; */
-    /* height:90px; */
-}
-
-/* ********************End OEMS********************* */
 

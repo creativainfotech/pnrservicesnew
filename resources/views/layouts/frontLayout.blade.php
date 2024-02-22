@@ -706,13 +706,10 @@
     <script>
         $(document).ready(function() {
             $("#oem.owl-carousel").owlCarousel(
-
-                {
-                   
+                {        
 
                     loop: true,
-                    margin:10,
-                  
+                    margin:10,                  
                     autoplay: true,
                     autoplayTimeout: 3000,
                     autoplayHoverPause: true,
