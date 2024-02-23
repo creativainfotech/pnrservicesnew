@@ -1,0 +1,89 @@
+
+
+/**========================================================================
+ *                           SECTION Divider
+ *========================================================================**/
+
+/* Section containing Background Image */
+.shape-parent {
+    background-color: #Fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+
+/* Overlay of background image */
+
+.background-overlay {
+    position: absolute;
+    background-color: #181818d1;
+    opacity: 0.59;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+.shape-bottom {
+    transform: rotate(180deg);
+    bottom: -45px;
+    /* transform: rotate(178deg);
+    bottom: -30px; */
+    /* transform: rotate(180deg); */
+}
+.shape {
+    
+ overflow: hidden;
+    position: absolute;
+    
+    left: 0px;
+    right: 0px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/* .shape-top {
+    top: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+} */
+
+/* SVG Detail */
+.shape svg {
+
+      left: 50%;
+    position: relative;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.shape svg path {
+    fill: #fff;
+    
+}
+
+/* Tilt Opacity shape at bottom */
+.shape-bottom svg {
+   
+    height: 150px ;
+}
+
+/* Tilt Fan Opacity shape at Top */
+/* .shape-top {
+    top: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+} */
+
+
+
+/* URL of Background Image */
+.top-header {
+     height: 40vh;
+}

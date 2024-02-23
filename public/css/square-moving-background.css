@@ -25,9 +25,9 @@
     position: absolute;
     top: 80vh;
     left: 45vw;
-    width: 10px;
-    height: 10px;
-    border: solid 1px #1f484f;
+    width: 1.0rem;
+    height: 1.0rem;
+    border: solid .1rem #1f484f;
     color: transparent;
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);

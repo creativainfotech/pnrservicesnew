@@ -580,7 +580,7 @@
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;">
                             ABOUT US</h1>
-                        <div class="line" style="margin: 35px auto"></div>
+                        <div class="line" style="margin: 3.5rem auto"></div>
                        
                         <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
                             specialists to <b>power generation companies, oil & gas, fertilizers, cement industries. </b>.We
@@ -662,8 +662,8 @@
                         <div class="line mx-0"></div>
                     </header>
                 </div>
-                <div class="col-12 col-sm-6 " style="padding-top: 126px; padding-bottom: 30px;">
-                    <p style="font-size: 1.2rem;font-weight:400px;}">
+                <div class="col-12 col-sm-6 " style="padding-top:12.6rem; padding-bottom: 3.0rem;">
+                    <p style="">
                         One window Electromechanical
                         solutions for Power Systems
                     </p>
@@ -1130,12 +1130,12 @@
 
                     <header class="text-center ">
                         <div class="subtitle ">Our Team Members</div>
-                        <p class="text-white pt-2">We have Energetic & Skillfull Team of Electrical, Mechanical &
+                        <p class="text-white pt-4">We have Energetic & Skillfull Team of Electrical, Mechanical &
                             Instrumentation Engineers who have proven hands-on experience of Installation, Erection, Testing
                             & Commissioning of Electromechanical Assets.
                         </p>
 
-                        <div class="line bg-warning" style="margin: 20px auto 40px;"></div>
+                        <div class="line bg-warning" style="margin: 1.5rem auto 5.0rem;"></div>
                     </header>
                 </div>
 
@@ -1154,9 +1154,9 @@
                         <div class="team-content">
                             <h1 class="team-name">Reinier koorenhof<h1>
                                     <h3 class="team-designation">Founder & Team Lead Technical</h3>
-                                    <div class="line d-inline-block me-1" style="width: 30px;border-radius:10px;">
+                                    <div class="line d-inline-block me-1" style="width: 3.0rem;border-radius:1.0rem;">
                                     </div>
-                                    <div class="line d-inline-block "style="border-radius:10px;">
+                                    <div class="line d-inline-block ">
                                     </div>
                                     <p class="team-descr">With over 25 years of experience in the global power generation
                                         industry.
@@ -1177,8 +1177,8 @@
                         <div class="team-content">
                             <h1 class="team-name">Junaid Ali<h1>
                                     <h3 class="team-designation">Co-founder and Team Lead Services</h3>
-                                    <div class="line d-inline-block me-1" style="width: 30px;border-radius:10px;"></div>
-                                    <div class="line d-inline-block "style="border-radius:10px;"></div>
+                                    <div class="line d-inline-block me-1" style="width: 3.0rem;border-radius:1.0rem;"></div>
+                                    <div class="line d-inline-block "style="border-radius:1.0rem;"></div>
                                     <p class="team-descr">20 years experience working with major OEMs of power and energy.
                                     </p>
                                     <div class="animated-btn">
@@ -1199,9 +1199,11 @@
     </section>
 
     {{-- ***********************End Home Team Member Section******************************* --}}
+   
+   
     {{-- **************************Services************* --}}
     {{-- <section>
-        <div class="container px-4 py-5" id="icon-grid">
+        <div class="container. rem-4 py-5" id="icon-grid">
             <h2 class="pb-2 border-bottom">Icon grid</h2>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
@@ -1295,7 +1297,7 @@
                 </div>
             </div>
         </div>
-        <div class="container px-4 py-5" id="custom-cards">
+        <div class="container. rem-4 py-5" id="custom-cards">
             <h2 class="pb-2 border-bottom">Custom cards</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
