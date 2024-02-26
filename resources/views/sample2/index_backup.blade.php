@@ -12,9 +12,575 @@
 
 </style>
 @section('mainSection')
-
     <!-- ********************Sample2 Bootstrap Carousel************ -->
-    {{-- <div id="particles-js" style="height: 60vh;"></div> --}}
+    <div id="particles-js" style="height: 60vh;"></div>
+    <div class="tp-banner-container">
+        <div class="tp-banner">
+
+            <ul>
+                <!-- ========== StartFirst Slide ========== -->
+                <li data-transition="bounce" data-slotamount="7">
+                    <img alt="" src="{{ asset('images/carousel/dummy.png') }}"
+                        data-lazyload="{{ asset('images/carousel/banner4.jpg') }}" data-duration="1000" />
+
+                    <div class="caption lft tp-resizeme pendulum" data-x="0" data-y="0" data-speed="600"
+                        data-start="1600" id="pendulum1">
+                    </div>
+
+                    <div class="caption lft tp-resizeme pendulum" data-x="80" data-y="0" data-speed="600"
+                        data-start="2000" id="pendulum2">
+
+                    </div>
+                    <div class="caption lft tp-resizeme pendulum" data-x="160" data-y="0" data-speed="600"
+                        data-start="2400" id="pendulum3">
+
+                    </div>
+
+                    <div class="caption " data-x="0" data-y="250" data-speed="600" data-start="2800"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="text-transform: uppercase; font-size: 28px; color: #fff;">
+                        Grow your Business with
+                    </div>
+                    <div class=" caption tp-resizeme" data-x="0" data-y="300" data-speed="600" data-start="3500"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="color: #d32f68; font-size: 60px;
+                        font-weight: 700;
+                        text-transform: uppercase;">
+                        pnr services
+                    </div>
+
+                    <div id="imgbox1" class="caption shadowed lfr ltt" data-y="100" data-x="520" data-speed="1800"
+                        data-start="4500" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/aboutus/2.jpg') }}" />
+                    </div>
+                    <div id="imgbox2" class="caption lfb ltt" data-y="220" data-x="770" data-speed="2000"
+                        data-start="5000" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/aboutus/5.jpg') }}" style="left:996px;" />
+                    </div>
+
+                </li>
+                <!-- ========== End First Slide ========== -->
+
+                <!-- ========== Start Second  Slide ========== -->
+                <li data-slotamount="17" data-transition="curtain-2" data-masterspeed="1000" data-saveperformance="on">
+                    <img alt="" src="{{ asset('images/carousel/dummy.png') }}"
+                        data-lazyload="{{ asset('images/carousel/banner5.jpg') }}" />
+
+                    <div class="slide-head caption sft  tp-resizeme text-white " data-x="center" data-y="10"
+                        data-speed="400" data-start="100">
+                        WE DO IT?
+                    </div>
+                    <div class=" caption customin customout tp-resizeme" data-x="0" data-y="150"
+                        data-splitin="chars" data-elementdelay="0.05" data-start="200" data-speed="1200"
+                        data-easing="Back.easeOut"
+                        data-customin="x:350;y:200;z:0;rotationX:0;rotationY:0;rotationZ:-120;scaleX:8;scaleY:8;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:220% 190%;"
+                        data-splitout="" data-endelementdelay="0"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-end="90000" data-endspeed="1500" data-endeasing="Power3.easeInOut" data-captionhidden="on"
+                        style="color: #d32f68; font-size: 75px;font-weight: 700; text-transform: uppercase;">
+                        Services
+                    </div>
+                    <div class="caption " data-x="30" data-y="270" data-speed="600" data-start="300"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="text-transform: uppercase; font-size: 24px; color: #fff;">
+                        We Provide
+                    </div>
+                    {{-- ******************************************* --}}
+                    <div>
+                        <div class="caption sfl vert-line" data-x="550" data-speed="400" data-y="150"
+                            data-start="500"></div>
+
+
+                        {{-- **************Horizontal Line****************** --}}
+                        @php
+                            $y = 110;
+                            $start = 500;
+                        @endphp
+                        @for ($i = 0; $i < 6; $i++)
+                            <div class="caption sfl wit-line horiz-line" data-x="550" data-y="{{ $y = $y + 50 }}"
+                                data-speed="400" data-start="{{ $start = $start + 50 }}" style="width: 30px;"></div>
+                            @php
+
+                            @endphp
+                        @endfor
+                        {{-- **************End Horizontal Line****************** --}}
+                    </div>
+                    {{-- *****List Of Services ***** --}}
+                    @php
+                        $list_services = ['Turbogenerator', 'Turbine', 'Compressor', 'Gearbox', 'Valve', 'Pump'];
+                        $y = 0;
+                        $start = 900;
+                    @endphp
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="600" data-y="100"
+                        data-speed="400">
+                        @foreach ($list_services as $list_service)
+                            <div class="caption sfl witTxt large-desc bull tp-resizeme" data-y="{{ $y = $y + 50 }}"
+                                data-start="{{ $start = $start + 300 }}">
+                                {{ $list_service }}
+                            </div>
+                        @endforeach
+                    </div>
+                    {{-- *****End List Of Services ***** --}}
+
+                    {{-- ******************************************* --}}
+                    <div>
+                        <div class="caption sfl vert-line" data-x="800" data-speed="400" data-y="150"
+                            data-start="2400"></div>
+
+
+                        {{-- **************Horizontal Line****************** --}}
+                        @php
+                            $y = 110;
+                            $start = 2400;
+                        @endphp
+                        @for ($i = 0; $i < 6; $i++)
+                            <div class="caption sfl wit-line horiz-line" data-x="800" data-y="{{ $y = $y + 50 }}"
+                                data-speed="400" data-start="{{ $start = $start + 50 }}" style="width: 30px;"></div>
+                            @php
+
+                            @endphp
+                        @endfor
+                        {{-- **************End Horizontal Line****************** --}}
+                    </div>
+
+                    {{-- *****List Of Services ***** --}}
+                    @php
+                        $list_services = ['Blower', ' Heat Exchanger', 'Alignment', ' Retrofit & Upgrade', 'design & System Studies', 'Training'];
+                        $y = 0;
+                        $start = 2800;
+                    @endphp
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="850" data-y="100"
+                        data-speed="400">
+                        @foreach ($list_services as $list_service)
+                            <div class="caption sfl witTxt large-desc bull tp-resizeme" data-y="{{ $y = $y + 50 }}"
+                                data-start="{{ $start = $start + 300 }}">
+                                {{ $list_service }}
+                            </div>
+                        @endforeach
+                    </div>
+                    {{-- *****End List Of Services ***** --}}
+
+
+                    <!-- Text Layer Responsive Properties -->
+                    <!-- <div
+                                                      class="tp-caption tp-resizeme largewhitebg"
+                                                      data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Linear"},
+                        {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Linear"}]'
+                                                      data-visibility="['on', 'on', 'on', 'on']"
+                                                      data-fontsize="['24', '24', '22', '18']"
+                                                      data-lineheight="['32', '32', '32', '24']"
+                                                      data-color="['#FFF', '#FFF', '#000', '#000']"
+                                                      data-textAlign="['inherit', 'inherit', 'right', 'center']"
+                                                      data-x="['center', 'center', 'right', 'center']"
+                                                      data-y="['middle', 'middle', 'top', 'bottom']"
+                                                      data-hoffset="['0', '0', '50', '0']"
+                                                      data-voffset="['0', '0', '50', '50']"
+                                                      data-width="['800', '800', '600', '400']"
+                                                      data-height="['auto', 'auto', 'auto', 'auto']"
+                                                      data-whitespace="['normal', 'normal', 'nowrap', 'normal']"
+                                                      data-paddingtop="[0, 0, 0, 0]"
+                                                      data-paddingright="[0, 0, 0, 0]"
+                                                      data-paddingbottom="[0, 0, 0, 0]"
+                                                      data-paddingleft="[0, 0, 0, 0]"
+                                                      data-basealign="slide"
+                                                      data-responsive_offset="off"
+                                                    >
+                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                                      luctus felis porta dui rhoncus lobortis. In aliquet, arcu ut bibendum
+                                                      molestie, massa nisl varius nunc, non tempus mi dolor vitae eros
+                                                    </div> -->
+                </li>
+
+                <!-- ========== End Second  Slide ========== -->
+                <!-- ========== Start Third Slide ========== -->
+                <li data-transition="zoomout" data-slotamount="7">
+                    <img alt="" src="{{ asset('images/carousel/dummy.png') }}"
+                        data-lazyload="{{ asset('img/background-image/2.jpg') }}" data-duration="1000" />
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption large_bold_white customin customout animate__animated animate__bounce animate__infinite" data-x="428" data-y="34"
+                    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    data-speed="2000" data-start="800" data-easing="Back.easeOut" data-endspeed="300"
+                    data-endeasing="Power1.easeIn" style="z-index: 10;animation-delay: 1s ;--animate-duration: 3s;">Turbogenerator
+                </div>
+                <!-- LAYER NR. 2 -->
+                    <div id="imgbox2" class="tp-caption customin animate__animated animate__bounce animate__infinite"" data-x="474" data-y="189"
+                        data-customin="x:0;y:0;z:0;rotationX:45;rotationY:40;rotationZ:45;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="800" data-start="1100" data-easing="Power3.easeInOut" data-endspeed="300"
+                        style="z-index: 2;animation-delay: 1s ;--animate-duration: 3s;"><img src="{{ asset('img/services/Turbogenerators-1.jpg') }}" alt="">
+                    </div>
+                                      
+                
+
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption medium_light_white customin customout" data-x="536" data-y="51"
+                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="600" data-start="1200" data-easing="Back.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" style="z-index: 11">Improvements
+                    </div>
+                    {{-- <div class="caption " data-x="0" data-y="250" data-speed="600" data-start="2800"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="text-transform: uppercase; font-size: 28px; color: #fff;">
+                        Grow your Business with
+                    </div> --}}
+                    <div class=" caption tp-resizeme" data-x="0" data-y="150" data-speed="600" data-start="3500"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="color: #d32f68; font-size: 60px;
+                        font-weight: 700;
+                        text-transform: uppercase;">
+                       Turbogenerators
+                    </div>
+                    {{-- <div id="imgbox2" class="caption shadowed lfr ltt" data-y="100" data-x="520"
+                    data-speed="1800" data-start="4500" data-easing="Power4.easeOut" data-splitin="none"
+                    data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                    data-endeasing="Power4.easeIn">
+                    <img alt="" src="{{ asset('img/aboutus/2.jpg') }}" />
+                </div> --}}
+                    <div id="imgbox2" class="caption shadowed lfr ltt" data-y="100" data-x="520"
+                        data-speed="1800" data-start="4500" data-easing="Power4.easeOut" data-splitin="none"
+                        data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/services/turbogenerators.jpg') }}" />
+                    </div>
+                    <div id="imgbox2" class="caption lfb ltt" data-y="220" data-x="770" data-speed="2000"
+                        data-start="5000" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/services/Turbogenerators-2.jpg') }}" style="left:996px;" />
+                    </div>
+
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="{{ asset('img/background-image/1.jpg') }}" alt="darkblurbg" />
+                    {{-- data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption customin" data-x="474" data-y="189"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="800" data-easing="Power3.easeInOut" data-endspeed="300"
+                        style="z-index: 2"><img src="images/macbook2.png" alt="">
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption customin" data-x="245" data-y="92"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-endspeed="300"
+                        style="z-index: 3"><img src="images/imac1.png" alt="">
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption customin" data-x="693" data-y="69"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="1300" data-easing="Power3.easeInOut" data-endspeed="300"
+                        style="z-index: 4"><img src="images/lupe_macbook.png" alt="">
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption customin" data-x="100" data-y="171"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="1400" data-easing="Power3.easeInOut" data-endspeed="300"
+                        style="z-index: 5"><img src="images/lupe_imac.png" alt="">
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption medium_bg_asbestos skewfromleft customout" data-x="104" data-y="154"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="800" data-start="1500" data-easing="Power4.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6">Caption Selection
+                    </div>
+
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption medium_bg_red skewfromright customout" data-x="820" data-y="274"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="800" data-start="1700" data-easing="Power4.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 7">Custom Animation Editor
+                    </div>
+
+                    <!-- LAYER NR. 7 -->
+                    <div class="tp-caption medium_bg_orange skewfromright customout" data-x="820" data-y="314"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="800" data-start="1800" data-easing="Power4.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 8">With Live Preview
+                    </div>
+
+                    <!-- LAYER NR. 8 -->
+                    <div class="tp-caption medium_bg_darkblue skewfromleft customout" data-x="168" data-y="193"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="800" data-start="1600" data-easing="Power4.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 9">With Style Preview
+                    </div>
+
+                    <!-- LAYER NR. 9 -->
+                    <div class="tp-caption large_bold_white customin customout" data-x="428" data-y="34"
+                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="600" data-start="1100" data-easing="Back.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" style="z-index: 10">Big
+                    </div>
+
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption medium_light_white customin customout" data-x="536" data-y="51"
+                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="600" data-start="1200" data-easing="Back.easeOut" data-endspeed="300"
+                        data-endeasing="Power1.easeIn" style="z-index: 11">Improvements
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <!-- ========== End Third Slide ========== -->
+
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- <div class="tp-banner-container">
+        <div class="tp-banner">
+
+            <ul>
+                <li data-transition="fade" data-slotamount="7">
+                    <img alt="" src="{{ asset('images/carousel/dummy.png') }}"
+                        data-lazyload="{{ asset('images/carousel/banner4.jpg') }}" data-duration="1000" />
+                    <div class="caption large-text  witTxt"
+                        style="text-transform: uppercase; font-size: 30px; color: #fff;" data-x="0" data-y="320"
+                        data-speed="600" data-start="1500" data-easing="Power4.easeOut" data-splitin="chars"
+                        data-splitout="chars" data-elementdelay="0.05" data-endelementdelay="0.05" data-endspeed="300"
+                        data-endeasing="Power1.easeOut">
+                        Grow your Business with
+                    </div>
+                    <div class="textpink caption medium-title tp-resizeme" data-x="0" data-y="360"
+                        data-speed="600" data-start="2000" data-easing="Power4.easeOut" data-splitin="chars"
+                        data-splitout="chars" data-elementdelay="0.05" data-endelementdelay="0.05" data-endspeed="300"
+                        data-endeasing="Power1.easeOut">
+                        Creativa Infotech
+                    </div>
+                    <div class="caption lft tp-resizeme" data-x="30" data-y="0" data-speed="600"
+                       20ata-start="1600">
+                        <div
+                            style="
+                      height: 80px;
+                      width: 2px;
+                      background: #fff;
+                      left: 40px;
+                      position: absolute;
+                    ">
+                        </div>
+                        <div
+                            style="
+                      background: #fff;
+                      padding: 20px;
+                      border-radius: 50%;
+                      line-height: 40px;
+                      color: #777;
+                      text-transform: uppercase;
+                      font-size: 20px;
+                      margin-top: 80px;
+                    ">
+                            Fast
+                        </div>
+                    </div>
+                    <div class="caption lft tp-resizeme" data-x="100" data-y="0" data-speed="600"
+                        data-start="1800">
+                        <div
+                            style="
+                      height: 130px;
+                      width: 2px;
+                      background: #b8b8b8;
+                      left: 40px;
+                      position: absolute;
+                    ">
+                        </div>
+                        <div
+                            style="
+                      background: #b8b8b8;
+                      padding: 20px;
+                      border-radius: 50%;
+                      line-height: 40px;
+                      color: #fff;
+                      text-transform: uppercase;
+                      font-size: 20px;
+                      margin-top: 130px;
+                    ">
+                            Easy
+                        </div>
+                    </div>
+                    <div class="caption lft tp-resizeme" data-x="170" data-y="0" data-speed="600"
+                        data-start="2000">
+                        <div
+                            style="
+                      height: 180px;
+                      width: 2px;
+                      background: #000;
+                      left: 50px;
+                      position: absolute;
+                    ">
+                        </div>
+                        <div
+                            style="
+                      background: #000;
+                      padding: 35px 20px;
+                      border-radius: 50%;
+                      line-height: 40px;
+                      color: #fff;
+                      text-transform: uppercase;
+                      font-size: 20px;
+                      margin-top: 180px;
+                    ">
+                            Stable
+                        </div>
+                    </div>
+                    <div class="imgbox3 caption shadowed lfr ltt" data-y="20" data-x="700" data-speed="600"
+                        data-start="2300" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('images/carousel/res1.png') }}" />
+                    </div>
+
+                    <div class="imgbox1 caption shadowed lft ltt" data-y="18" data-x="335" data-speed="600"
+                        data-start="1700" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('images/carousel/web2.png') }}" />
+                    </div>
+
+                    <div class="imgbox2 caption shadowed lfl ltt" data-y="230" data-x="500" data-speed="600"
+                        data-start="1900" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('images/carousel/seo2.png') }}" />
+                    </div>
+                </li>
+                <li data-slotamount="7" data-transition="curtain-1" data-masterspeed="1000" data-saveperformance="on">
+                    <img alt="" src="{{ asset('images/carousel/dummy.png') }}"
+                        data-lazyload="{{ asset('images/carousel/banner5.jpg') }}" />
+
+                    <div class="caption sft slide-head witTxt tp-resizeme" data-x="center" data-y="50"
+                        data-speed="400" data-start="1000">
+                        What do you Need?
+                    </div>
+                    <div class="caption sfl wit-line" data-x="250" data-y="70" data-speed="400" data-start="1200">
+                    </div>
+                    <div class="caption sfr wit-line" data-x="700" data-y="70" data-speed="400" data-start="1200">
+                    </div>
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="150"
+                        data-speed="400" data-start="1200">
+                        Website Development
+                    </div>
+
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="200"
+                        data-speed="400" data-start="1400">
+                        Website Designing
+                    </div>
+
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="250"
+                        data-speed="400"20ata-start="1600">
+                        E-Commerce Website
+                    </div>
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="300"
+                        data-speed="400" data-start="1800">
+                        Mobile Application Development
+                    </div>
+
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="350"
+                        data-speed="400" data-start="2000">
+                        Digital Marketing
+                    </div>
+
+                    <div class="caption sfl witTxt large-desc bull tp-resizeme" data-x="40" data-y="400"
+                        data-speed="400" data-start="2200">
+                        SEO/SEM
+                    </div>
+                    <div class="caption sfl vert-line" data-x="10" data-y="150" data-speed="400"
+                        data-start="1000"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="160" data-speed="400"
+                        data-start="1200" style="width: 30px;"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="210" data-speed="400"
+                        data-start="1400" style="width: 30px;"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="260" data-speed="400"
+                        data-start="1600" style="width: 30px;"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="310" data-speed="400"
+                        data-start="1800" style="width: 30px;"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="360" data-speed="400"
+                        data-start="2000" style="width: 30px;"></div>
+                    <div class="caption sfl wit-line horiz-line" data-x="0" data-y="410" data-speed="400"
+                        data-start="2200" style="width: 30px;"></div>
+
+                    <div class="tp-caption customin main-title tp-resizeme main-bg" data-x="center" data-hoffset="0"
+                        data-y="180" data-voffset="0"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="300" data-start="3000" data-easing="Power3.easeInOut" data-splitin="none"
+                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="1000"
+                        style="
+                    z-index: 18;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: nowrap;
+                    padding: 5px 10px;
+                    color: #fff;
+                  ">
+                        SO
+                    </div>
+                    <div class="caption sfl witTxt large-desc tp-resizeme" data-x="610" data-y="220"
+                        data-speed="400" data-start="3500" style="font-size: 17px; text-transform: uppercase;">
+                        Let's Get Started
+                    </div>
+                    <div class="caption customin customout text-title tp-resizeme" data-x="610" data-y="250"
+                        data-splitin="chars" data-elementdelay="0.05" data-start="3800" data-speed="600"
+                        data-easing="Back.easeOut"
+                        data-customin="x:350;y:200;z:0;rotationX:0;rotationY:0;rotationZ:-120;scaleX:8;scaleY:8;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:220% 190%;"
+                        data-splitout="" data-endelementdelay="0"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-end="90000" data-endspeed="1500" data-endeasing="Power3.easeInOut" data-captionhidden="on">
+                        Creative Design
+                    </div>
+
+                    <!-- Text Layer Responsive Properties -->
+                    <!-- <div
+                              class="tp-caption tp-resizeme largewhitebg"
+                              data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Linear"},
+                        {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Linear"}]'
+                              data-visibility="['on', 'on', 'on', 'on']"
+                              data-fontsize="['24', '24', '22', '18']"
+                              data-lineheight="['32', '32', '32', '24']"
+                              data-color="['#FFF', '#FFF', '#000', '#000']"
+                              data-textAlign="['inherit', 'inherit', 'right', 'center']"
+                              data-x="['center', 'center', 'right', 'center']"
+                              data-y="['middle', 'middle', 'top', 'bottom']"
+                              data-hoffset="['0', '0', '50', '0']"
+                              data-voffset="['0', '0', '50', '50']"
+                              data-width="['800', '800', '600', '400']"
+                              data-height="['auto', 'auto', 'auto', 'auto']"
+                              data-whitespace="['normal', 'normal', 'nowrap', 'normal']"
+                              data-paddingtop="[0, 0, 0, 0]"
+                              data-paddingright="[0, 0, 0, 0]"
+                              data-paddingbottom="[0, 0, 0, 0]"
+                              data-paddingleft="[0, 0, 0, 0]"
+                              data-basealign="slide"
+                              data-responsive_offset="off"
+                            >
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                              luctus felis porta dui rhoncus lobortis. In aliquet, arcu ut bibendum
+                              molestie, massa nisl varius nunc, non tempus mi dolor vitae eros
+                            </div> -->
+                </li>
+            </ul>
+        </div>
+    </div> --}}
+
 
     <!-- ********************End Bootstrap Carousel************ -->
     <!-- ********************Bootstrap Carousel************ -->
@@ -22,34 +588,63 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('images/carousel/banner4.jpg') }}" class="d-block w-100 img-fluid " alt="...">
+                <img src="{{ asset('images/carousel/banner4.jpg') }}" class="d-block w-100 img-fluid "
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
-                        <div class=" pendulum" id="pendulum1">
-                        </div>
-                        <div class=" pendulum" id="pendulum2"></div>
-                        <div class=" pendulum" id="pendulum3"></div>
-                        <h1 class=" animate__animated animate__fadeInLeft"
-                            style="animation-delay: 3s; text-transform: uppercase; font-size: 24px; color: #fff;left:10%;top:50%;position:absolute;animation-duration: 1s;">
-                            Grow Your Business With</h1>
+                        <div class="pendulum" data-x="0" data-y="0" data-speed="600"
+                        data-start="1600" id="pendulum1">
+                    </div>
 
-                        <div class="animate__animated animate__lightSpeedInLeft"
-                            style="color: #d32f68; font-size: 60px;
+                    {{-- <div class="pendulum" data-x="80" data-y="0" data-speed="600"
+                        data-start="2000" id="pendulum2">
+
+                    </div> --}}
+                    {{-- <div class="pendulum" data-x="160" data-y="0" data-speed="600"
+                        data-start="2400" id="pendulum3">
+
+                    </div> --}}
+
+                    <div class="caption " data-x="0" data-y="250" data-speed="600" data-start="2800"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="text-transform: uppercase; font-size: 28px; color: #fff;">
+                        Grow your Business with
+                    </div>
+                    <div class=" caption tp-resizeme" data-x="0" data-y="300" data-speed="600" data-start="3500"
+                        data-easing="Power4.easeOut" data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+                        data-endelementdelay="0.05" data-endspeed="300" data-endeasing="Power1.easeOut"
+                        style="color: #d32f68; font-size: 60px;
                         font-weight: 700;
-                        text-transform: uppercase;left:10%;top:55%;position:absolute;animation-delay: 4s;animation-duration: 2s;">
-                            pnr services
-                        </div>
-                        <div id="imgbox1" class="animate__animated animate__backInRight" style="left:50%;top:15%;position:absolute;animation-delay:4s;animation-duration: 2s;">
-                            <img alt="" src="{{ asset('img/aboutus/2.jpg') }}" />
-                        </div>
-                        <div id="imgbox1" class="animate__animated animate__backInRight" style="left:65%;top:35%;position:absolute;animation-delay:6s;animation-duration: 2s;">
-                            <img alt="" src="{{ asset('img/aboutus/5.jpg') }}" />
-                        </div>
+                        text-transform: uppercase;">
+                        pnr services
+                    </div>
+
+                    {{-- <div id="imgbox1" class="caption shadowed lfr ltt" data-y="100" data-x="520" data-speed="1800"
+                        data-start="4500" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/aboutus/2.jpg') }}" />
+                    </div> --}}
+                    {{-- <div id="imgbox2" class="caption lfb ltt" data-y="220" data-x="770" data-speed="2000"
+                        data-start="5000" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none"
+                        data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500"
+                        data-endeasing="Power4.easeIn">
+                        <img alt="" src="{{ asset('img/aboutus/5.jpg') }}" style="left:996px;" />
+                    </div> --}}
+
+                        <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
+                        </h5>
+                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                            turbogenerators</h1>
+                        <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">Some
+                            representative placeholder content for the first slide.</p>
+                        <a href="" class="carousel-btn btn animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
                     </div>
                 </div>
             </div>
-
-            {{-- <div class="carousel-item">
+            <div class="carousel-item">
                 <img src="{{ asset('img/services/compressor.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
@@ -59,6 +654,7 @@
                             &
                             engines
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -74,6 +670,7 @@
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             compressors
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -89,6 +686,7 @@
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             gearboxes
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -103,6 +701,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -117,6 +716,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">Pumps
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -131,14 +731,15 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">blowers
                         </h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
                     </div>
                 </div>
-            </div> --}}
+            </div>
 
-            {{-- <div class="carousel-item">
+            <div class="carousel-item">
                 <img src="{{ asset('img/services/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
@@ -147,6 +748,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat
                             exchangers</h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -161,6 +763,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             alignments</h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -175,6 +778,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             retrofits & upgrades</h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -189,6 +793,7 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             design & system studies</h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
@@ -203,12 +808,13 @@
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             trainings</h1>
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
                         <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
                             style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
 
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
 
     </div>
@@ -2295,58 +2901,236 @@
 @section('scripts')
     <script src="{{ asset('js/sample 2/jquery.themepunch.tools.min.js') }}"></script>
     <script src="{{ asset('js/sample 2/jquery.themepunch.revolution.min.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    {{--     
-    /**--------------------------------------------
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>  
+    {{-- /**--------------------------------------------
     * Particle Js
     *---------------------------------------------**/ --}}
     <script src="{{ asset('js/sample 2/particle.min.js') }}"></script>
-    <script src="{{ asset('js/sample 2/home_particle.js') }}"></script>
-    <script src="{{ asset('js/sample 2/move_circle.js') }}"></script>
+
     {{-- /*--------------- END OF Particle Js --------------*/ --}}
     <script>
-        // $('#myTab a').on('click', function(e) {
-        //     e.preventDefault()
-        //     $(this).tab('show')
-        // })
+        $('#myTab a').on('click', function(e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
     </script>
-
-
     <script>
-        // ********************* Carousel**************
+        let i = 2;
 
-        gsap.fromTo("#pendulum1", {
-            x: "100",
-            y: "-30",
-        }, {
-            x: "100",
-            y: "0",
-            duration: "1"
+        $(document).ready(function() {
+            move_circle();
+
+            setInterval(function() {
+                var dataTab = $(".itemDot.active").data("tab");
+                if (dataTab > 6 || i > 6) {
+                    dataTab = 1;
+                    i = 1;
+                }
+                $(".itemDot").removeClass("active");
+                $('[data-tab="' + i + '"]').addClass("active");
+                $(".CirItem").removeClass("active");
+                $(".CirItem" + i).addClass("active");
+                i++;
+
+                $(".dotCircle").css({
+                    transform: "rotate(" + (360 - (i - 2) * 36) + "deg)",
+                    transition: "2s",
+                });
+                $(".itemDot").css({
+                    transform: "rotate(" + (i - 2) * 36 + "deg)",
+                    transition: "1s",
+                });
+            }, 3000);
         });
-        gsap.fromTo("#pendulum2", {
-            x: "180",
-            y: "-90",
-            visibility: "hidden"
-        }, {
-            x: "180",
-            y: "-60",
-            visibility: "visible",
-            duration: "1",
-            delay: "1"
+
+
+        function move_circle() {
+            var radius = 200;
+            var fields = $(".itemDot");
+            var container = $(".round");
+            var width = container.width();
+            radius = width / 2;
+
+            var height = container.height();
+            var angle = 0,
+                step = (2 * Math.PI) / fields.length;
+
+            fields.each(function() {
+                var x = Math.round(
+                    width / 2 + radius * Math.cos(angle));
+                var y = Math.round(
+                    height / 2 + radius * Math.sin(angle));
+                if (window.console) {
+                    // console.log($(this).text(), x, y);
+                }
+
+                $(this).css({
+                    left: x + "px",
+                    top: y + "px",
+                });
+                angle += step;
+            });
+
+            $(".itemDot").click(function() {
+                var dataTab = $(this).data("tab");
+                $(".itemDot").removeClass("active");
+                $(this).addClass("active");
+                $(".CirItem").removeClass("active");
+                $(".CirItem" + dataTab).addClass("active");
+                i = dataTab;
+
+                $(".dotCircle").css({
+                    transform: "rotate(" + (360 - (i - 1) * 36) + "deg)",
+                    transition: "2s",
+                });
+                $(".itemDot").css({
+                    transform: "rotate(" + (i - 1) * 36 + "deg)",
+                    transition: "1s",
+                });
+            });
+        }
+        /**--------------------------------------------
+         *               Particle JS
+         *---------------------------------------------**/
+        // ParticlesJS Config.
+        particlesJS("particles-js", {
+            particles: {
+                number: {
+                    value: 50,
+                    density: {
+                        enable: true,
+                        value_area: 700,
+                    },
+                },
+                color: {
+                    value: "#ffffff",
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#000000",
+                    },
+                    polygon: {
+                        nb_sides: 5,
+                    },
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false,
+                    },
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 40,
+                        size_min: 0.1,
+                        sync: false,
+                    },
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1,
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200,
+                    },
+                },
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab",
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push",
+                    },
+                    resize: true,
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 1,
+                        },
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3,
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4,
+                    },
+                    push: {
+                        particles_nb: 4,
+                    },
+                    remove: {
+                        particles_nb: 2,
+                    },
+                },
+            },
+            retina_detect: true,
         });
-        gsap.fromTo("#pendulum3", {
-            x: "270",
-            y: "-250",
-            visibility: "hidden"
-        }, {
-            x: "270",
-            y: "-180",
-            visibility: "visible",
-            duration: "1",
-            delay: "2"
-        });
+
+        /*--------------- END OF SECTION --------------*/
+
+        // ********************* Carousel**************
+        if ($(".tp-banner").length > 0) {
+            $(".tp-banner")
+                .show()
+                .revolution({
+                    /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+                    responsiveLevels: [1240, 1024, 778, 480],
+
+                    delay: 6000,
+                    startheight: 510,
+                    startwidth: 1008,
+                    hideThumbs: 1000,
+                    navigationType: "none",
+                    touchenabled: "on",
+                    onHoverStop: "on",
+                    navOffsetHorizontal: 0,
+                    navOffsetVertical: 0,
+                    dottedOverlay: "none",
+                    fullWidth: "on",
+                    hideTimerBar: "on",
+                });
+        }
 
         // *********************End Carousel**************
+        gsap.set("#pendulum1", { transformPerspective: 500 });
+        gsap.from("#pendulum1", { x:0,y:0});
+        gsap.to("#pendulum1", { duration: 20,
+  rotation: 360,
+  transformOrigin: "left top",});
+        // gsap.to("#pendulum1", { scaleY:2,duration: 10 });
     </script>
 @endsection
 @endsection
