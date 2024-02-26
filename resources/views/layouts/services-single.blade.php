@@ -3,8 +3,8 @@
     About Us-PNR Services
 @endsection
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('css/section-divider.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/services.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/section-divider.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/services.css') }}">
 
     {{-- <link rel="stylesheet" href="{{ asset('css/temp.css') }}"> --}}
 @endsection
@@ -26,14 +26,10 @@
         <h1 id="serviceName">@yield('serviceName')</h1>
     </section>
     <section >
-       
-        <div class="container-fluid single-service mt-5 pt-5">
-
+        <div class="container-fluid  mt-5 pt-5" id="single-service">
             <div class="row ">
-              
-                <div class="col-12 col-sm-9 ">
-                  
-                    <section id="@yield('service-id')" class="mainSection">
+                <div class="col-12 col-md-9 ">
+                     <section id="@yield('service-id')" class="mainSection">
                         <div class="container-fluid container-lg">
                             @yield('mainContent')
                         </div>
@@ -179,7 +175,7 @@
                     {{-- ****************************End OEM************************* --}}
 
                 </div>
-                <div class="col-12 col-sm-3 rightsidebar">
+                <div class="col-12 col-md-3 rightsidebar">
                     <div class="container">
                         <div class="row widget serviceListBox">
                             <div class="col-12">
@@ -229,7 +225,8 @@
                                     <li><a href="">Relay & Control Panels</a></li>
                                     <li><a href="">Switchgears</a></li>
                                     <li><a href="">PMS</a></li>
-                                    <li><a href="">Power Transformers</a></li>
+                                    <li><a href="">MV Motors</a></li>
+                                    {{-- <li><a href="">Power Transformers</a></li> --}}
                                     @yield('supply-list')
 
                                 </ul>

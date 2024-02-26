@@ -49,15 +49,15 @@
 /* ***************End Top Header*****************/
 
 /* * //////////////Right Side Bar- Service List//////////////////////  */
-.single-service .rightsidebar .serviceListBox .serviceList ,
-.single-service .rightsidebar .supplyListBox .supplyList ,
-.single-service .rightsidebar .brochureListBox .brochureList{
+#single-service .rightsidebar .serviceListBox .serviceList ,
+#single-service .rightsidebar .supplyListBox .supplyList ,
+#single-service .rightsidebar .brochureListBox .brochureList{
 padding: 0;
 margin: 0;
 }
-.single-service .rightsidebar .serviceListBox .serviceList li,
-.single-service .rightsidebar .supplyListBox .supplyList li,
-.single-service .rightsidebar .brochureListBox .brochureList li {
+#single-service .rightsidebar .serviceListBox .serviceList li,
+#single-service .rightsidebar .supplyListBox .supplyList li,
+#single-service .rightsidebar .brochureListBox .brochureList li {
     border: .1rem solid grey;
     border-left: .1rem solid var(--color-primary);
     margin-bottom: .3rem;
@@ -69,9 +69,9 @@ margin: 0;
         width: 102%;
     }
 }
-.single-service .rightsidebar .serviceListBox .serviceList li a,
-.single-service .rightsidebar .supplyListBox .supplyList li a,
-.single-service .rightsidebar .brochureListBox .brochureList li a {
+#single-service .rightsidebar .serviceListBox .serviceList li a,
+#single-service .rightsidebar .supplyListBox .supplyList li a,
+#single-service .rightsidebar .brochureListBox .brochureList li a {
     display: block;
     padding: .4rem 1.2rem;
     /* font-size: 1.6rem; */
@@ -87,7 +87,7 @@ margin: 0;
         }
     }
   }
-.single-service .rightsidebar .serviceListBox .serviceList li a:after,.single-service .rightsidebar .supplyListBox .supplyList li a:after {
+#single-service .rightsidebar .serviceListBox .serviceList li a:after,#single-service .rightsidebar .supplyListBox .supplyList li a:after {
     content: "\f105"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     color: var(--color-secondary);
@@ -97,8 +97,8 @@ margin: 0;
     z-index: 200;
 }
 
-.single-service .rightsidebar .serviceListBox .serviceList li:before,.single-service .rightsidebar .supplyListBox .supplyList li:before,
-.single-service .rightsidebar .brochureListBox .brochureList li:before {
+#single-service .rightsidebar .serviceListBox .serviceList li:before,#single-service .rightsidebar .supplyListBox .supplyList li:before,
+#single-service .rightsidebar .brochureListBox .brochureList li:before {
     content: "";
     position: absolute;
     top: -.1rem;
@@ -115,16 +115,16 @@ margin: 0;
 
 /* //////////////Right Side Bar- Contact List////////////////////// */
 
-.single-service .rightsidebar{
+#single-service .rightsidebar{
     background-color:#f5f5f530;
    
 }
-.single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-icon{
+#single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-icon{
     vertical-align: top;
     text-align: center;
     padding-right: 2.0rem;
   }
-  .single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-text{
+  #single-service .rightsidebar .contactListBox .sidebar-contact-container .contact-list-item .contact-text{
       
     /* color: #6c757d; */
     padding-bottom: 1.5rem!important;
@@ -135,7 +135,7 @@ margin: 0;
   line-height: 2.4rem;
   }
 
-  .single-service .rightsidebar .contactListBox .call-us-container{
+  #single-service .rightsidebar .contactListBox .call-us-container{
         
     margin-top: 2.0rem;
      background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/callusbg.jpg');
@@ -143,7 +143,7 @@ margin: 0;
       position: relative;
     background-size:100% 100%;
  }
- .single-service .rightsidebar .contactListBox .call-us-container .content{
+ #single-service .rightsidebar .contactListBox .call-us-container .content{
     padding:1.5rem 1.0rem;
     /* font-family: var(--font-family-sourcesans); */
     display: flex;
@@ -152,14 +152,14 @@ margin: 0;
     flex-direction: column;
     color:#fff;
 }
-.single-service .rightsidebar .contactListBox .call-us-container .content .textbox{
+#single-service .rightsidebar .contactListBox .call-us-container .content .textbox{
     font-size: 2.2rem;
     line-height: 3.6rem;
     font-weight: 700;
    
     padding: 1.0rem;
 }
-.single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox{
+#single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox{
     display: flex;
      align-items: center;
      justify-content: center;
@@ -171,7 +171,7 @@ margin: 0;
      position: relative;
      width: 90%;
  }
- .single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox .contactIcon {
+ #single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox .contactIcon {
      
     position: absolute;
     /* top: -2.2rem; */
@@ -194,7 +194,7 @@ margin: 0;
 
  }
 
- .single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox .contactNo{
+ #single-service .rightsidebar .contactListBox .call-us-container .content .contactNoBox .contactNo{
     /* font-size: 2.0rem; */
     /* line-height: 2.8rem; */
     /* padding-top: 2.0rem;
@@ -207,3 +207,30 @@ margin: 0;
 
 /* //////////////End Right Side Bar- Contact List////////////////////// */
 
+
+/* * //////////////Main Content//////////////////////  */
+#single-service article{
+    padding-bottom:var(--header-top-padding);   
+    
+}
+#single-service .article-section{
+    padding: 0 2.5rem;
+
+}
+#single-service .figure-section{
+    padding:var(--header-top-padding) 2.3rem 0 2.5rem;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+    & .image-box{
+        width:100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img{
+            width:100%;
+            height:auto;
+        }
+    }
+}

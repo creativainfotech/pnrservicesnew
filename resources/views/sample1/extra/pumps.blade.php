@@ -8,8 +8,7 @@
     {{-- ************************Top Header ********************** --}}
 @section('topHeader')
 
-    {{-- <div class="top-header" style="background-image:linear-gradient(to right,rgba(48,102,112,1),rgba(48,102,112,0.6)),url('../img/services/pumps.jpg');"></div> --}}
-
+    
 @endsection
 <!-- ========== Start Back ground image name of top header Section ========== -->
 @section('bg-image')
@@ -41,30 +40,33 @@
 @section('mainContent')
 
     <article class="row">
-        <div class="col-12 col-lg-5 section-col-top-padding">
-            <div class="row g-2">
-                <div class="col-12 col-sm-6">
-                    <div class="image-box">
-                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <div class="image-box">
-                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
-                    </div>
-                </div>
+        <div class="col-12 col-lg-5 section-col-top-padding figure-section">
+            <div class="image-box">
+                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
             </div>
-            <div class="row pt-3">
+            {{-- <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="image-box">
+                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="image-box">
+                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                    </div>
+                </div>
+            </div> --}}
+            {{-- <div class="row pt-3">
                 <div class="col-12">
                     <div class="image-box">
                         <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 
         </div>
-        <div class="col-12 col-lg-7 ">
+        <div class="col-12 col-lg-7 article-section">
             <header>
                 <div class="subtitle">CENTRIFUGAL PUMPS</div>
             </header>
@@ -81,7 +83,7 @@
         </div>
     </article>
     <article class="row bg-light">
-        <div class="col-12 col-lg-7 ">
+        <div class="col-12 col-lg-7 article-section">
             <header>
                 <div class="subtitle"> RECIPROCATING PUMPS</div>
             </header>
@@ -91,26 +93,29 @@
 
             </p>
         </div>
-        <div class="col-12 col-lg-5 section-col-top-padding">
-            <div class="row g-2">
+        <div class="col-12 col-lg-5 section-col-top-padding figure-section">
+            <div class="image-box">
+                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+            </div>
+            {{-- <div class="row ">
+                <div class="col-12 col-sm-6 ">
+                    <div class="image-box">
+                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                    </div>
+                </div>
                 <div class="col-12 col-sm-6">
                     <div class="image-box">
                         <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
                     </div>
                 </div>
-                <div class="col-12 col-sm-6">
+            </div> --}}
+            {{-- <div class="row pt-3">
+                <div class="col-12  " >
                     <div class="image-box">
                         <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
                     </div>
                 </div>
-            </div>
-            <div class="row pt-3">
-                <div class="col-12">
-                    <div class="image-box">
-                        <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
-                    </div>
-                </div>
-            </div>
+            </div> --}}
 
 
         </div>

@@ -14,28 +14,110 @@ use Illuminate\Auth\Console;
 |
 */
 
+/**--------------------------------------------
+ *               Sample 1 Routes
+ *---------------------------------------------**/
+
 Route::get('/', function () {
-      return view('front.index');
+    return view('sample2.index');
 })->name('index');
 
+// *************sample 1************
+Route::get('/sample1', function () {
+
+    return view('sample1.index');
+});
 Route::get('/home', function () {
- 
+
     return view('welcome');
 });
 Route::get('/about-us', function () {
-    return view('front.aboutus');
+    return view('sample1.aboutus');
 })->name('aboutus');
 Route::get('/contact', function () {
-    return view('front.contact');
+    return view('sample1.contact');
 })->name('contact');
 Route::get('/contactgegrid', function () {
-    return view('front.contact_gegrid');
+    return view('sample1.contact_gegrid');
 })->name('contactgegrid');
-Route::post('/send-mail',[MailController::class, 'index'])->name('contactmail');
+Route::post('/send-mail', [MailController::class, 'index'])->name('contactmail');
 
+/**--------------------------------------------
+ ******************Services Route************
+ *---------------------------------------------**/
+
+Route::get('/turbogenerator', function () {
+    return view('sample1.services.turbogenerator');
+})->name('turbogenerator');
+Route::get('/turbine', function () {
+    return view('sample1.services.turbine');
+})->name('turbine');
+Route::get('/compressor', function () {
+    return view('sample1.services.compressor');
+})->name('compressor');
+Route::get('/gearbox', function () {
+    return view('sample1.services.gearbox');
+})->name('gearbox');
+Route::get('/valve', function () {
+    return view('sample1.services.valve');
+})->name('valve');
 Route::get('/pumps', function () {
-    return view('front.pumps');
+    return view('sample1.services.pumps');
 })->name('pumps');
+Route::get('/blower', function () {
+    return view('sample1.services.blower');
+})->name('blower');
+Route::get('/heat-Exchanger', function () {
+    return view('sample1.services.heatExchanger');
+})->name('heatExchanger');
+Route::get('/alignment', function () {
+    return view('sample1.services.alignment');
+})->name('alignment');
+Route::get('/retrofit-upgrade', function () {
+    return view('sample1.services.retrofitUpgrade');
+})->name('retrofitUpgrade');
+Route::get('/design-system-study', function () {
+    return view('sample1.services.designSystemStudy');
+})->name('designSystemStudy');
+Route::get('/training', function () {
+    return view('sample1.services.training');
+})->name('training');
+
+
+
+/*---------------------------- END OF SECTION ----------------------------*/
+
+
+/**--------------------------------------------
+ *               Supply Route
+ *---------------------------------------------**/
+
+ Route::get('/parts', function () {
+    return view('sample1.supply.parts');
+})->name('parts');
+Route::get('/tools-equipments', function () {
+    return view('sample1.supply.toolsEquipments');
+})->name('toolsEquipments');
+Route::get('/relay-control-panels', function () {
+    return view('sample1.supply.relayControlPanels');
+})->name('relayControlPanels');
+Route::get('/switchgears', function () {
+    return view('sample1.supply.switchgears');
+})->name('switchgears');
+Route::get('/power-management-system', function () {
+    return view('sample1.supply.PMS');
+})->name('PMS');
+Route::get('/mv-motors', function () {
+    return view('sample1.supply.mvMotors');
+})->name('mvMotors');
+// Route::get('/power-transformers', function () {
+//     return view('sample1.powerTransformers');
+// })->name('power-ransformers');
+
+
+/*--------------- END OF SECTION --------------*/
+
+/*--------------- END OF SAMPLE 1 ROUTES --------------*/
 
 
 
@@ -53,3 +135,14 @@ Route::get('/cleareverything', function () {
     $cleardebugbar = Artisan::call('optimize');
     echo "Optimized<br>";
 });
+
+
+/**--------------------------------------------
+ *               SAMPLE 2 ROUTES
+ *---------------------------------------------**/
+
+
+
+
+
+/*--------------- END OF SAMPLE 2 ROUTES --------------*/
