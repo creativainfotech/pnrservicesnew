@@ -4,7 +4,7 @@
     --round-radius:  calc(100% - 5.0rem);
 }
 .iq-features{
-    width: calc(90%);
+    width: calc(80%);
     aspect-ratio: 1;
 }
 .holderCircle {
@@ -35,7 +35,7 @@
     border-radius: 100%;
     color: #222222;
     position: relative;
-    top: 15.0rem;
+    top: 10.0rem;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -243,7 +243,9 @@
   letter-spacing: .2rem;
   position: relative;
   z-index: -1;
-}
+
+margin-bottom: 1rem;
+;}
 .title-box span {
   text-shadow: 0 1.0rem 1.0rem rgba(0, 0, 0, 0.15);
   font-weight: 800;
@@ -251,6 +253,7 @@
 }
 .title-box p {
   font-size: 1.7rem;
-  line-height: 2em;
+  line-height: 1.5em;
+  text-align: center;
 }
 

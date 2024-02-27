@@ -1,4 +1,3 @@
-
 <!-- ==========Sample 1 Template ========== -->
 
 <!doctype html>
@@ -7,6 +6,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon/favicon-32x32.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon/favicon-16x16.png')}}">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -21,7 +22,7 @@
     {{-- <link rel="stylesheet" href="{{ asset('css/commonFront.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('css/sample1/common.css') }}">
     <link rel="stylesheet" href="{{ asset('css/sample1/header.css') }}">
-   
+    <link rel="stylesheet" href="{{ asset('css/sample1/footer.css') }}">
     {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
 
     {{-- <link rel="stylesheet" href="{{ asset('css/megamenu.css') }}"> --}}
@@ -41,47 +42,6 @@
 
 
     <header>
-        {{-- <div id="topHeader" class="">
-            <div class="container d-flex justify-content-between flex-column flex-lg-row">
-                <div id="leftNav" class="d-flex justify-content-around flex-grow-1 flex-column flex-md-row">
-                    <div class="nav-item py-lg-1 py-2"><i class="bi bi-envelope"></i>sales@pnr.services</div>
-                    <div class="nav-item py-lg-1 py-2"><i class="bi bi-telephone"></i>+971556985010,
-                        +33678700601
-                        </div>
-                    <div class="nav-item py-lg-1 py-2"><i class="bi bi-geo-alt"></i> AI Shohada Road, AI Hamara
-                        Industrial Zone-FZ, Ras AI
-                        Khaimah, United Arab Emirates</div>
-
-                </div>
-                <div class="flex-grow-1"></div>
-                <div id="rightNav" class="d-flex justify-content-around flex-grow-1 py-lg-1 py-2">
-                    <div class="nav-item "><a href="#"><i class="bi bi-facebook"></i></a></div>
-                    <div class="nav-item"><a href="#"><i class="bi bi-instagram"></i></a></div>
-                    <div class="nav-item"><a href="#"><i class="bi bi-twitter"></i></a></div>
-                </div>
-            </div>
-        </div> --}}
-
-        {{-- <style>
-  #logoheader{
-    background-color: #306770;
-  }
-  .logoheadergreen{
-    /* background-color: #41897C; */
-    background-color: #3E54FF;
-  }
-  
-</style> --}}
-        {{-- <div class="container-fluid w-100" id="logoheader" >
-  <img src="{{ asset('images/logo/customcolor/full/customcolor_logo_customcolor_background.png') }}" alt="" srcset="" width="250">
-  <img src="{{ asset('images/logo/customcolor/full/customcolor_logo_transparent_background.png') }}" alt="" srcset="" width="200">
-                      
-</div> --}}
-        {{-- <div class="container-fluid w-100 logoheadergreen" >
-  <img src="{{ asset('images/logo/color1/full/color1_logo_transparent_background.png') }}" alt="" srcset="" width="200">
-  <img src="{{ asset('images/logo/customcolor/full/customcolor_logo_transparent_background.png') }}" alt="" srcset="" width="200">
-                     
-</div> --}}
         <div id="navHeader">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
 
@@ -101,7 +61,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-lg-end justify-content-center" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
@@ -119,20 +79,23 @@
                                     <div class="container-md container-fluid">
                                         <div class="row ">
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('turbogenerator')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('turbogenerator') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/turbogenerators.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/services/turbogenerator/turbogenerators.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Turbogenerator</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>
-                                           
+
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('turbine')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('turbine') }}" target="_blank" class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Turbine</figcaption>
@@ -140,9 +103,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('compressor')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('compressor') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div> <img src="{{ asset('img/services/compressor.jpg') }}"
+                                                        <div> <img
+                                                                src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail ">
                                                         </div>
                                                         <figcaption>Compressor</figcaption>
@@ -150,9 +115,9 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('gearbox')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('gearbox') }}" target="_blank" class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/gearbox.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/gearbox/gearbox.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Gearbox</figcaption>
@@ -160,9 +125,9 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('valve')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('valve') }}" target="_blank" class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/valve1.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/valve/valve1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Valve</figcaption>
@@ -171,9 +136,10 @@
                                             </div>
 
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{ route('pumps') }}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('pumps') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/pumps.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/pumps/pumps.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Pump</figcaption>
@@ -182,9 +148,10 @@
                                             </div>
 
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('blower')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('blower') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/blowers.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/blower/blowers.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Blower</figcaption>
@@ -192,9 +159,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('heatExchanger')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('heatExchanger') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/heat-exchanger.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Heat Exchanger</figcaption>
@@ -202,9 +171,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('alignment')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('alignment') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/services/alignment/alignment.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Alignment</figcaption>
@@ -212,9 +183,10 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('retrofitUpgrade')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('retrofitUpgrade') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Retrofit & Upgrade</figcaption>
@@ -222,9 +194,10 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('designSystemStudy')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('designSystemStudy') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                        <div><img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Design & System Studies</figcaption>
@@ -232,9 +205,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-2 mega-menu-item-container ">
-                                                <a href="{{route('training')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('training') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/services/training/Trainings-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Training</figcaption>
@@ -256,10 +231,10 @@
                                     <div class="container-md container-fluid">
                                         <div class="row ">
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{route('parts')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('parts') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img
-                                                                src="{{ asset('img/services/turbogenerators.jpg') }}"
+                                                        <div><img src="{{ asset('img/supply/parts/parts1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Parts</figcaption>
@@ -267,9 +242,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{route('toolsEquipments')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('toolsEquipments') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Tools & Equipments</figcaption>
@@ -277,9 +254,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{route('relayControlPanels')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('relayControlPanels') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Relay & Control Panels</figcaption>
@@ -287,9 +266,11 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{route('switchgears')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('switchgears') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/gearbox.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/supply/switchgear/Switchgear-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>Switchgears</figcaption>
@@ -297,10 +278,10 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{route('PMS')}}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('PMS') }}" target="_blank" class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/valve1.jpg') }}"
-                                                                alt="" srcset="" class="img-thumbnail">
+                                                        <div><img src="{{ asset('img/supply') }}" alt=""
+                                                                srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>PMS</figcaption>
                                                     </figure>
@@ -308,9 +289,11 @@
                                             </div>
 
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{ route('mvMotors') }}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('mvMotors') }}" target="_blank"
+                                                    class="dropdown-item">
                                                     <figure>
-                                                        <div><img src="{{ asset('img/services/pumps.jpg') }}"
+                                                        <div><img
+                                                                src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
                                                         <figcaption>MV Motors</figcaption>
@@ -331,7 +314,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Our Team</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
                             <li class="nav-item ms-md-5">
                                 <a class="btn buttonStyleSecondary ms-md-3" aria-current="page"
                                     href="{{ route('contact') }}">Get A Quote</a>
@@ -342,140 +327,7 @@
 
                 </div>
             </nav>
-            {{-- <nav class="navbar navbar-expand-md navbar-dark sticky-top">
 
-                <div class="container-fluid px-5">
-                    <div id="logo" class="d-flex justify-content-start">
-
-                        <a class="" href="#">
-                            <img src="{{ asset('images/logo/base/icon/base_icon_transparent_background.png') }}"
-                                alt="" id="icon">
-                            <img src="{{ asset('images/logo/base/text/base_textlogo_transparent_background.png') }}"
-                                alt="" id="logotext">
-                        </a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="col-12lapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Home</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
-                                </a>
-                                <div class="dropdown-menu "id="mega-dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="container">
-                                        <div class="row ">
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank" class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/turbogenerators.jpg') }}"
-                                                            alt="" srcset="" class="img-thumbnail">
-                                                        </div><figcaption>Turbogenerator</figcaption>
-                                                </a></div>
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/compressor.jpg') }}"
-                                                            alt="" srcset="" class="img-thumbnail">
-                                                        <figcaption>compressor</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/gearbox.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
-                                                        <figcaption>Gearbox</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/valve1.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
-                                                        <figcaption>Valve</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/pumps.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
-                                                        <figcaption>Pumps</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                           
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/blowers.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
-                                                        <figcaption>Blowers</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/heat-exchanger.jpg') }}"
-                                                            alt="" srcset="" class="img-thumbnail">
-                                                        <figcaption>Heat Exchanger</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="col col-sm-6 col-md-3"> 
-                                                <a href="http://" target="_blank"
-                                                    class="dropdown-item">
-                                                    <figure>
-                                                        <img src="{{ asset('img/services/alignment.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
-                                                        <figcaption>Alignment</figcaption>
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Team</a>
-                            </li>
-
-
-
-                            <li class="nav-item ms-5">
-                                <a class="btn buttonStyleSecondary ms-3" aria-current="page"
-                                    href="{{ route('contact') }}">Get A Quote</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </nav> --}}
 
         </div>
     </header>
@@ -697,7 +549,182 @@
             </div>
         </div>
     </footer> --}}
+    <footer class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-sm-4 ">
+                    <h2 class="footer-header">
+                        Services
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                   
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-5">
+                            <ul>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('turbogenerator') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Turbogenerator</a>
 
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('turbine') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Turbine</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('compressor') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Compressor</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('gearbox') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Gearbox</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('valve') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Valve</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('pumps') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Pump</a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-7">
+                            <ul>
+
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('blower') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Blower</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('heatExchanger') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Heat Exchanger</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('alignment') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Alignment</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('retrofitUpgrade') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Retrofit & Upgrade</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('designSystemStudy') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Design & System Studies</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('training') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Training</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-3">
+                    <h2 class="footer-header">
+                         Supplies
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                    <ul>
+
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('parts') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Parts</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('toolsEquipments') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Tools & Equipments</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('relayControlPanels') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Relay & Control Panels</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('switchgears') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Switchgears</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('PMS') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>PMS</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('mvMotors') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>MV Motors</a>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <h2 class="footer-header">
+                        Contact Us
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                    <ul>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('parts') }}" target="_blank">
+                                <i class="fas fa-phone"></i>+971556985010, +33678700601</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('toolsEquipments') }}" target="_blank"><i
+                                    class="fas fa-envelope"></i>sales@pnr.services</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('relayControlPanels') }}" target="_blank"><i
+                                    class="fas fa-globe"></i>www.pnr.services</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('switchgears') }}" target="_blank"><i
+                                    class="fas fa-map-marker"></i>AI Shohada Road, AI Hamara Industrial Zone-FZ, Ras AI Khaimah, United Arab Emirates</a>
+
+                        </li>
+                        
+
+                    </ul>
+                   
+                </div>
+                <div class="col-12 col-sm-2 d-flex justify-center align-items-center ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.189774836094!2d55.783717874458425!3d25.6650031125958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60bee567a253b%3A0x80fd444807765d7!2sRAKEZ%20Compass%20Coworking!5e0!3m2!1sen!2sin!4v1709041557373!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center bg-dark text-white mt-5 p-1 ">
+            <p class="mb-0 text-center">2024 © Creativa Infotech, All Rights Reserved</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
@@ -709,36 +736,34 @@
 
     <script>
         $(document).ready(function() {
-            $("#oem.owl-carousel").owlCarousel(
-                {        
+            $("#oem.owl-carousel").owlCarousel({
 
-                    loop: true,
-                    margin:10,                  
-                    autoplay: true,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    nav:false,
-                    dots:false,
-                    // autoheight:true,
-                    // center:true,
-                    // autoWidth:true,
-    items:6,
-                    // responsive: {
-                    //     0: {
-                    //         items: 1
-                    //     },
-                    //     600: {
-                    //         items: 3
-                    //     },
-                    //     1000: {
-                    //         items: 5
-                    //     }
-                    // }
-                    // // items:2,
-                   
-                   
-                }
-            );
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: false,
+                dots: false,
+                // autoheight:true,
+                // center:true,
+                // autoWidth:true,
+                items: 6,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     600: {
+                //         items: 3
+                //     },
+                //     1000: {
+                //         items: 5
+                //     }
+                // }
+                // // items:2,
+
+
+            });
         });
     </script>
     @yield('scripts')

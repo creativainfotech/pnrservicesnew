@@ -19,13 +19,13 @@ use Illuminate\Auth\Console;
  *---------------------------------------------**/
 
 Route::get('/', function () {
-    return view('sample2.index');
+    return view('sample1.index');
 })->name('index');
 
 // *************sample 1************
-Route::get('/sample1', function () {
+Route::get('/sample2', function () {
 
-    return view('sample1.index');
+    return view('sample2.index');
 });
 Route::get('/home', function () {
 
@@ -43,7 +43,7 @@ Route::get('/contactgegrid', function () {
 Route::post('/send-mail', [MailController::class, 'index'])->name('contactmail');
 
 /**--------------------------------------------
- ******************Services Route************
+ ******************Services Route for Sample 2************
  *---------------------------------------------**/
 
 Route::get('/turbogenerator', function () {
@@ -78,7 +78,7 @@ Route::get('/retrofit-upgrade', function () {
 })->name('retrofitUpgrade');
 Route::get('/design-system-study', function () {
     return view('sample1.services.designSystemStudy');
-})->name('designSystemStudy');
+})->name('');
 Route::get('/training', function () {
     return view('sample1.services.training');
 })->name('training');

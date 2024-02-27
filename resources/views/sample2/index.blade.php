@@ -3,10 +3,10 @@
     Home-PNR Services
 @endsection
 @section('styles')
-    {{-- <link rel="stylesheet" href="{{ asset('css/sample1/home-carousel.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/sample1/square-moving-background.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/sample1/rotating-circle.css') }}"> --}}
-    <link rel="stylesheet" href="{{ asset('css/sample2/theme-punch-settings.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample2/home_carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample2/square-moving-background.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/rotating-circle.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/sample2/theme-punch-settings.min.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('css/sample2/home.css') }}">
 @endsection
 
@@ -315,7 +315,7 @@
                 {{-- Right section --}}
                 <div class="col-12 col-lg-7 ">
                     <header>
-                        <div class="subtitle">Welcome To pNR Services</div>
+                        <div class="subtitle">Welcome To PNR Services</div>
                         <div class="sectionTitle">We offers OEM experienced technical specialists to power generation
                             companies, oil & gas, fertilizers, cement industries.
                         </div>
@@ -605,7 +605,7 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
@@ -687,7 +687,7 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/alignment.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/alignment/alignment.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">
@@ -716,7 +716,7 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">

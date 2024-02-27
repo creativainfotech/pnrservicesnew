@@ -12,7 +12,7 @@
 @endsection
 <!-- ========== Start Back ground image name of top header Section ========== -->
 @section('bg-image')
-    'img/services/pumps.jpg'
+    'img/services/pumps/pumps.jpg'
 @endsection
 <!-- ========== End Back ground image of top header Section ========== -->
 <!-- ========== Start Service Name Section ========== -->
@@ -42,7 +42,7 @@
     <article class="row">
         <div class="col-12 col-lg-5 section-col-top-padding figure-section">
             <div class="image-box">
-                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                <img src="{{ asset('img/services/pumps/pumps.jpg') }}" alt="" srcset="" class="">
             </div>
             {{-- <div class="row">
                 <div class="col-12 col-sm-6">
@@ -95,7 +95,7 @@
         </div>
         <div class="col-12 col-lg-5 section-col-top-padding figure-section">
             <div class="image-box">
-                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                <img src="{{ asset('img/services/pumps/pumps.jpg') }}" alt="" srcset="" class="">
             </div>
             {{-- <div class="row ">
                 <div class="col-12 col-sm-6 ">

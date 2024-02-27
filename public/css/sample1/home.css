@@ -229,9 +229,9 @@ background-size: cover; */
     position: absolute;
     left: 0;
     bottom: 1.2rem;
-    /* width:100%; */
+    width:100%;
     transition: all 0.7s ease-in-out;
-    width: 18.5rem;
+    max-width: 18.5rem;
     height: 20.2rem;
 }
 
@@ -337,3 +337,22 @@ background-size: cover; */
 /* *********************Endhome_call_to_action***************** */
 
 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+  
+/**--------------------------------------------
+ *               Home- Highlighted Box 
+ *---------------------------------------------**/
+ .highlighted-box {
+    & .content {
+    font-size: 2.5rem;
+    }
+    & .focused-content {
+        font-size: 3.2rem !important;
+       
+    }
+}
+/*--------------- END OF Home- Highlighted Box --------------*/
+
+
+  }

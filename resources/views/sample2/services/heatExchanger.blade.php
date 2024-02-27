@@ -1,6 +1,6 @@
 @extends('layouts.services-single')
 @section('title')
-    Pumps-PNR Services
+    Heat Exchanger-PNR Services
 @endsection
 
 @section('mainSection')
@@ -12,12 +12,12 @@
 @endsection
 <!-- ========== Start Back ground image name of top header Section ========== -->
 @section('bg-image')
-    'img/services/pumps.jpg'
+    'img/services/heat-exchanger/heat-exchanger.jpg'
 @endsection
 <!-- ========== End Back ground image of top header Section ========== -->
 <!-- ========== Start Service Name Section ========== -->
 @section('serviceName')
-    PUMPS
+    HEAT EXCHANGER
 @endsection
 <!-- ========== End Service Name Section ========== -->
 
@@ -33,7 +33,7 @@
 {{-- ************************End Top Header Image********************** --}}
 
 @section('service-id')
-    services-pumps
+    services-heat-exchanger
 @endsection
 
 
@@ -42,7 +42,7 @@
     <article class="row">
         <div class="col-12 col-lg-5 section-col-top-padding figure-section">
             <div class="image-box">
-                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" alt="" srcset="" class="">
             </div>
             {{-- <div class="row">
                 <div class="col-12 col-sm-6">
@@ -68,34 +68,28 @@
         </div>
         <div class="col-12 col-lg-7 article-section">
             <header>
-                <div class="subtitle">CENTRIFUGAL PUMPS</div>
+                <div class="subtitle">SHEL AND TUBE HEAT EXCHANGERS</div>
             </header>
-            <p style="text-align: justify;">Major overhauling of <strong>Centrifugal Pumps.</strong> Centrifugal,
-                Vertical Mixed Flow, Vacuum pumps, Chemical Feeds, etc.
-                Cryogenic Duty vertical centrifugal multistage pumps. Mechanical Seals (Single, Double and Tandem)
-                Disassembly/assembly, workshop checks, refurbishment , testing and installation.
-            </p>
-            <ul class="listbox">
+            <p style="text-align: justify;">Shell and Tube heat exchangers hydrotests, Bundle tests,Bundle replacement and tubes blinding and repairs of all type of I-Type,U-Types exchangers. Installations of exchangers with Hydro jetting services of world’s leading shell and tube heat exchanger OEM’s. </p>
+            {{-- <ul class="listbox">
                 <li class="list-item">Boiler Feed Water Pumps (Multistage centrifugal pumps)</li>
                 <li class="list-item">Ammine Circulation Pumps for Co2 Removal</li>
                 <li class="list-item">Cooling Tower Centrifugal Pumps</li>
-            </ul>
+            </ul> --}}
         </div>
     </article>
     <article class="row bg-light">
         <div class="col-12 col-lg-7 article-section">
             <header>
-                <div class="subtitle"> RECIPROCATING PUMPS</div>
+                <div class="subtitle">PLATE TYPE HEAT EXCHANGERS</div>
             </header>
-            <p style="text-align: justify;">Major overhaul of Reciprocating, Horizontal duplex, triplex, quintuplex
-                and septuplex reciprocating power pumps, designed according to API 674 standards double-acting
-                pumps.
+            <p style="text-align: justify;">Gas turbines, Steam Turbines and generators oil cooling systems for the gasketed, brazed, welded, and semi-welded exchangers complete maintenance .
 
             </p>
         </div>
         <div class="col-12 col-lg-5 section-col-top-padding figure-section">
             <div class="image-box">
-                <img src="{{ url('/img/aboutus/5.jpg') }}" alt="" srcset="" class="">
+                <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" alt="" srcset="" class="">
             </div>
             {{-- <div class="row ">
                 <div class="col-12 col-sm-6 ">

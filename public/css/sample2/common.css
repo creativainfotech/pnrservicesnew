@@ -1,14 +1,19 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); 
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:wght@500;700&family=Poppins:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:wght@500;700&family=Poppins:wght@500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
 
     --font-family-roboto: "Roboto", sans-serif;
+    --font-family-poppins: "Poppins", sans-serif;
+    --font-family-lora: "Lora", serif;
 
     /* color */
-    --color-text:#2c3840;
+    --color-text:rgb(44, 56, 64);
     --color-primary: #306770;
     --color-secondary: #cfb234;
+    --color-centerHeading:rgb(31, 39, 50);
+    --header-top-padding:6rem;
     /*
    
     --color-title: #333333;
@@ -57,6 +62,7 @@ body {
      font-weight: 400;
   color: var(--color-text);
   font-size: 1.6rem;
+  line-height: 3.2rem;
     
 }
 
@@ -112,7 +118,7 @@ body {
 } */
 /* **********************End Button Style**************************** */
 /* ********************Line*************** */
-/* .line {
+.line {
     width: 6rem;
     height: .5rem;
     background-color: var(--color-primary);
@@ -125,18 +131,31 @@ body {
 .double-line .line {
    border-radius: 1rem;
      
-} */
+}
 /* ********************End Line*************** */
-/* .mainSection {
+.mainSection {
      padding-bottom:6rem ;
-} */
+}
 /* **************Section Header ********************** */
-
-/* .mainSection header{
+.mainSection header{
     padding-top: var(--header-top-padding);
     padding-bottom: .5rem;
 }
-header .subtitle {
+
+/* Section Heading */
+
+header .sectionTitle {
+    
+    line-height: 4rem;
+    font-weight: 700;
+    color: var(--color-title);
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+}
+/* Section Sub Heading */
+.mainSection header .subtitle {
     border: .2rem solid var(--color-secondary);
     padding: .5rem 1rem;
     margin-bottom: 2rem;
@@ -146,33 +165,46 @@ header .subtitle {
     letter-spacing: .1rem;
     font-weight: 700;
     border-radius: .5rem;
-} */
+}
+.mainSection header .centerHeadingBold{
+font-family: var(--font-family-lora);
+font-size: 3.4rem;
+font-weight: 700;
+color:var(--color-centerHeading);
+line-height: 4.3rem;
+text-align: center;
 
-
-/* Section Heading */
-
-/* header .sectionTitle {
-    
+}
+.mainSection header .centerHeading{
+    font-family: var(--font-family-lora);
+    font-size: 3.2rem;
+    font-weight: 500;
+    color:var(--color-centerHeading);
+    line-height: 4.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+.mainSection header .centerSubHeading{
+    font-family: var(--font-family-poppins);
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:var(--color-secondary);
     line-height: 4rem;
-    font-weight: 700;
-    color: var(--color-title);
-    font-size: 2.6rem;
-    text-transform: capitalize;
-    margin-bottom: 1.5rem;
-    margin-top: 0rem;
-} */
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 /* Text */
 
- /* header .content {
+ header .content {
     
-       text-align: justify;
+ text-align: justify;
     padding-top: 2rem;
-} */
+}
 /* **************End Section Header ********************** */
 
 /* **********************List Box********************* */
-/* .listbox{
+.listbox{
     font-weight: 500;
     margin-top: 0.5rem; 
     margin-bottom: 2rem;  
@@ -185,15 +217,15 @@ header .subtitle {
     padding-left: 1rem;
 }
 .listbox .list-item:before{
-     font-family: FontAwesome;      
+    font-family: FontAwesome;      
     margin-right: 1.1rem;
     color: var(--color-secondary);
     font-size: 1.1rem;   
-}  */
+} 
 /* **********************End List Box********************* */
 
 /* ************************Section Image ***************** */
-/* .mainSection .image-box {
+.mainSection .image-box {
 width: 100%;
     height: 100%;
     max-width: 100%;
@@ -202,11 +234,11 @@ width: 100%;
     width: 100%;
      max-width: 100%;
     border-radius: .5rem;
-} */
+}
 
 /* ************************End Section Image ***************** */
 /* ********************OEMS********************* */
-/* #oem{
+#oem{
     padding: 2rem 0;
 }
 
@@ -223,6 +255,6 @@ width: 100%;
 .owl-carousel .item img{
     max-height: 100%;
    
-} */
+}
 
 /* ********************End OEMS********************* */

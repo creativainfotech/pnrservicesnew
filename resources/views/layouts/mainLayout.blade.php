@@ -13,9 +13,9 @@
 
     {{-- ******************owl carousel************* --}}
 
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> --}}
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     {{-- ******************End Owl carousel************* --}}
 
@@ -285,7 +285,7 @@
                                         <div class="col-6 col-sm-2 mega-menu-item-container ">
                                             <a href="{{ route('turbine') }}" target="_blank" class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Turbine</figcaption>
@@ -296,7 +296,7 @@
                                             <a href="{{ route('compressor') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div> <img src="{{ asset('img/services/compressor.jpg') }}"
+                                                    <div> <img src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail ">
                                                     </div>
                                                     <figcaption>Compressor</figcaption>
@@ -360,7 +360,7 @@
                                             <a href="{{ route('alignment') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/alignment/alignment.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Alignment</figcaption>
@@ -371,7 +371,7 @@
                                             <a href="{{ route('retrofitUpgrade') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/alignment/alignment.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Retrofit & Upgrade</figcaption>
@@ -382,7 +382,7 @@
                                             <a href="{{ route('designSystemStudy') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/alignment/alignment.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Design & System Studies</figcaption>
@@ -392,7 +392,7 @@
                                         <div class="col-6 col-sm-2 mega-menu-item-container ">
                                             <a href="{{ route('training') }}" target="_blank" class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/alignment.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/alignment/alignment.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Training</figcaption>
@@ -427,7 +427,7 @@
                                             <a href="{{ route('toolsEquipments') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Tools & Equipments</figcaption>
@@ -438,7 +438,7 @@
                                             <a href="{{ route('relayControlPanels') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/compressor.jpg') }}"
+                                                    <div><img src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Relay & Control Panels</figcaption>
@@ -799,14 +799,14 @@
 
     {{-- ******************owl carousel************* --}}
 
-    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     {{-- ******************End owl carousel************* --}}
 
 
     {{-- <script src="{{ asset('js/sample2/commonFront.js') }}"></script> --}}
 <script src="{{asset('js/sample1/sample2/header.js')}}"></script>
-    {{-- <script>
+    <script>
         $(document).ready(function() {
             $("#oem.owl-carousel").owlCarousel({
 
@@ -835,7 +835,7 @@
                 // // items:2,
             });
         });
-    </script> --}}
+    </script>
     @yield('scripts')
 </body>
 

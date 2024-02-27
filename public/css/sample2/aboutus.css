@@ -1,0 +1,128 @@
+/* ***************Top Header*****************/
+
+
+#aboutusTopHeader{
+    & .top-header{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    & #serviceName{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color:var(--color-secondary);
+        font-size: 6rem;
+    }
+    
+}
+#aboutus{
+    padding-bottom: 0px;
+    & article{
+        padding-bottom:2rem;   
+        
+    }
+    & .article-section{
+        padding: 0 2.5rem;
+    
+    }
+    & #service_section {
+        /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 62, 74, 0.3)), to(rgba(44, 62, 74, 0.3))), url(../images/banners/seo2.jpg); */
+        background-image: linear-gradient(rgba(44, 62, 74, 0.3), rgba(44, 62, 74, 0.3)), url('../../img/background-image/aboutus.jpg');
+        -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 5%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding-bottom: 50px;
+        & .sectionheading {
+            margin-top: 10px !important;
+        }
+        & #service_categories {
+            border: 1px solid #cec9c9;
+            -webkit-box-shadow: 2px 2px 5px 5px #cec9c9;
+            box-shadow: 2px 2px 5px 5px #cec9c9;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 90%;
+            margin: auto;
+            & #service_categories_list {
+                border: 1px solid #999999;
+                margin-right: 0.4rem;
+                -ms-flex-preferred-size: 23%;
+                flex-basis: 45%;
+                background-color: #0d3257;
+                & .service_category {
+                    background-color: #0d3257;
+                    border-bottom: 1px solid #999999;
+                    padding: 0px 0px;
+                    a {
+                        position: relative;
+                        color: #fff;
+                        display: block;
+                        padding: 10px 5px 10px 10px;
+                        & .triangle {
+                            background-color: #d32f68;
+                            width: 39px;
+                            height: 39px;
+                            position: absolute;
+                            right: -20px;
+                            top: 7px;
+                            -webkit-clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+                            clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+                            -webkit-transform: rotate(225deg);
+                            transform: rotate(225deg);
+                            display: none;
+                        }
+                    }
+                    & #service_category_desc_box {
+                        display: block;
+                        -ms-flex-preferred-size: 77%;
+                        flex-basis: 77%;
+                        & .service_category_desc {
+                            width: 100%;
+                            height: 100%;
+                            display: none;
+                            & img {
+                                width: 300px;
+                                padding: 35px 20px 50px 20px;
+                                height: auto;
+                            }
+                            div {
+                                padding: 30px 40px 30px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#aboutus .figure-section{
+    padding:var(--header-top-p adding) 2.3rem 0 2.5rem;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+    & .image-box{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        aspect-ratio: 1;
+        /* max-height:40rem; */
+        border-radius: 10px;
+        & img{
+            width:80%;
+            height:auto;
+            object-fit: contain;
+        }
+    }
+}

@@ -16,7 +16,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('img/services/turbogenerators.jpg') }}" class="d-block w-100 img-fluid " alt="...">
+                <img src="{{ asset('img/services/turbogenerator/turbogenerators.jpg') }}" class="d-block w-100 img-fluid " alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/compressor.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/compressor.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/compressor/compressor.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/gearbox.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/valve1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/valve/valve1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/pumps.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/pumps/pumps.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/blowers.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/blower/blowers.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -123,7 +123,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{ asset('img/services/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/alignment/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -183,7 +183,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -203,118 +203,8 @@
 
     <!-- ********************End Bootstrap Carousel************ -->
 
-     {{-- ****************************OEM************************* --}}
-    {{-- <section class="mainSection">
-       <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div id="oem" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/abb.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/alstom.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/andritz.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/atlas-copco.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class=" img-fluid " src="{{asset("img/oems/avr.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/baker.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/brush.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/dresser-rand.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/elliott.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/emerson.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/flender.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/flowserve.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/ge-oil.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/ge.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/imi.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/ingersoll-rand.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/kaeser.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/kitz.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/ksb.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/lt-valves.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/man.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/mitsubishi.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/noname.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/nord.jpeg")}}" alt="" srcset="">
-                    </div>
-                   
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/renk.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/renold-gears.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/santasalo.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/sew-eurodrive.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/siemens.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/sumitomo.jpeg")}}" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="" src="{{asset("img/oems/woodward.jpeg")}}" alt="" srcset="">
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-       </div>
-    </section> --}}
-     {{-- ****************************End OEM************************* --}}
-
-
     <section id="home-aboutus" class="mainSection">
-
-        <div class="container-fluid container-lg z-3 position-relative">
+        <div class="container-fluid container-xl z-3 position-relative">
             <div class="row">
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
                     <div class="iq-features">
@@ -349,57 +239,45 @@
                             </div>
                             <div class="contentCircle">
                                 <div class="CirItem title-box active CirItem1">
-                                    <h2 class="title"><span>Automate</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Mission</span></h2>
+                                    <p>
+                                        Our mission is to do complex things in the simplest possible way.
+                              </p>
                                     <i class="fa fa-clock-o"></i>
                                 </div>
                                 <div class="CirItem title-box CirItem2">
-                                    <h2 class="title"><span>Chat </span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Vision </span></h2>
+                                    <p>
+                                        To become one window electromechanical solution provider company.
+                              </p>
                                     <i class="fa fa-comments"></i>
                                 </div>
                                 <div class="CirItem title-box CirItem3">
-                                    <h2 class="title"><span>Responses</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Support</span></h2>
+                                    <p>
+                                        Our after sales is available 24/7 to keep your machines running and minimise downtime in case of tripping.
+                              </p>
                                     <i class="fa fa-user"></i>
                                 </div>
                                 <div class="CirItem title-box CirItem4">
-                                    <h2 class="title"><span>Tags</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Training</span></h2>
+                                    <p>
+                                        Customised trainings for O&M engineers
+                              </p>
                                     <i class="fa fa-tags"></i>
                                 </div>
                                 <div class="CirItem title-box CirItem5">
-                                    <h2 class="title"><span>Sharing</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Value</span></h2>
+                                    <p>
+                                        Trust, Service, Responsibility.
+                              </p>
                                     <i class="fa fa-upload"></i>
                                 </div>
                                 <div class="CirItem title-box CirItem6">
-                                    <h2 class="title"><span>Support</span></h2>
-                                    {{-- <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when
-                                looking at its layout.
-                              </p> --}}
+                                    <h2 class="title"><span>Certification</span></h2>
+                                    <p>
+                                        Skilled, experienced and OEM certified engineers to work on your site.
+                              </p>
                                     <i class="fa fa-briefcase"></i>
                                 </div>
                             </div>
@@ -413,20 +291,20 @@
                 <div class="col-12 col-lg-7 ">
                     <header>
                         <div class="subtitle">Welcome To pNR Services</div>
-                        <div class="sectionTitle">We offers OEM experienced technical specialists to power generation
-                            companies, oil & gas, fertilizers, cement industries.
+                        <div class="sectionTitle">We offer OEM experienced technical specialists to power generation
+                            companies, oil & gas, fertilizers, cement & sugar industries.
                         </div>
                         <div class="line mx-0"></div>
                     </header>
 
                     <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
-                        specialists to <b>power generation companies, oil & gas, fertilizers, cement industries. </b>.We
+                        specialists to <b>power generation companies, oil & gas, fertilizers, cement & sugar industries. </b>We
                         understand the customer requirements and provide them with
                         the <strong> latest technologies </strong>to overcome their challenges quickly and economically.
                         We
                         supply our clients multi-disciplined expertise with field engineers of <b>electrical,
                             mechanical,
-                            elctromechanical and instrumentation </b>disciplines.
+                            elctromechanical and instrumentation & control engineers </b>disciplines.
                     </p>
                     <div class="d-flex">
                         <ul class="listbox">
@@ -651,7 +529,7 @@
 
     <section id="home_service" class="mainSection">
 
-        <div class="container">
+        <div class="container-xl container-fluid">
 
             <div class="row">
                 <div class="col-12 col-sm-6 ">
@@ -673,13 +551,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/turbogenerator/Turbogenerators-1.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Turbogenerator</a>
+                                <a href="{{route('turbogenerator')}}" target="_blank" class="">Turbogenerator</a>
 
                             </div>
                         </div>
@@ -688,13 +566,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/Turbine-engines-1.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Turbines</a>
+                                <a href="{{route('turbine')}}" target="_blank" class="">Turbines</a>
                             </div>
                         </div>
                     </div>
@@ -702,13 +580,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Compressors </a>
+                                <a href="{{route('compressor')}}" target="_blank" class="">Compressors </a>
                             </div>
                         </div>
                     </div>
@@ -716,12 +594,12 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Gearbox </a>
+                                <a href="{{route('gearbox')}}" target="_blank" class="">Gearbox </a>
                             </div>
                         </div>
                     </div>
@@ -729,12 +607,12 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/valve1.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/valve/valve1.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Valve </a>
+                                <a href="{{route('valve')}}" target="_blank" class="">Valve </a>
                             </div>
                         </div>
                     </div>
@@ -742,13 +620,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/pumps.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/pumps/pumps.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Pumps </a>
+                                <a href="{{route('pumps')}}" target="_blank" class="">Pumps </a>
                             </div>
                         </div>
                     </div>
@@ -756,13 +634,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/blowers.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/blower/blowers.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Blowers </a>
+                                <a href="{{route('blower')}}" target="_blank" class="">Blowers </a>
                             </div>
                         </div>
                     </div>
@@ -770,13 +648,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/heat-exchanger.jpg') }}" alt=""
+                            <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" alt=""
                                 srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Heat Exchanger </a>
+                                <a href="{{route('heatExchanger')}}" target="_blank" class="">Heat Exchanger </a>
                             </div>
                         </div>
                     </div>
@@ -784,14 +662,14 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/alignment.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/alignment/alignment.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">
                                
                             </div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Alignment </a>
+                                <a href="{{route('alignment')}}" target="_blank" class="">Alignment </a>
                             </div>
                         </div>
                     </div>
@@ -799,13 +677,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Retrofit & Upgrade</a>
+                                <a href="{{route('retrofitUpgrade')}}" target="_blank" class="">Retrofit & Upgrade</a>
                             </div>
                         </div>
                     </div>
@@ -813,13 +691,13 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}" alt="" srcset=""
                                 class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Design & System Studies</a>
+                                <a href="{{route('designSystemStudy')}}" target="_blank" class="">Design & System Studies</a>
                             </div>
                         </div>
                     </div>
@@ -827,12 +705,12 @@
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/Trainings-1.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" alt="" srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="http://" target="_blank" class="">Training</a>
+                                <a href="{{route('training')}}" target="_blank" class="">Training</a>
                             </div>
                         </div>
                     </div>
@@ -849,7 +727,7 @@
     {{-- *********************Home Supplies Section******************* --}}
 
     <section id="home_supplies" class="mainSection">
-        <div class="container">
+        <div class="container-xl container-fluid">
             <div class="row g-5">
                 <div class="col-12 col-sm-5 section-column">
                     <header>
@@ -859,19 +737,21 @@
                         <div class="line mx-0"></div>
                     </header>
                     <p class="content">One window Electromechanical solutions for Power Systems</p>
+                    <p>PNR offers wide range of special equipment vital for any power system. 
+                        When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement, logistics and service team work together to achieve goals in minimum lead time</p>
                 </div>
                 <div class="col-12 col-sm-7 ">
                     <div class="row" id="supply-card-container">
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/parts1.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Parts</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Parts</a>
 
                                     </div>
                                 </div>
@@ -880,13 +760,13 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/tools-equipments-1.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Tools & Equipments</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Tools & Equipments</a>
 
                                     </div>
                                 </div>
@@ -895,13 +775,13 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/Relay-control-panels-1.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Relay & Control Panels</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Relay & Control Panels</a>
 
                                     </div>
                                 </div>
@@ -910,13 +790,13 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/Switchgear-1.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/switchgear/Switchgear-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Switchgears</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Switchgears</a>
 
                                     </div>
                                 </div>
@@ -931,7 +811,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">PMS</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">PMS</a>
 
                                     </div>
                                 </div>
@@ -940,13 +820,13 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/Power -Transformer-1.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Power Transformers</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">MV Motor</a>
 
                                     </div>
                                 </div>
@@ -1005,7 +885,7 @@
 
         </div>
         {{-- <div class="container-fluid container-lg z-3 position-relative "> --}}
-        <div class="container-fluid container-lg z-3 position-relative">
+        <div class="container-fluid container-xl z-3 position-relative">
             <div class="row">
                 <div class="col-12 col-lg-7 ">
                     {{-- <div class="section-column sectioninfo col-12 col-lg-7 "> --}}
@@ -1124,7 +1004,7 @@
             <li></li>
             <li></li>
         </ul>
-        <div class="container-fluid container-lg team-list">
+        <div class="container-fluid container-xl team-list">
             <div class="row">
                 <div class="col-12 ">
 
