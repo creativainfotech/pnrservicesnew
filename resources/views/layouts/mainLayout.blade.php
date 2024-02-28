@@ -230,8 +230,8 @@
 
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="{{ route('toolsEquipments') }}" target="_blank"><i
-                                                            class="fas fa-hand-point-right"></i>Tools & Equipments</a>
+                                                    <a href="{{ route('tools') }}" target="_blank"><i
+                                                            class="fas fa-hand-point-right"></i>Tools</a>
 
                                                 </li>
                                                 <li class="mega-menu-item">
@@ -245,8 +245,8 @@
 
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="{{ route('PMS') }}" target="_blank"><i
-                                                            class="fas fa-hand-point-right"></i>PMS</a>
+                                                    <a href="{{ route('testing-equipment') }}" target="_blank"><i
+                                                            class="fas fa-hand-point-right">Testing Equipment</a>
 
                                                 </li>
                                                 <li class="mega-menu-item">
@@ -424,13 +424,13 @@
                                             </a>
                                         </div>
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('toolsEquipments') }}" target="_blank"
+                                            <a href="{{ route('tools') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
                                                     <div><img src="{{ asset('img/services/compressor/compressor.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
-                                                    <figcaption>Tools & Equipments</figcaption>
+                                                    <figcaption>Tools</figcaption>
                                                 </figure>
                                             </a>
                                         </div>
@@ -457,12 +457,12 @@
                                             </a>
                                         </div>
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('PMS') }}" target="_blank" class="dropdown-item">
+                                            <a href="{{ route('testing-equipment') }}" target="_blank" class="dropdown-item">
                                                 <figure>
                                                     <div><img src="{{ asset('img/services/valve1.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
-                                                    <figcaption>PMS</figcaption>
+                                                    <figcaption>Testing Equipment</figcaption>
                                                 </figure>
                                             </a>
                                         </div>
@@ -704,13 +704,13 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{ route('toolsEquipments') }}" target="_blank"
+                                                <a href="{{ route('tools') }}" target="_blank"
                                                     class="dropdown-item">
                                                     <figure>
                                                         <div><img src="{{ asset('img/services/compressor.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
-                                                        <figcaption>Tools & Equipments</figcaption>
+                                                        <figcaption>Tools</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>
@@ -737,12 +737,12 @@
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                                <a href="{{ route('PMS') }}" target="_blank" class="dropdown-item">
+                                                <a href="{{ route('testing-equipment') }}" target="_blank" class="dropdown-item">
                                                     <figure>
                                                         <div><img src="{{ asset('img/services/valve1.jpg') }}"
                                                                 alt="" srcset="" class="img-thumbnail">
                                                         </div>
-                                                        <figcaption>PMS</figcaption>
+                                                        <figcaption>Testing Equipment</figcaption>
                                                     </figure>
                                                 </a>
                                             </div>

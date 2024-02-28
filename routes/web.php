@@ -78,7 +78,7 @@ Route::get('/retrofit-upgrade', function () {
 })->name('retrofitUpgrade');
 Route::get('/design-system-study', function () {
     return view('sample1.services.designSystemStudy');
-})->name('');
+})->name('designSystemStudy');
 Route::get('/training', function () {
     return view('sample1.services.training');
 })->name('training');
@@ -95,18 +95,18 @@ Route::get('/training', function () {
  Route::get('/parts', function () {
     return view('sample1.supply.parts');
 })->name('parts');
-Route::get('/tools-equipments', function () {
-    return view('sample1.supply.toolsEquipments');
-})->name('toolsEquipments');
+Route::get('/tools', function () {
+    return view('sample1.supply.tools');
+})->name('tools');
 Route::get('/relay-control-panels', function () {
     return view('sample1.supply.relayControlPanels');
 })->name('relayControlPanels');
 Route::get('/switchgears', function () {
     return view('sample1.supply.switchgears');
 })->name('switchgears');
-Route::get('/power-management-system', function () {
-    return view('sample1.supply.PMS');
-})->name('PMS');
+Route::get('/testing-equipment', function () {
+    return view('sample1.supply.testing-equipment');
+})->name('testing-equipment');
 Route::get('/mv-motors', function () {
     return view('sample1.supply.mvMotors');
 })->name('mvMotors');

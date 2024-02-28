@@ -207,13 +207,12 @@
         <div class="container-fluid container-xl z-3 position-relative">
             <div class="row">
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                    <div class="iq-features">
+                    {{-- <div class="iq-features">
                         <div class="holderCircle">
                             <div class="round"></div>
                             <div class="dotCircle">
                                 <span class="itemDot active itemDot1 overflow-hidden " data-tab="1">
-                                    {{-- <img src="{{asset("img/services/alignment.jpg")}}" alt="" srcset="" class="img-thumbnail  w-100 h-100"> --}}
-                                    <i class="fa fa-clock-o"></i>
+                                     <i class="fa fa-clock-o"></i>
                                     <span class="forActive"></span>
                                 </span>
                                 <span class="itemDot itemDot2" data-tab="2">
@@ -282,7 +281,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                 </div>
@@ -766,7 +765,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Tools & Equipments</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Tools</a>
 
                                     </div>
                                 </div>
@@ -805,13 +804,13 @@
                         <div class="col-12 col-sm-6 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/services/turbogenerators.jpg') }}" alt=""
+                                    <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
                                         srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">PMS</a>
+                                        <a href="{{route('index')}}" target="_blank" class="">Testing Equipment</a>
 
                                     </div>
                                 </div>

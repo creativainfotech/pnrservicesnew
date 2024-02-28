@@ -790,7 +790,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">Tools & Equipments</a>
+                                        <a href="http://" target="_blank" class="">Tools</a>
 
                                     </div>
                                 </div>
@@ -835,7 +835,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="http://" target="_blank" class="">PMS</a>
+                                        <a href="http://" target="_blank" class="">Testing Equipment</a>
 
                                     </div>
                                 </div>

@@ -224,10 +224,10 @@
 
                                 <ul class="supplyList">
                                     <li><a href="">Parts</a></li>
-                                    <li><a href="">Tools & Equipments</a></li>
+                                    <li><a href="">Tools</a></li>
                                     <li><a href="">Relay & Control Panels</a></li>
                                     <li><a href="">Switchgears</a></li>
-                                    <li><a href="">PMS</a></li>
+                                    <li><a href="">Testing Equipment</a></li>
                                     <li><a href="">MV Motors</a></li>
                                     {{-- <li><a href="">Power Transformers</a></li> --}}
                                     @yield('supply-list')
