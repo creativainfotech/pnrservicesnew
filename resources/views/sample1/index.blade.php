@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="{{ asset('css/sample1/square-moving-background.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sample1/rotating-circle.css') }}">
 <link rel="stylesheet" href="{{ asset('css/sample1/home.css') }}">
+<link rel="stylesheet" href="{{ asset('css/sample1/try.css') }}">
 @endsection
 
 @section('mainSection')
@@ -25,8 +26,8 @@
                             turbogenerators</h1>
                         <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">Some
                             representative placeholder content for the first slide.</p>
-                        <a href="" class="carousel-btn btn animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
                     </div>
                 </div>
             </div>
@@ -36,12 +37,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbines &
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbines &
                             engines
-                        </h1>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        </h2>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -52,12 +52,12 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             compressors
-                        </h1>
+                        </h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -68,11 +68,27 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">gearboxes
-                        </h1>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">gearboxes
+                        </h2>
+                        {{-- <ul class="d-flex flex-row">
+                            <li>	RENK</li>
+                                <li>	FLENDER</li>
+                                <li>	Nord</li>
+                                <li>	ABB Ltd.</li>
+                                <li>	Sumitomo Heavy Industries Ltd.</li>
+                                <li>	David Brown Santasalo.</li>
+                                <li>	SEW-Eurodrive GmbH & Co. KG.</li>
+                                <li>	Renold plc.</li>
+                                <li>	China High Speed Transmission Equipment Group Co., Ltd.</li>
+                                <li>	Hansen Transmissions International N.V.</li>
+                                <li>	NORD Drivesystems Pvt. Ltd.</li>
+                               
+                        </ul> --}}
+                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">
+                            Some representative placeholder content for the first slide.
+                        </p> --}}
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -83,11 +99,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves
-                        </h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves
+                        </h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -98,10 +114,10 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">Pumps</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">Pumps</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -112,11 +128,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">blowers
-                        </h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">blowers
+                        </h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -128,11 +144,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat
-                            exchangers</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat
+                            exchangers</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -143,11 +159,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            alignments</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                            alignments</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -158,11 +174,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            retrofits & upgrades</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                            retrofits & upgrades</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -173,11 +189,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            design & system studies</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                            design & system studies</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -188,11 +204,11 @@
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            trainings</h1>
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
+                            trainings</h2>
                         {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a>
+                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
+                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
 
                     </div>
                 </div>
@@ -539,15 +555,15 @@
                         <div class="line mx-0"></div>
                     </header>
                 </div>
-                <div class="col-12 col-sm-6 " style="padding-top:12.6rem; padding-bottom: 3.0rem;">
-                    <p style="">
+                <div class="col-12 col-sm-6 right-header-content" style="">
+                    <p >
                         One window Electromechanical
                         solutions for Power Systems
                     </p>
                 </div>
             </div>
-            <div class="row g-5">
-                <div class="col-12 col-sm-6 col-md-3">
+            <div class="row g-4">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/turbogenerator/Turbogenerators-1.jpg') }}" alt="" srcset=""
@@ -562,7 +578,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" alt="" srcset=""
@@ -576,7 +592,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt="" srcset=""
@@ -590,7 +606,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" alt="" srcset=""class=" ">
@@ -603,7 +619,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/valve/valve1.jpg') }}" alt="" srcset=""class=" ">
@@ -616,7 +632,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/pumps/pumps.jpg') }}" alt="" srcset=""
@@ -630,7 +646,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/blower/blowers.jpg') }}" alt="" srcset=""
@@ -644,7 +660,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" alt=""
@@ -658,7 +674,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/alignment/alignment.jpg') }}" alt="" srcset=""class=" ">
@@ -673,7 +689,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" alt="" srcset=""
@@ -687,7 +703,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}" alt="" srcset=""
@@ -701,7 +717,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
+                <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
                             <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" alt="" srcset=""class=" ">
@@ -723,12 +739,135 @@
     </section>
 
     {{-- *********************End Home Service Section******************* --}}
+
+ {{-- *********************Home repeated Supplies Section******************* --}}
+
+ <section id="home_supplies_rep" class="mainSection">
+    <div class="container-xl container-fluid">
+        <div class="row g-5">
+            <div class="col-12 col-md-5 col-lg-5 section-column">
+                <header>
+                    <div class="subtitle">We Do It</div>
+                    <div class="sectionTitle">What We Supply to Our Customers
+                    </div>
+                    <div class="line mx-0"></div>
+                </header>
+                <p class="content">One window Electromechanical solutions for Power Systems</p>
+                <p>PNR offers wide range of special equipment vital for any power system. 
+                    When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement, logistics and service team work together to achieve goals in minimum lead time</p>
+            </div>
+            <div class="col-12 col-md-7 col-lg-7 ">
+                <div class="row" id="supply-card-container">
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            
+                            <div class="supply-content-box">
+                                <div class="supply-image-box">
+                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt=""
+                                        srcset="" class="img-fluid">
+                                </div>
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">Parts</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            <div class="supply-image-box">
+                                <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}" alt=""
+                                    srcset="" class="img-fluid">
+                            </div>
+                            <div class="supply-content-box">
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">Tools</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            <div class="supply-image-box">
+                                <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}" alt=""
+                                    srcset="" class="img-fluid">
+                            </div>
+                            <div class="supply-content-box">
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">Relay & Control Panels</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            <div class="supply-image-box">
+                                <img src="{{ asset('img/supply/switchgear/Switchgear-1.jpg') }}" alt=""
+                                    srcset="" class="img-fluid">
+                            </div>
+                            <div class="supply-content-box">
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">Switchgears</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            <div class="supply-image-box">
+                                <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
+                                    srcset="" class="img-fluid">
+                            </div>
+                            <div class="supply-content-box">
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">Testing Equipment</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4">
+                        <div class="supply-card">
+                            <div class="supply-image-box">
+                                <img src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}" alt=""
+                                    srcset="" class="img-fluid">
+                            </div>
+                            <div class="supply-content-box">
+                                {{-- <div class="icon-box">icon</div> --}}
+                                <div class="content">
+                                    <a href="{{route('index')}}" target="_blank" class="">MV Motor</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {{-- <footer class="pb-5">
+
+    </footer> --}}
+</section>
+
+{{-- *********************End Home repeated Supplies Section******************* --}}
+
+
     {{-- *********************Home Supplies Section******************* --}}
 
     <section id="home_supplies" class="mainSection">
         <div class="container-xl container-fluid">
             <div class="row g-5">
-                <div class="col-12 col-sm-5 section-column">
+                <div class="col-12 col-md-5 col-lg-5 section-column">
                     <header>
                         <div class="subtitle">We Do It</div>
                         <div class="sectionTitle">What We Supply to Our Customers
@@ -739,9 +878,9 @@
                     <p>PNR offers wide range of special equipment vital for any power system. 
                         When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement, logistics and service team work together to achieve goals in minimum lead time</p>
                 </div>
-                <div class="col-12 col-sm-7 ">
+                <div class="col-12 col-md-7 col-lg-7 ">
                     <div class="row" id="supply-card-container">
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt=""
@@ -756,7 +895,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}" alt=""
@@ -771,7 +910,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}" alt=""
@@ -786,7 +925,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/switchgear/Switchgear-1.jpg') }}" alt=""
@@ -801,7 +940,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
@@ -816,7 +955,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
+                        <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
                                     <img src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}" alt=""
