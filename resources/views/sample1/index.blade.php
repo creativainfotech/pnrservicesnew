@@ -3,11 +3,11 @@
     Home-PNR Services
 @endsection
 @section('styles')
-<link rel="stylesheet" href="{{ asset('css/sample1/home-carousel.css') }}">
-<link rel="stylesheet" href="{{ asset('css/sample1/square-moving-background.css') }}">
-<link rel="stylesheet" href="{{ asset('css/sample1/rotating-circle.css') }}">
-<link rel="stylesheet" href="{{ asset('css/sample1/home.css') }}">
-<link rel="stylesheet" href="{{ asset('css/sample1/try.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/home-carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/square-moving-background.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/rotating-circle.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sample1/home.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/sample1/try.css') }}"> --}}
 @endsection
 
 @section('mainSection')
@@ -17,7 +17,8 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('img/services/turbogenerator/turbogenerators.jpg') }}" class="d-block w-100 img-fluid " alt="...">
+                <img src="{{ asset('img/services/turbogenerator/turbogenerators.jpg') }}" class="d-block w-100 img-fluid "
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -32,7 +33,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -47,7 +49,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/compressor/compressor.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/compressor/compressor.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -139,7 +142,8 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -154,7 +158,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/alignment/alignment.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/alignment/alignment.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -169,7 +174,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -184,7 +190,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
+                    class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -199,7 +206,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
+                <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" class="d-block w-100 img-fluid"
+                    alt="...">
                 <div class="carousel-caption ">
                     <div class="w-100 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
@@ -313,7 +321,8 @@
                     </header>
 
                     <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
-                        specialists to <b>power generation companies, oil & gas, fertilizers, cement & sugar industries. </b>We
+                        specialists to <b>power generation companies, oil & gas, fertilizers, cement & sugar industries.
+                        </b>We
                         understand the customer requirements and provide them with
                         the <strong> latest technologies </strong>to overcome their challenges quickly and economically.
                         We
@@ -556,7 +565,7 @@
                     </header>
                 </div>
                 <div class="col-12 col-sm-6 right-header-content" style="">
-                    <p >
+                    <p>
                         One window Electromechanical
                         solutions for Power Systems
                     </p>
@@ -566,13 +575,14 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/turbogenerator/Turbogenerators-1.jpg') }}" alt="" srcset=""
-                                class=" ">
+                            <img src="{{ asset('img/services/turbogenerator/Turbogenerators-1.jpg') }}" alt=""
+                                srcset="" class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('turbogenerator')}}" target="_blank" class="">Turbogenerator</a>
+                                <a href="{{ route('turbogenerator') }}" target="_blank"
+                                    class="">Turbogenerator</a>
 
                             </div>
                         </div>
@@ -581,13 +591,13 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" alt="" srcset=""
-                                class=" ">
+                            <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" alt=""
+                                srcset="" class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('turbine')}}" target="_blank" class="">Turbines</a>
+                                <a href="{{ route('turbine') }}" target="_blank" class="">Turbines</a>
                             </div>
                         </div>
                     </div>
@@ -595,13 +605,13 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt="" srcset=""
-                                class=" ">
+                            <img src="{{ asset('img/services/compressor/compressor.jpg') }}" alt=""
+                                srcset="" class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('compressor')}}" target="_blank" class="">Compressors </a>
+                                <a href="{{ route('compressor') }}" target="_blank" class="">Compressors </a>
                             </div>
                         </div>
                     </div>
@@ -609,12 +619,13 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" alt=""
+                                srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('gearbox')}}" target="_blank" class="">Gearbox </a>
+                                <a href="{{ route('gearbox') }}" target="_blank" class="">Gearbox </a>
                             </div>
                         </div>
                     </div>
@@ -622,12 +633,13 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/valve/valve1.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/valve/valve1.jpg') }}" alt=""
+                                srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('valve')}}" target="_blank" class="">Valve </a>
+                                <a href="{{ route('valve') }}" target="_blank" class="">Valve </a>
                             </div>
                         </div>
                     </div>
@@ -641,7 +653,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('pumps')}}" target="_blank" class="">Pumps </a>
+                                <a href="{{ route('pumps') }}" target="_blank" class="">Pumps </a>
                             </div>
                         </div>
                     </div>
@@ -655,7 +667,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('blower')}}" target="_blank" class="">Blowers </a>
+                                <a href="{{ route('blower') }}" target="_blank" class="">Blowers </a>
                             </div>
                         </div>
                     </div>
@@ -669,7 +681,8 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('heatExchanger')}}" target="_blank" class="">Heat Exchanger </a>
+                                <a href="{{ route('heatExchanger') }}" target="_blank" class="">Heat Exchanger
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -677,14 +690,15 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/alignment/alignment.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/alignment/alignment.jpg') }}" alt=""
+                                srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">
                                
                             </div> --}}
                             <div class="content">
-                                <a href="{{route('alignment')}}" target="_blank" class="">Alignment </a>
+                                <a href="{{ route('alignment') }}" target="_blank" class="">Alignment </a>
                             </div>
                         </div>
                     </div>
@@ -692,13 +706,14 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" alt="" srcset=""
-                                class=" ">
+                            <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" alt=""
+                                srcset="" class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('retrofitUpgrade')}}" target="_blank" class="">Retrofit & Upgrade</a>
+                                <a href="{{ route('retrofitUpgrade') }}" target="_blank" class="">Retrofit &
+                                    Upgrade</a>
                             </div>
                         </div>
                     </div>
@@ -706,13 +721,14 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}" alt="" srcset=""
-                                class=" ">
+                            <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
+                                alt="" srcset="" class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('designSystemStudy')}}" target="_blank" class="">Design & System Studies</a>
+                                <a href="{{ route('designSystemStudy') }}" target="_blank" class="">Design &
+                                    System Studies</a>
                             </div>
                         </div>
                     </div>
@@ -720,12 +736,13 @@
                 <div class="col-4 col-sm-3 col-md-3">
                     <div class="service-card">
                         <div class="image-box">
-                            <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" alt="" srcset=""class=" ">
+                            <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" alt=""
+                                srcset=""class=" ">
                         </div>
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{route('training')}}" target="_blank" class="">Training</a>
+                                <a href="{{ route('training') }}" target="_blank" class="">Training</a>
                             </div>
                         </div>
                     </div>
@@ -740,127 +757,6 @@
 
     {{-- *********************End Home Service Section******************* --}}
 
- {{-- *********************Home repeated Supplies Section******************* --}}
-
- <section id="home_supplies_rep" class="mainSection">
-    <div class="container-xl container-fluid">
-        <div class="row g-5">
-            <div class="col-12 col-md-5 col-lg-5 section-column">
-                <header>
-                    <div class="subtitle">We Do It</div>
-                    <div class="sectionTitle">What We Supply to Our Customers
-                    </div>
-                    <div class="line mx-0"></div>
-                </header>
-                <p class="content">One window Electromechanical solutions for Power Systems</p>
-                <p>PNR offers wide range of special equipment vital for any power system. 
-                    When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement, logistics and service team work together to achieve goals in minimum lead time</p>
-            </div>
-            <div class="col-12 col-md-7 col-lg-7 ">
-                <div class="row" id="supply-card-container">
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            
-                            <div class="supply-content-box">
-                                <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
-                                </div>
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">Parts</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            <div class="supply-image-box">
-                                <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}" alt=""
-                                    srcset="" class="img-fluid">
-                            </div>
-                            <div class="supply-content-box">
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">Tools</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            <div class="supply-image-box">
-                                <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}" alt=""
-                                    srcset="" class="img-fluid">
-                            </div>
-                            <div class="supply-content-box">
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">Relay & Control Panels</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            <div class="supply-image-box">
-                                <img src="{{ asset('img/supply/switchgear/Switchgear-1.jpg') }}" alt=""
-                                    srcset="" class="img-fluid">
-                            </div>
-                            <div class="supply-content-box">
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">Switchgears</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            <div class="supply-image-box">
-                                <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
-                                    srcset="" class="img-fluid">
-                            </div>
-                            <div class="supply-content-box">
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">Testing Equipment</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-4">
-                        <div class="supply-card">
-                            <div class="supply-image-box">
-                                <img src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}" alt=""
-                                    srcset="" class="img-fluid">
-                            </div>
-                            <div class="supply-content-box">
-                                {{-- <div class="icon-box">icon</div> --}}
-                                <div class="content">
-                                    <a href="{{route('index')}}" target="_blank" class="">MV Motor</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    {{-- <footer class="pb-5">
-
-    </footer> --}}
-</section>
-
-{{-- *********************End Home repeated Supplies Section******************* --}}
-
 
     {{-- *********************Home Supplies Section******************* --}}
 
@@ -874,22 +770,23 @@
                         </div>
                         <div class="line mx-0"></div>
                     </header>
-                    <p class="content">One window Electromechanical solutions for Power Systems</p>
-                    <p>PNR offers wide range of special equipment vital for any power system. 
-                        When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement, logistics and service team work together to achieve goals in minimum lead time</p>
+                    {{-- <p class="content">One window Electromechanical solutions for Power Systems</p> --}}
+                    <p>PNR offers wide range of special equipment vital for any power system.
+                        When it comes to turnkey, retrofit or system upgrade solutions our engineering, procurement,
+                        logistics and service team work together to achieve goals in minimum lead time</p>
                 </div>
                 <div class="col-12 col-md-7 col-lg-7 ">
                     <div class="row" id="supply-card-container">
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
+                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt="" srcset=""
+                                        class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Parts</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">Parts</a>
 
                                     </div>
                                 </div>
@@ -898,13 +795,13 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
+                                    <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
+                                        alt="" srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Tools</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">Tools</a>
 
                                     </div>
                                 </div>
@@ -913,13 +810,14 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
+                                    <img src="{{ asset('img/supply/relay-control-panel/Relay-control-panels-1.jpg') }}"
+                                        alt="" srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Relay & Control Panels</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">Relay & Control
+                                            Panels</a>
 
                                     </div>
                                 </div>
@@ -934,7 +832,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Switchgears</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">Switchgears</a>
 
                                     </div>
                                 </div>
@@ -943,13 +841,14 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
-                                        srcset="" class="img-fluid">
+                                    <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}"
+                                        alt="" srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">Testing Equipment</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">Testing
+                                            Equipment</a>
 
                                     </div>
                                 </div>
@@ -964,7 +863,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{route('index')}}" target="_blank" class="">MV Motor</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">MV Motor</a>
 
                                     </div>
                                 </div>
@@ -981,36 +880,36 @@
     </section>
 
     {{-- *********************End Home Supplies Section******************* --}}
- {{-- *********************Home Call To Action Section******************* --}}
+    {{-- *********************Home Call To Action Section******************* --}}
 
- <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff; ">
-    <div class="container">
-        <div class="row ">
-            <div class="col-12 col-sm-7 section-column">
-                <header>
-                    <div class="subtitle">We Do It</div>
-                    <div class="sectionTitle text-white">What We Supply to Our Customers
+    <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff; ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-sm-7 section-column">
+                    <header>
+                        <div class="subtitle">We Do It</div>
+                        <div class="sectionTitle text-white">What We Supply to Our Customers
+                        </div>
+                        <div class="line mx-0"></div>
+                    </header>
+                    <p class="content">One window Electromechanical solutions for Power Systems</p>
+                </div>
+                <div class="col-12 col-sm-5 ">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
+                            More >></a>
+
                     </div>
-                    <div class="line mx-0"></div>
-                </header>
-                <p class="content">One window Electromechanical solutions for Power Systems</p>
-            </div>
-            <div class="col-12 col-sm-5 ">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
-                        More >></a>
-
                 </div>
             </div>
-        </div>
 
-    </div>
-    {{-- <footer class="pb-5">
+        </div>
+        {{-- <footer class="pb-5">
 
 </footer> --}}
-</section>
+    </section>
 
-{{-- *********************End Home Call To Action Section******************* --}}
+    {{-- *********************End Home Call To Action Section******************* --}}
     {{-- ***********************Home Why Choose Us******************************* --}}
 
     <section id="home-whychooseus" class="mainSection position-relative bg-grey">
@@ -1035,17 +934,17 @@
                         <div class="line mx-0"></div>
                     </header>
                 </div>
-                <div class="col-12 col-lg-7  order-3 order-lg-2">
+                <div class="col-12 col-md-7  order-3 order-md-2">
                     {{-- <div class="section-column sectioninfo col-12 col-lg-7 pe-5 order-3 order-lg-2"> --}}
-                    <p>We pride ourselves on our ability to provide flexibility
+                    <p class="left-content">We pride ourselves on our ability to provide flexibility
                         while
                         working closely with customers to fulfil their changing requirements. PNR also works to develop
                         long-term working relationships with parts and equipment suppliers to ensure cost efficiency and
                         lesser lead times. Our goal is to complete all assigned works within estimated timeframe not
                         compromising on highest standards of quality.</p>
-                    <div class="listbox container-fluid">
+                    <div class="listbox container-fluid" id="large-screen">
                         <div class="row">
-                            <div class="col-12 col-sm-12">
+                            <div class="col-12 ">
                                 <div class="list">
                                     <ul class="listbox">
                                         <li class="list-item">Provide flexibility to fulfil customers' changing
@@ -1054,33 +953,50 @@
                                         <li class="list-item">Lesser lead times</li>
                                         <li class="list-item">Complete all assigned works within estimated timeframe </li>
                                         <li class="list-item">No compromise on highest standards of quality.</li>
-
-
                                     </ul>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
-
-
                 </div>
+
                 {{-- <div class="section-column image-section col-12 col-lg-5 order-2 order-lg-3"> --}}
-                <div class="col-12 col-lg-5 order-2 order-lg-3">
-                    <div class="image-box">
-                        <img src="{{ url('/img/aboutus/4.jpg') }}" alt="" srcset="" class="">
+                <div class="col-12 col-md-5 order-2 order-md-3 ">
+                    <div class="image-box" id="right-image">
+                        <img src="{{ url('/img/aboutus/join-hands.jpg') }}" alt="" srcset=""
+                            class="">
                     </div>
 
                 </div>
 
             </div>
         </div>
-        <div class="container pt-5 z-3 position-relative">
+        <div class="container-fluid">
             <div class="row">
-                <div class="section-column image-section col-12 col-lg-3">
-                    <div class=" image-box">
+                <div class="col-12">
+                    <div class="listbox container-fluid" id="small-screen">
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="list">
+                                    <ul class="listbox">
+                                        <li class="list-item">Provide flexibility to fulfil customers' changing
+                                            requirements</li>
+                                        <li class="list-item">Ensure cost efficiency</li>
+                                        <li class="list-item">Lesser lead times</li>
+                                        <li class="list-item">Complete all assigned works within estimated timeframe </li>
+                                        <li class="list-item">No compromise on highest standards of quality.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-5 z-3 position-relative">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="image-box" id="training">
                         <img src="{{ url('/img/aboutus/2.jpg') }}" alt="" srcset=""
                             class="img-thumbnail ">
                     </div>
@@ -1088,7 +1004,7 @@
                 </div>
 
 
-                <div class="col-12 col-lg-9 pt-3">
+                <div class="col-12 col-md-9 ">
                     <p class="content text-justify">Our skillful technical and procurement available
                         resources make us uniquely positioned to be relied upon by many valued
                         customers. </p>
@@ -1120,8 +1036,8 @@
 
     </section>
     {{-- ***********************End Home Why Choose Us******************************* --}}
-    
-   
+
+
     {{-- ***********************Home Team Member Section******************************* --}}
     <section id="home-team" class="mainSection position-relative">
 
@@ -1156,14 +1072,11 @@
                         <div class="line bg-warning" style="margin: 1.5rem auto 5.0rem;"></div>
                     </header>
                 </div>
-
-
-
             </div>
         </div>
         <div class="container-fluid container-lg team-list">
-            <div class="row pt-5 g-5">
-                <div class="col-12 col-sm-6">
+            <div class="row pt-3">
+                <div class="col-6 col-sm-5 offset-sm-1 col-md-6 offset-md-0">
 
                     <div class="team-container">
                         <div class="team-image-box">
@@ -1187,7 +1100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-6 col-sm-5 col-md-6 offset-md-0">
                     <div class="team-container ">
                         <div class="team-image-box">
                             <img src="{{ asset('img/team/junaid-director.jpg') }}" alt="">
@@ -1195,7 +1108,8 @@
                         <div class="team-content">
                             <h1 class="team-name">Junaid Ali<h1>
                                     <h3 class="team-designation">Co-founder and Team Lead Services</h3>
-                                    <div class="line d-inline-block me-1" style="width: 3.0rem;border-radius:1.0rem;"></div>
+                                    <div class="line d-inline-block me-1" style="width: 3.0rem;border-radius:1.0rem;">
+                                    </div>
                                     <div class="line d-inline-block "style="border-radius:1.0rem;"></div>
                                     <p class="team-descr">20 years experience working with major OEMs of power and energy.
                                     </p>
@@ -1217,8 +1131,8 @@
     </section>
 
     {{-- ***********************End Home Team Member Section******************************* --}}
-   
-   
+
+
     {{-- **************************Services************* --}}
     {{-- <section>
         <div class="container. rem-4 py-5" id="icon-grid">

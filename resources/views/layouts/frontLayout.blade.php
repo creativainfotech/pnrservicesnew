@@ -548,8 +548,184 @@
     </footer> --}}
     <footer class="footer bg-dark">
         <div class="container-fluid">
-            <div class="row ">
-                <div class="col-12 col-sm-4 ">
+            <div class="row">
+                <div class="col-12 col-sm-9 col-md-9 col-lg-4">
+                    <h2 class="footer-header">
+                        Services
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                   
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-lg-5">
+                            <ul>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('turbogenerator') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Turbogenerator</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('turbine') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Turbine</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('compressor') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Compressor</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('gearbox') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Gearbox</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('valve') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Valve</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('pumps') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Pump</a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-7">
+                            <ul>
+
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('blower') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Blower</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('heatExchanger') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Heat Exchanger</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('alignment') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Alignment</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('retrofitUpgrade') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Retrofit & Upgrade</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('designSystemStudy') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Design & System Studies</a>
+
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="footer-link" href="{{ route('training') }}" target="_blank"><i
+                                            class="fas fa-hand-point-right"></i>
+                                        Training</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12  col-sm-3 col-md-3 col-lg-3" >
+                    <h2 class="footer-header">
+                         Supplies
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                    <ul>
+
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('parts') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Parts</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('tools') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Tools</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('relayControlPanels') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Relay & Control Panels</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('switchgears') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Switchgears</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('testing-equipment') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>Testing Equipment</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('mvMotors') }}" target="_blank"><i
+                                    class="fas fa-hand-point-right"></i>MV Motors</a>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <h2 class="footer-header">
+                        Contact Us
+                        <div class="line mx-auto bg-white"></div>
+                    </h2>
+                    <ul>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('parts') }}" target="_blank">
+                                <i class="fas fa-phone"></i>+971556985010, +33678700601</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('tools') }}" target="_blank"><i
+                                    class="fas fa-envelope"></i>sales@pnr.services</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('relayControlPanels') }}" target="_blank"><i
+                                    class="fas fa-globe"></i>www.pnr.services</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a class="footer-link" href="{{ route('switchgears') }}" target="_blank"><i
+                                    class="fas fa-map-marker"></i>AI Shohada Road, AI Hamara Industrial Zone-FZ, Ras AI Khaimah, United Arab Emirates</a>
+
+                        </li>
+                        
+
+                    </ul>
+                   
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 d-flex justify-center align-items-center ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.189774836094!2d55.783717874458425!3d25.6650031125958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60bee567a253b%3A0x80fd444807765d7!2sRAKEZ%20Compass%20Coworking!5e0!3m2!1sen!2sin!4v1709041557373!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center bg-dark text-white mt-5 p-1 ">
+            <p class="mb-0 text-center">2024 © Creativa Infotech, All Rights Reserved</p>
+        </div>
+    </footer>
+    {{-- <footer class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 ">
                     <h2 class="footer-header">
                         Services
                         <div class="line mx-auto bg-white"></div>
@@ -641,7 +817,7 @@
                     </div>
 
                 </div>
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <h2 class="footer-header">
                          Supplies
                         <div class="line mx-auto bg-white"></div>
@@ -681,7 +857,7 @@
 
                     </ul>
                 </div>
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <h2 class="footer-header">
                         Contact Us
                         <div class="line mx-auto bg-white"></div>
@@ -712,7 +888,7 @@
                     </ul>
                    
                 </div>
-                <div class="col-12 col-sm-2 d-flex justify-center align-items-center ">
+                <div class="col-12 col-sm-6 col-md-2 d-flex justify-center align-items-center ">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.189774836094!2d55.783717874458425!3d25.6650031125958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60bee567a253b%3A0x80fd444807765d7!2sRAKEZ%20Compass%20Coworking!5e0!3m2!1sen!2sin!4v1709041557373!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -721,7 +897,7 @@
         <div class="text-center bg-dark text-white mt-5 p-1 ">
             <p class="mb-0 text-center">2024 © Creativa Infotech, All Rights Reserved</p>
         </div>
-    </footer>
+    </footer> --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
