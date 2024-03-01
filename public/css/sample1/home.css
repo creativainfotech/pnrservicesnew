@@ -382,7 +382,7 @@ background-size: cover; */
 
 /* *********************home_call_to_action***************** */
 #home_call_to_action {
-    background-image: url("../img/background-image/mash.png");
+    background-image: url("../../img/background-image/contact.jpg");
     background-size: contain;
     background-position: center center;
 }

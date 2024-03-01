@@ -35,7 +35,7 @@
     border-radius: 100%;
     color: #222222;
     position: relative;
-    top: 10.0rem;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -210,7 +210,7 @@
 }
 
 
-@media only screen and (min-width: 30.0rem) and (max-width: 59.9rem) {
+/* @media only screen and (min-width: 30.0rem) and (max-width: 59.9rem) {
   .holderCircle {
     width: 30.0rem;
     height: 30.0rem;
@@ -233,11 +233,17 @@
 @media only screen and (min-width: 60.0rem) and (max-width: 76.7rem) {
 }
 @media only screen and (min-width: 76.8rem) and (max-width: 99.1rem) {
+} */
+/* @media only screen and (min-width: 99.2rem) and (max-width: 119.9rem) {
+
+.dotCircle .itemDot{
+  font-size: 3rem;
+  width:6rem;
+  height: 6rem;
 }
-@media only screen and (min-width: 99.2rem) and (max-width: 119.9rem) {
-}
-@media only screen and (min-width: 120.0rem) and (max-width: 149.9rem) {
-}
+} */
+/* @media only screen and (min-width: 120.0rem) and (max-width: 149.9rem) {
+} */
 .title-box .title {
   font-weight: 600;
   letter-spacing: .2rem;
@@ -245,7 +251,7 @@
   z-index: -1;
 
 margin-bottom: 1rem;
-;}
+}
 .title-box span {
   text-shadow: 0 1.0rem 1.0rem rgba(0, 0, 0, 0.15);
   font-weight: 800;
@@ -257,3 +263,106 @@ margin-bottom: 1rem;
   text-align: center;
 }
 
+@media (max-width:1110px) {
+.contentCircle{
+  width: 55%;
+  top:9rem;
+}
+  .dotCircle .itemDot{
+    font-size: 3rem;
+    width:7rem;
+    height: 7rem;
+  }
+  .title-box p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    /* line-height: 1.5em;
+    text-align: center; */
+  }
+  }
+  @media (max-width:920px) {
+    .contentCircle{
+      width: 50%;
+      top:27%;
+    }
+      .dotCircle .itemDot{
+     font-size: 2.5rem; 
+        width:6rem;
+        height: 6rem;
+      }
+      .title-box p {
+        font-size: 1.4rem;
+        font-weight: 700;
+       line-height: 1.7em;
+      }
+      }
+
+      @media (max-width:767px) {
+        .iq-features{
+          width: calc(45%);
+          aspect-ratio: 1;
+          margin-bottom: 5rem;
+      }
+      .title-box p {
+        font-size: 1.8rem;
+        line-height: 1.3em;
+        /* text-align: center; */
+      }
+      }
+
+      @media (max-width:700px) {
+        .iq-features{
+          width: calc(50%);
+          
+          margin-bottom: 3rem;
+      }
+      .title-box p {
+        font-size: 1.5rem;
+        /* font-size: 1.8rem;
+        line-height: 1.3em; */
+        /* text-align: center; */
+      }
+      }
+
+      @media (max-width:550px) {
+        .iq-features{
+          width: calc(60%);
+          
+          /* margin-bottom: 3rem; */
+      }
+      .title-box p {
+        font-size: 1.4rem;
+        /* font-size: 1.8rem;
+        line-height: 1.3em; */
+        /* text-align: center; */
+      }
+      }
+      @media (max-width:450px) {
+        .iq-features{
+          width: calc(70%);
+          
+          /* margin-bottom: 3rem; */
+      }
+      .title-box p {
+        font-size: 1.6rem;
+        /* font-size: 1.8rem;
+        line-height: 1.3em; */
+        /* text-align: center; */
+      }
+      .dotCircle .itemDot{
+        font-size: 2.3rem; 
+           width:5.8rem;
+           height: 5.8rem;
+         }
+         .contentCircle .CirItem i {
+          font-size: 12.0rem;
+          margin-left: -6.0rem;
+          /* position: absolute;
+          top: 0;
+          left: 50%;
+          margin-left: -9.0rem;
+          color: #000000;
+          opacity: 0.1; */
+        }
+
+      }

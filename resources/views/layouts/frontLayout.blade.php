@@ -6,8 +6,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon/favicon-32x32.png')}}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon/favicon-16x16.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon/favicon-16x16.png') }}">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -102,8 +102,7 @@
                                             </a>
                                         </div>
                                         <div class="col-4 col-sm-2 mega-menu-item-container ">
-                                            <a href="{{ route('compressor') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('compressor') }}" target="_blank" class="dropdown-item">
                                                 <figure>
                                                     <div> <img
                                                             src="{{ asset('img/services/compressor/compressor.jpg') }}"
@@ -135,8 +134,7 @@
                                         </div>
 
                                         <div class="col-4 col-sm-2 mega-menu-item-container ">
-                                            <a href="{{ route('pumps') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('pumps') }}" target="_blank" class="dropdown-item">
                                                 <figure>
                                                     <div><img src="{{ asset('img/services/pumps/pumps.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
@@ -147,8 +145,7 @@
                                         </div>
 
                                         <div class="col-4 col-sm-2 mega-menu-item-container ">
-                                            <a href="{{ route('blower') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('blower') }}" target="_blank" class="dropdown-item">
                                                 <figure>
                                                     <div><img src="{{ asset('img/services/blower/blowers.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
@@ -185,7 +182,8 @@
                                             <a href="{{ route('retrofitUpgrade') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}"
+                                                    <div><img
+                                                            src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Retrofit & Upgrade</figcaption>
@@ -196,7 +194,8 @@
                                             <a href="{{ route('designSystemStudy') }}" target="_blank"
                                                 class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
+                                                    <div><img
+                                                            src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Design & System Studies</figcaption>
@@ -204,8 +203,7 @@
                                             </a>
                                         </div>
                                         <div class="col-4 col-sm-2 mega-menu-item-container ">
-                                            <a href="{{ route('training') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('training') }}" target="_blank" class="dropdown-item">
                                                 <figure>
                                                     <div><img
                                                             src="{{ asset('img/services/training/Trainings-1.jpg') }}"
@@ -222,18 +220,18 @@
 
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Supplies
                             </a>
-                            <div class="dropdown-menu mega-dropdown-menu"id="supply-mega-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu mega-dropdown-menu"id="supply-mega-dropdown-menu"
+                                aria-labelledby="navbarDropdown">
                                 <div class="container-fluid">
                                     <div class="row ">
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('parts') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('parts') }}" target="_blank" class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/supply/parts/parts1.jpg') }}"
+                                                    <div><img src="{{ asset('img/supply/parts/parts-2.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Parts</figcaption>
@@ -241,11 +239,9 @@
                                             </a>
                                         </div>
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('tools') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('tools') }}" target="_blank" class="dropdown-item">
                                                 <figure>
-                                                    <div><img
-                                                            src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
+                                                    <div><img src="{{ asset('img/supply/tools/tools-1.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>Tools</figcaption>
@@ -277,22 +273,22 @@
                                             </a>
                                         </div>
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('testing-equipment') }}" target="_blank" class="dropdown-item">
+                                            <a href="{{ route('testing-equipment') }}" target="_blank"
+                                                class="dropdown-item">
                                                 <figure>
-                                                    <div><img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}" alt=""
-                                                            srcset="" class="img-thumbnail">
+                                                    <div><img
+                                                            src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
+                                                            alt="" srcset="" class="img-thumbnail">
                                                     </div>
-                                                    <figcaption>Testing Equipment</figcaption>
+                                                    <figcaption>Testing Equipments</figcaption>
                                                 </figure>
                                             </a>
                                         </div>
 
                                         <div class="col-6 col-sm-4 mega-menu-item-container ">
-                                            <a href="{{ route('mvMotors') }}" target="_blank"
-                                                class="dropdown-item">
+                                            <a href="{{ route('mvMotors') }}" target="_blank" class="dropdown-item">
                                                 <figure>
-                                                    <div><img
-                                                            src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}"
+                                                    <div><img src="{{ asset('img/supply/mvmotor/MVMotor-1.jpg') }}"
                                                             alt="" srcset="" class="img-thumbnail">
                                                     </div>
                                                     <figcaption>MV Motors</figcaption>
@@ -317,8 +313,13 @@
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item text-center">
-                            <a class="btn buttonStyleSecondary" aria-current="page"
-                                href="{{ route('contact') }}">Get A Quote</a>
+                            {{-- <a class="btn buttonStyleSecondary" aria-current="page"
+                                href="">Get A Quote</a> --}}
+                            <button type="button" class="btn buttonStyleSecondary" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                Get A Quote
+                            </button>
+
                         </li>
                     </ul>
 
@@ -326,9 +327,65 @@
 
             </div>
         </nav>
-       
+
     </header>
     @yield('mainSection')
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div id="logo">
+
+                        <a class="d-flex" href="#">
+                            <img src="{{ asset('images/logo/base/icon/base_icon_transparent_background.png') }}"
+                                alt="" id="icon">
+                            <img src="{{ asset('images/logo/base/text/base_textlogo_transparent_background.png') }}"
+                                alt="" id="logotext">
+                        </a>
+                    </div>
+                    {{-- <h5 class="modal-title" id="contactModalLabel">Contact Us</h5> --}}
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="modal-left">
+                                    <img src="{{ asset('img/contact/2.gif') }}" alt="" class="img-fluid">
+                                </div>  
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="modal-header">
+                                    <h5 class="modal-title pb-1" id="contactModalLabel">Contact Us</h5>
+                                    {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
+                                </div>
+                                <ul class="list-group list-group-flush" id="modal-list">
+                                    <li class="list-group-item">
+                                        <a class="modal-link" href="" >
+                                           <img src="{{asset('img/animated/phone-1.gif')}}" alt="" srcset="">+971556985010, +33678700601</a></li>
+                                    <li class="list-group-item"> <a class="modal-link" href=""
+                                            ><img src="{{asset('img/animated/email.gif')}}" alt="" srcset="">sales@pnr.services</a></li>
+                                    <li class="list-group-item"> <a class="modal-link"
+                                            href="" ><img src="{{asset('img/animated/globe.gif')}}" alt="" srcset="">www.pnr.services</a></li>
+                                    <li class="list-group-item"><a class="modal-link"
+                                            href="" ><img src="{{asset('img/animated/location-big.gif')}}" alt="" srcset="" class="fs-1">AI Shohada Road, AI Hamara Industrial
+                                            Zone-FZ, Ras AI Khaimah, United Arab Emirates</a>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- <footer class="mainSection overlaySection">
        
 
@@ -554,7 +611,7 @@
                         Services
                         <div class="line mx-auto bg-white"></div>
                     </h2>
-                   
+
                     <div class="row">
                         <div class="col-6 col-sm-6 col-lg-5">
                             <ul>
@@ -625,8 +682,8 @@
 
                                 </li>
                                 <li class="footer-menu-item">
-                                    <a class="footer-link" href="{{ route('designSystemStudy') }}" target="_blank"><i
-                                            class="fas fa-hand-point-right"></i>
+                                    <a class="footer-link" href="{{ route('designSystemStudy') }}"
+                                        target="_blank"><i class="fas fa-hand-point-right"></i>
                                         Design & System Studies</a>
 
                                 </li>
@@ -641,9 +698,9 @@
                     </div>
 
                 </div>
-                <div class="col-12  col-sm-3 col-md-3 col-lg-3" >
+                <div class="col-12  col-sm-3 col-md-3 col-lg-3">
                     <h2 class="footer-header">
-                         Supplies
+                        Supplies
                         <div class="line mx-auto bg-white"></div>
                     </h2>
                     <ul>
@@ -670,7 +727,7 @@
                         </li>
                         <li class="footer-menu-item">
                             <a class="footer-link" href="{{ route('testing-equipment') }}" target="_blank"><i
-                                    class="fas fa-hand-point-right"></i>Testing Equipment</a>
+                                    class="fas fa-hand-point-right"></i>Testing Equipments</a>
 
                         </li>
                         <li class="footer-menu-item">
@@ -704,16 +761,20 @@
                         </li>
                         <li class="footer-menu-item">
                             <a class="footer-link" href="{{ route('switchgears') }}" target="_blank"><i
-                                    class="fas fa-map-marker"></i>AI Shohada Road, AI Hamara Industrial Zone-FZ, Ras AI Khaimah, United Arab Emirates</a>
+                                    class="fas fa-map-marker"></i>AI Shohada Road, AI Hamara Industrial Zone-FZ, Ras AI
+                                Khaimah, United Arab Emirates</a>
 
                         </li>
-                        
+
 
                     </ul>
-                   
+
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-2 d-flex justify-center align-items-center ">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.189774836094!2d55.783717874458425!3d25.6650031125958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60bee567a253b%3A0x80fd444807765d7!2sRAKEZ%20Compass%20Coworking!5e0!3m2!1sen!2sin!4v1709041557373!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.189774836094!2d55.783717874458425!3d25.6650031125958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60bee567a253b%3A0x80fd444807765d7!2sRAKEZ%20Compass%20Coworking!5e0!3m2!1sen!2sin!4v1709041557373!5m2!1sen!2sin"
+                        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

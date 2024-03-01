@@ -13,22 +13,34 @@
 @section('mainSection')
 
     <!-- ********************Bootstrap Carousel************ -->
-    <div id="homeCarousel" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+    <div id="homeCarousel" class="carousel slide  carousel-fade" data-bs-ride="carousel" data-interval="5000">
 
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="{{ asset('img/services/turbogenerator/turbogenerators.jpg') }}" class="d-block w-100 img-fluid "
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50 border-danger">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h1 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            turbogenerators</h1>
-                        <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">Some
-                            representative placeholder content for the first slide.</p>
-                        {{-- <a href="" class="carousel-btn btn animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                            turbogenerator</h1>
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -36,107 +48,179 @@
                 <img src="{{ asset('img/services/turbine/Turbine-engines-1.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbines &
-                            engines
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">turbine &
+                            engine
                         </h2>
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                       
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        {{-- <div class="caption sfl vert-line" data-x="550" data-speed="400" data-y="150"
+                        data-start="500"></div> --}}
+                        <h3 class="oem-list-heading" style="">OUR OEM</h3>
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+           <div class="carousel-item">
                 <img src="{{ asset('img/services/compressor/compressor.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            compressors
+                            compressor
                         </h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                        
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/services/gearbox/gearbox.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">gearboxes
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">gearbox
                         </h2>
-                        {{-- <ul class="d-flex flex-row">
-                            <li>	RENK</li>
-                                <li>	FLENDER</li>
-                                <li>	Nord</li>
-                                <li>	ABB Ltd.</li>
-                                <li>	Sumitomo Heavy Industries Ltd.</li>
-                                <li>	David Brown Santasalo.</li>
-                                <li>	SEW-Eurodrive GmbH & Co. KG.</li>
-                                <li>	Renold plc.</li>
-                                <li>	China High Speed Transmission Equipment Group Co., Ltd.</li>
-                                <li>	Hansen Transmissions International N.V.</li>
-                                <li>	NORD Drivesystems Pvt. Ltd.</li>
-                               
-                        </ul> --}}
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s">
-                            Some representative placeholder content for the first slide.
-                        </p> --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                     
+                       
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
 
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/services/valve/valve1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valves
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">valve
                         </h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                        
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/services/pumps/pumps.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">Pumps</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">Pump</h2>
+                        
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/services/blower/blowers.jpg') }}" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
-                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">blowers
+                        <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">blower
                         </h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p> --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                        
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -145,31 +229,58 @@
                 <img src="{{ asset('img/services/heat-exchanger/heat-exchanger.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">heat
-                            exchangers</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
-
-                    </div>
+                            exchanger</h2>
+                                          </div>
+                                          <div class="w-50 w-md-50 border-danger">
+                                            <ul class="oem-list" style="position:relative ;left:15%;">
+                                                <li><span> RENK</span></li>
+                                                <li><span> FLENDER</span></li>
+                                                <li><span> Nord</span></li>
+                                                <li><span> ABB Ltd.</span></li>
+                                                <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                                                <li><span> David Brown Santasalo.</span></li>
+                                                <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                                                <li><span> Renold plc.</span></li>
+                                                <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                                                <li><span> Hansen Transmissions International N.V.</span></li>
+                                                <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+                    
+                                            </ul>
+                                        </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('img/services/alignment/alignment.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            alignments</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                            alignment</h2>
+                        
+                       
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -177,15 +288,30 @@
                 <img src="{{ asset('img/services/retrofit/retrofit-upgrade-1.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            retrofits & upgrades</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                            retrofit & upgrade</h2>
+                        
+                       
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -193,15 +319,30 @@
                 <img src="{{ asset('img/services/design-system-studies/design-system-studies-1.jpg') }}"
                     class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
                             design & system studies</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                        
+                       
 
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -209,29 +350,239 @@
                 <img src="{{ asset('img/services/training/Trainings-1.jpg') }}" class="d-block w-100 img-fluid"
                     alt="...">
                 <div class="carousel-caption ">
-                    <div class="w-100 w-md-50">
+                    <div class="w-50 w-md-50">
                         <h5 class="carousel-title animate__animated animate__bounce" style="animation-delay: 1s">We Do It
                         </h5>
                         <h2 class="carousel-heading animate__animated animate__pulse" style="animation-delay: 2s">
-                            trainings</h2>
-                        {{-- <p class="carousel-content animate__animated animate__bounceInUp" style="animation-delay: 3s"  >Some representative placeholder content for the first slide.</p>         --}}
-                        {{-- <a href="" class="carousel-btn btn  animate__animated animate__backInLeft"
-                            style="animation-delay: 3s">Contact Us<i class="fa fa-bell"></i></a> --}}
+                            training</h2>
+                       
+                    </div>
+                    <div class="w-50 w-md-50 border-danger">
+                        <ul class="oem-list" style="position:relative ;left:15%;">
+                            <li><span> RENK</span></li>
+                            <li><span> FLENDER</span></li>
+                            <li><span> Nord</span></li>
+                            <li><span> ABB Ltd.</span></li>
+                            <li><span> Sumitomo Heavy Industries Ltd.</span></li>
+                            <li><span> David Brown Santasalo.</span></li>
+                            <li><span> SEW-Eurodrive GmbH & Co. KG.</span></li>
+                            <li><span> Renold plc.</span></li>
+                            <li><span> China High Speed Transmission Equipment Group Co., Ltd.</span></li>
+                            <li><span> Hansen Transmissions International N.V.</span></li>
+                            <li><span> NORD Drivesystems Pvt. Ltd.</span></li>
 
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
 
     </div>
 
     <!-- ********************End Bootstrap Carousel************ -->
 
+    {{-- ******************************************* --}}
     <section id="home-aboutus" class="mainSection">
         <div class="container-fluid container-xl z-3 position-relative">
             <div class="row">
-                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                    {{-- <div class="iq-features">
+                <div class="col-12">
+                    <header>
+                        <div class="centerHeading">Looking for <strong class="centerHeadingBold">Specialized
+                            </strong>Services for your Power System?</div>
+                        {{-- <div class="sectionTitle text-center">Looking for <strong class="text-bold">Specialized </strong>Services for your Power System?</div> --}}
+
+                        <div class="centerSubHeading">You are at Right Place-We are serving GLOBALLY</div>
+                        <div class="line mx-auto"></div>
+                        {{-- <p class="content text-justify"><strong>PNR</strong> offers OEM experienced technical
+                        specialists to <strong>power generation</strong>
+                        companies, <strong>oil & gas</strong>, <strong>fertilizers</strong>, <strong>cement</strong>
+                        industries. We supply our clients multi-disciplined
+                        expertise with field engineers of <b>electrical, mechanical, elctromechanical and
+                            instrumentation</b>
+                        disciplines.</p> --}}
+                    </header>
+                    {{-- <header style="width:75vw; margin:auto;" class="d-flex justify-center align-items-center flex-column">
+                    <div class="subtitle ">Welcome To pNR Services</div>
+                    <div class="sectionTitle text-center">We offer OEM experienced technical specialists to power generation
+                        companies, oil & gas, fertilizers, cement & sugar industries.
+                    </div>
+                    <div class="line mx-0"></div>
+                </header> --}}
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-12 col-md-5 col-lg-5 p-0 d-flex justify-content-center align-items-center">
+                    <div class="iq-features">
+                        <div class="holderCircle">
+                            <div class="round"></div>
+                            <div class="dotCircle">
+                                <span class="itemDot active itemDot1 overflow-hidden " data-tab="1">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                                <span class="itemDot itemDot2" data-tab="2">
+                                    <i class="fa fa-comments"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                                <span class="itemDot itemDot3" data-tab="3">
+                                    <i class="fa fa-user"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                                <span class="itemDot itemDot4" data-tab="4">
+                                    <i class="fa fa-tags"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                                <span class="itemDot itemDot5" data-tab="5">
+                                    <i class="fa fa-upload"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                                <span class="itemDot itemDot6" data-tab="6">
+                                    <i class="fa fa-briefcase"></i>
+                                    <span class="forActive"></span>
+                                </span>
+                            </div>
+                            <div class="contentCircle">
+                                <div class="CirItem title-box active CirItem1">
+                                    <h2 class="title"><span>Mission</span></h2>
+                                    <p>
+                                        Our mission is to do complex things in the simplest possible way.
+                                    </p>
+                                    {{-- <i class="fa fa-clock-o"></i> --}}
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                                <div class="CirItem title-box CirItem2">
+                                    <h2 class="title"><span>Vision </span></h2>
+                                    <p>
+                                        To become one window electromechanical solution provider company.
+                                    </p>
+                                    <i class="fa fa-comments"></i>
+                                </div>
+                                <div class="CirItem title-box CirItem3">
+                                    <h2 class="title"><span>Support</span></h2>
+                                    <p>
+                                        Our after sales is available 24/7 to keep your machines running and minimise
+                                        downtime in case of tripping.
+                                    </p>
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <div class="CirItem title-box CirItem4">
+                                    <h2 class="title"><span>Training</span></h2>
+                                    <p>
+                                        Customised trainings for O&M engineers
+                                    </p>
+                                    <i class="fa fa-tags"></i>
+                                </div>
+                                <div class="CirItem title-box CirItem5">
+                                    <h2 class="title"><span>Value</span></h2>
+                                    <p>
+                                        Trust, Service, Responsibility.
+                                    </p>
+                                    <i class="fa fa-upload"></i>
+                                </div>
+                                <div class="CirItem title-box CirItem6">
+                                    <h2 class="title"><span>Certification</span></h2>
+                                    <p>
+                                        Skilled, experienced and OEM certified engineers to work on your site.
+                                    </p>
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7 col-lg-7 ">
+                    {{-- <header>
+                    <div class="subtitle">Welcome To pNR Services</div>
+                    <div class="sectionTitle">We offer OEM experienced technical specialists to power generation
+                        companies, oil & gas, fertilizers, cement & sugar industries.
+                    </div>
+                    <div class="line mx-0"></div>
+                </header> --}}
+
+                    <p style="text-align: justify;"><strong>PNR Services</strong> offers OEM experienced technical
+                        specialists to <b>power generation companies, oil & gas, fertilizers, cement & sugar industries.
+                        </b>We
+                        understand the customer requirements and provide them with
+                        the <strong> latest technologies </strong>to overcome their challenges quickly and economically.
+                        We
+                        supply our clients multi-disciplined expertise with field engineers of <b>electrical,
+                            mechanical,
+                            elctromechanical and instrumentation & control engineers </b>disciplines.
+                    </p>
+                    <div class="d-flex">
+                        <ul class="listbox">
+                            <li class="list-item"> Major & Minor Inspections </li>
+                            <li class="list-item">Installation & Commissioning Services</li>
+                            <li class="list-item">Alignments </li>
+
+                            <li class="list-item">Retrofit & Assets Upgrades</li>
+                            <li class="list-item"> Lifecycle Management</li>
+                            <li class="list-item"> Trainings</li>
+
+
+                        </ul>
+                        {{-- <ul class="listbox">
+
+                        <li class="list-item">Retrofit & Assets Upgrades</li>
+                        <li class="list-item"> Lifecycle Management</li>
+                        <li class="list-item"> Trainings</li>
+
+                    </ul> --}}
+                    </div>
+
+
+
+
+                    {{-- <p>Our clients also enjoy customized training solutions on asset
+                    maintenance , commissioning and troubleshooting. These customized trainings are built by
+                    engineers who have extensive experience and are among the very best in the world.</p>
+
+              
+                <div class="">
+                    <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
+                        More >></a>
+                 
+                </div> --}}
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="content pt-5">Our clients also enjoy customized training solutions on asset
+                        maintenance , commissioning and troubleshooting. These customized trainings are built by
+                        engineers who have extensive experience and are among the very best in the world.</p>
+
+                    {{-- <div class="pt-3 text-center"> --}}
+                    <div class="d-flex justify-content-center align-items-center mt-5">
+                        <a class="btn btn-bordered " aria-current="page" href="{{ route('contact') }}"><span>Know
+                                More >></span></a>
+                        {{-- <a class="btn buttonStyleSecondary ms-3" aria-current="page" href="{{ route('contact') }}">Read
+                            More >></a> --}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    {{-- *************************************************** --}}
+
+
+    {{-- <section id="home-aboutus" class="mainSection">
+        <div class="container-fluid container-xl z-3 position-relative">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 p-0 d-flex justify-content-center align-items-center">
+                    <div class="iq-features">
                         <div class="holderCircle">
                             <div class="round"></div>
                             <div class="dotCircle">
@@ -305,13 +656,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div> --}}
-
-
+                    </div>
                 </div>
 
-                {{-- Right section --}}
-                <div class="col-12 col-lg-7 ">
+              
+                <div class="col-12 col-md-6 col-lg-7 ">
                     <header>
                         <div class="subtitle">Welcome To pNR Services</div>
                         <div class="sectionTitle">We offer OEM experienced technical specialists to power generation
@@ -354,12 +703,11 @@
                         maintenance , commissioning and troubleshooting. These customized trainings are built by
                         engineers who have extensive experience and are among the very best in the world.</p>
 
-                    {{-- <div class="pt-3 text-center"> --}}
+                    
                     <div class="">
                         <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
                             More >></a>
-                        {{-- <a class="btn buttonStyleSecondary ms-3" aria-current="page" href="{{ route('contact') }}">Read
-                                More >></a> --}}
+                      
                     </div>
 
 
@@ -371,12 +719,10 @@
             </div>
         </div>
 
-        {{-- <footer class="pb-5">
-
-        </footer> --}}
+     
 
 
-    </section>
+    </section> --}}
     {{-- ***********************Home About Us******************************* --}}
 
     {{-- <section id="home-aboutus" class="mainSection">
@@ -581,8 +927,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{ route('turbogenerator') }}" target="_blank"
-                                    class="">Turbogenerator</a>
+                                <a href="{{ route('turbogenerator') }}" target="_blank" class="">Turbogenerator</a>
 
                             </div>
                         </div>
@@ -597,7 +942,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{ route('turbine') }}" target="_blank" class="">Turbines</a>
+                                <a href="{{ route('turbine') }}" target="_blank" class="">Turbine</a>
                             </div>
                         </div>
                     </div>
@@ -611,7 +956,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{ route('compressor') }}" target="_blank" class="">Compressors </a>
+                                <a href="{{ route('compressor') }}" target="_blank" class="">Compressor </a>
                             </div>
                         </div>
                     </div>
@@ -653,7 +998,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{ route('pumps') }}" target="_blank" class="">Pumps </a>
+                                <a href="{{ route('pumps') }}" target="_blank" class="">Pump</a>
                             </div>
                         </div>
                     </div>
@@ -667,7 +1012,7 @@
                         <div class="service-content-box">
                             {{-- <div class="icon-box">icon</div> --}}
                             <div class="content">
-                                <a href="{{ route('blower') }}" target="_blank" class="">Blowers </a>
+                                <a href="{{ route('blower') }}" target="_blank" class="">Blower </a>
                             </div>
                         </div>
                     </div>
@@ -780,7 +1125,7 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/parts/parts1.jpg') }}" alt="" srcset=""
+                                    <img src="{{ asset('img/supply/parts/parts-2.jpg') }}" alt="" srcset=""
                                         class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
@@ -795,8 +1140,8 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
-                                        alt="" srcset="" class="img-fluid">
+                                    <img src="{{ asset('img/supply/tools/tools-1.jpg') }}" alt="" srcset=""
+                                        class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
@@ -841,14 +1186,14 @@
                         <div class="col-6 col-sm-4 col-md-4">
                             <div class="supply-card">
                                 <div class="supply-image-box">
-                                    <img src="{{ asset('img/supply/Testing-commissioning/Testing-commissioning-1.jpg') }}"
+                                    <img src="{{ asset('img/supply/tools-equipment/tools-equipments-1.jpg') }}"
                                         alt="" srcset="" class="img-fluid">
                                 </div>
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
                                         <a href="{{ route('index') }}" target="_blank" class="">Testing
-                                            Equipment</a>
+                                            Equipments</a>
 
                                     </div>
                                 </div>
@@ -863,7 +1208,7 @@
                                 <div class="supply-content-box">
                                     {{-- <div class="icon-box">icon</div> --}}
                                     <div class="content">
-                                        <a href="{{ route('index') }}" target="_blank" class="">MV Motor</a>
+                                        <a href="{{ route('index') }}" target="_blank" class="">MV Motors</a>
 
                                     </div>
                                 </div>
@@ -883,21 +1228,36 @@
     {{-- *********************Home Call To Action Section******************* --}}
 
     <section id="home_call_to_action" class="mainSection" style="background-color: #306770; color:#ffffff; ">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row ">
                 <div class="col-12 col-sm-7 section-column">
                     <header>
-                        <div class="subtitle">We Do It</div>
-                        <div class="sectionTitle text-white">What We Supply to Our Customers
+                        <div class="bannerTitle w-75">Discover how our comprehensive range of electromechanical services
+                            can benefit your business.
                         </div>
-                        <div class="line mx-0"></div>
+
+                        {{-- <div class="line mx-0"></div> --}}
+
                     </header>
-                    <p class="content">One window Electromechanical solutions for Power Systems</p>
+
                 </div>
                 <div class="col-12 col-sm-5 ">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                        <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
-                            More >></a>
+                    <div class="d-flex justify-content-center align-items-center flex-column h-100 w-75 ">
+                        {{-- <a class="btn buttonStyleSecondary" aria-current="page" href="{{ route('contact') }}">Read
+                            More >></a> --}}
+                        <header>
+                            <div class="centerSubHeading fw-bolder  "
+                                style="position: relative;bottom:3rem;letter-spacing: 0.1rem;">Learn more about our
+                                services and expertise</div>
+                        </header>
+                        <a class="btn btn-ripple animation-ripple" href="{{ route('contact') }}">
+                            {{-- <i class="fa fa-play"></i> --}}
+                            <img src="{{ asset('img/animated/download.gif') }}" alt="" srcset="">
+                        </a>
+                        <p class="content fs-3" style="position: relative;top:3rem;letter-spacing: 0.1rem;">Download our
+                            brochure to get started!"</p>
+
+                        {{-- <a target="_blank" href="https://icons8.com/icon/wtW3pZAllO4k/download">Download</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> --}}
 
                     </div>
                 </div>
@@ -1014,8 +1374,8 @@
                     </div> --}}
                     <div class="pt-3 text-center">
 
-                        <a class="btn buttonStyleSecondary ms-3" aria-current="page" href="{{ route('contact') }}">Read
-                            More >></a>
+                        <a class="btn btn-bordered ms-3 " aria-current="page" href="{{ route('contact') }}"><span>Know
+                                More >></span></a>
                     </div>
                 </div>
 
@@ -2320,6 +2680,13 @@
         </div>
     </section> --}}
 @section('scripts')
+<script>
+    var myCarousel = document.querySelector('#homeCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 8000,
+//   wrap: false
+})
+</script>
     <script>
         $('#myTab a').on('click', function(e) {
             e.preventDefault()

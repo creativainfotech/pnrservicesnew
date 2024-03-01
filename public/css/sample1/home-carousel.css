@@ -1,87 +1,223 @@
 /* ***************************** Bootstrap Carousel********************* */
-
-#homeCarousel .carousel-inner .carousel-item{
+#homeCarousel {
+    margin-top: 6rem;
+}
+#homeCarousel .carousel-inner .carousel-item {
     width: 100%;
     height: var(--carousel-height);
-    max-height:var(--carousel-height);
+    max-height: var(--carousel-height);
     overflow: hidden;
     /* display:flex; */
     /* border:.2rem solid red; */
     position: relative;
+}
+
+#homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-top: 5rem;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .oem-list-heading {
+        font-size: 2.5rem;
+        position: relative;
+        bottom: 25px;
+        left: 15%;
+        display: inline-block;
+        opacity: 0;
+        font-weight: 600;
+        animation: display-heading 2s linear;
+        animation-fill-mode: forwards;
     }
-  
-    #homeCarousel .carousel-inner .carousel-item .carousel-caption{
-      top:0;
-      left:0;
-      background-color: rgba(0,0,0,0.6);
-      width:100%;
-      height:100%;
-      text-align: left;
-      padding-top: 10rem;
-      padding-left:8rem;
+    & .oem-list {
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            /* height: 100%; */
+            background-color: white;
+            animation: vert-line 1500ms linear;
+            animation-fill-mode: forwards;
+            animation-delay: 1.5s;
+        }
+        & li {
+            position: relative;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            /* border:1px solid red; */
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: -3%;
+                width: 0px;
+                height: 2px;
+                /* height: 100%; */
+                background-color: white;
+                animation: horz-line 800ms linear;
+                animation-fill-mode: forwards;
+                animation-delay: 3s;
+            }
+            & span {
+                /* display: none; */
+                opacity: 0;
+                animation: show-oem 5s linear;
+                animation-fill-mode: forwards;
+                animation-delay: 4s;
+            }
+        }
     }
-    #homeCarousel .carousel-inner .carousel-item img{
+}
+
+@keyframes vert-line {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 25%;
+    }
+    50% {
+        height: 50%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+@keyframes horz-line {
+    0% {
+        width: 0px;
+    }
+    25% {
+        width: 5px;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 13px;
+    }
+}
+@keyframes show-oem {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes display-heading {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#homeCarousel .carousel-inner .carousel-item img {
     /* border:.1rem solid red; */
     width: 100%;
     height: 100%;
-  object-fit: cover;
-  max-height: var(--carousel-height);
-    }
-    #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-title{
-  border:.2rem solid var(--color-secondary);
-  border-radius: 1.0rem;
-  padding: .5rem 2.5rem;
-  line-height: 3.4rem;
-  letter-spacing: 1..5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 5.0rem;
-  color:var(--color-secondary);
-  font-size: 2.8rem;
-margin-top:4rem;
-    }
-    #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-heading{
-      color:#fff;
-      font-size: 5.8rem;
-      line-height: 4.8rem;
-      font-weight: 700;
-      margin-bottom: 4.0rem;
-      text-transform: uppercase;
-      letter-spacing: .4rem;
-    }
-    #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-content{
-      font-size: 1.8rem;
-      /* max-width: 75%; */
-      width: 100%;
-      margin-bottom: 2.7rem;
-      font-weight: 500; 
-    }
-  
-    #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn{
-  padding:1.4rem 3.0rem;
-  font-size: 1.6rem;
-      font-weight: 500;
-      border-radius: 5.0rem;
-      text-transform: uppercase;
-      letter-spacing: .1rem;
-      background-color: var(--color-secondary);
-      color: #fff;
-  }
-  #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn i{
-    padding-left: 1.0rem;
+    object-fit: cover;
+    max-height: var(--carousel-height);
+}
+#homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
+    border: 0.2rem solid var(--color-secondary);
+    border-radius: 1rem;
+    padding: 0.5rem 2.5rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5rem;
+    color: var(--color-secondary);
+    font-size: 2.8rem;
+    margin-top: 4rem;
+}
+#homeCarousel
+    .carousel-inner
+    .carousel-item
+    .carousel-caption
+    .carousel-heading {
+    color: #fff;
+    font-size: 5.3rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+#homeCarousel
+    .carousel-inner
+    .carousel-item
+    .carousel-caption
+    .carousel-content {
+    font-size: 1.8rem;
+    /* max-width: 75%; */
+    width: 100%;
+    margin-bottom: 2.7rem;
+    font-weight: 500;
+}
+
+#homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn {
+    padding: 1.4rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: var(--color-secondary);
+    color: #fff;
+}
+#homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn i {
+    padding-left: 1rem;
     transition: all 0.4s ease-in-out;
-    }
-  #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn:hover{
-  opacity: 90%;
-      color: #000;
-      background-color: #fff;
-      border: .1rem solid #dfdfdf;
-  }
-  
-  #homeCarousel .carousel-inner .carousel-item .carousel-caption .carousel-btn:hover i{
+}
+#homeCarousel
+    .carousel-inner
+    .carousel-item
+    .carousel-caption
+    .carousel-btn:hover {
+    opacity: 90%;
+    color: #000;
+    background-color: #fff;
+    border: 0.1rem solid #dfdfdf;
+}
+
+#homeCarousel
+    .carousel-inner
+    .carousel-item
+    .carousel-caption
+    .carousel-btn:hover
+    i {
     /* animation: toRightFromLeft 0.4s linear forwards; */
     color: var(--color-secondary);
-    }
-  /* *****************************End Bootstrap Carousel********************* */
-  
+}
+/* *****************************End Bootstrap Carousel********************* */
